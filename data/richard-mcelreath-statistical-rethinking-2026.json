@@ -1,0 +1,148 @@
+{
+  "name": "Statistical Rethinking 2026",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Richard McElreath, 2026 edition. Bayesian workflow and causal inference: Section A (A01-A10) covers estimands, confounds, good and bad controls, MCMC and hidden confounds; Section B (B01-B10) multilevel models, covariance, social networks, Gaussian processes, measurement, missing data, GLMs and hidden Markov models.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture A01 - Introduction to Bayesian Workflow",
+      "parts": [
+        {"id": "L01.1", "title": "Lecture A01 - Introduction to Bayesian Workflow", "videoId": "ztbYkBPDOgU"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture A02 - Garden of Forking Data",
+      "parts": [
+        {"id": "L02.1", "title": "Lecture A02 - Garden of Forking Data", "videoId": "pGVkCWlXnlg"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture A03 - Geocentric Models",
+      "parts": [
+        {"id": "L03.1", "title": "Lecture A03 - Geocentric Models", "videoId": "JX_UyidsQNg"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture A04 - Categories and Causes",
+      "parts": [
+        {"id": "L04.1", "title": "Lecture A04 - Categories and Causes", "videoId": "GIdwLrW2nNo"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture A05 - Estimands & Estiplans",
+      "parts": [
+        {"id": "L05.1", "title": "Lecture A05 - Estimands & Estiplans", "videoId": "sYE8a95x-0E"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture A06 - Elemental Confounds I",
+      "parts": [
+        {"id": "L06.1", "title": "Lecture A06 - Elemental Confounds I", "videoId": "lGR7D45Ww38"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture A07 - Good and Bad Controls",
+      "parts": [
+        {"id": "L07.1", "title": "Lecture A07 - Good and Bad Controls", "videoId": "sTieMzOcreQ"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture A08 - MCMC and Item Response Models",
+      "parts": [
+        {"id": "L08.1", "title": "Lecture A08 - MCMC and Item Response Models", "videoId": "N_LRQUrdHag"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture A09 - Modeling Events",
+      "parts": [
+        {"id": "L09.1", "title": "Lecture A09 - Modeling Events", "videoId": "RuBUVQELw-c"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture A10 - Hidden Confounds & Sensitivity Analysis",
+      "parts": [
+        {"id": "L10.1", "title": "Lecture A10 - Hidden Confounds & Sensitivity Analysis", "videoId": "pwN0kdN3reY"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture B01 - Multilevel Models",
+      "parts": [
+        {"id": "L11.1", "title": "Lecture B01 - Multilevel Models", "videoId": "jh3RltVrQ-Q"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lecture B02 - Multilevel Model Expansion",
+      "parts": [
+        {"id": "L12.1", "title": "Lecture B02 - Multilevel Model Expansion", "videoId": "Nv2rm1s9q6I"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Lecture B03 - Adventures in Covariance",
+      "parts": [
+        {"id": "L13.1", "title": "Lecture B03 - Adventures in Covariance", "videoId": "MBhjDMXtANE"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Lecture B04 - Group-level confounding and intro to social networks",
+      "parts": [
+        {"id": "L14.1", "title": "Lecture B04 - Group-level confounding and intro to social networks", "videoId": "XNNcN8sU8us"}
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Lecture B05 - Social Networks II",
+      "parts": [
+        {"id": "L15.1", "title": "Lecture B05 - Social Networks II", "videoId": "5oZA8FBn2fc"}
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Lecture B06 - Gaussian Processes",
+      "parts": [
+        {"id": "L16.1", "title": "Lecture B06 - Gaussian Processes", "videoId": "MtXg7fxQgeA"}
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Lecture B07 - Measurement Models",
+      "parts": [
+        {"id": "L17.1", "title": "Lecture B07 - Measurement Models", "videoId": "IkWcbiwymi4"}
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Lecture B08 - Missing and censored data",
+      "parts": [
+        {"id": "L18.1", "title": "Lecture B08 - Missing and censored data", "videoId": "VQm_toQpfEM"}
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Lecture B09 - Generalized Linear Madness",
+      "parts": [
+        {"id": "L19.1", "title": "Lecture B09 - Generalized Linear Madness", "videoId": "Cv3rkUZc_cg"}
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Lecture B10 - Hidden Markov Models",
+      "parts": [
+        {"id": "L20.1", "title": "Lecture B10 - Hidden Markov Models", "videoId": "fuonUuKTOl4"}
+      ]
+    }
+  ]
+}

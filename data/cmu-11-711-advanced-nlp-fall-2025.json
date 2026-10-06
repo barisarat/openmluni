@@ -1,0 +1,162 @@
+{
+  "name": "CMU 11-711 Advanced NLP Fall 2025",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Sean Welleck, Fall 2025. Representations, language modeling, transformers, pretraining, prompting, fine-tuning and distillation, decoding, retrieval and RAG, multimodal models, evaluation and benchmarks, research skills and experimental design, RL for LLMs and agents, distributed training, quantization, long sequences, mixture of experts, and test-time scaling.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture 1: Introduction & Fundamentals",
+      "parts": [
+        {"id": "L01.1", "title": "Lecture 1: Introduction & Fundamentals", "videoId": "C-U1FtkubmQ"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture 2: Learned Representations",
+      "parts": [
+        {"id": "L02.1", "title": "Lecture 2: Learned Representations", "videoId": "Q-xjR1qspD4"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture 3: Language Modeling Fundamentals",
+      "parts": [
+        {"id": "L03.1", "title": "Lecture 3: Language Modeling Fundamentals", "videoId": "wr7Yzj5M_HA"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture 4: Recurrent Neural Networks",
+      "parts": [
+        {"id": "L04.1", "title": "Lecture 4: Recurrent Neural Networks", "videoId": "S6tAXYegbZA"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture 5: Attention and Transformers",
+      "parts": [
+        {"id": "L05.1", "title": "Lecture 5: Attention and Transformers", "videoId": "k6gL48Ly49A"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture 6: Pretraining",
+      "parts": [
+        {"id": "L06.1", "title": "Lecture 6: Pretraining", "videoId": "pTjNV5C_B3c"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture 7: In-Context Learning and Prompting",
+      "parts": [
+        {"id": "L07.1", "title": "Lecture 7: In-Context Learning and Prompting", "videoId": "VY9vMmzVqhs"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture 8: Fine-Tuning and Distillation",
+      "parts": [
+        {"id": "L08.1", "title": "Lecture 8: Fine-Tuning and Distillation", "videoId": "IJje0aefWYs"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture 9: Decoding Algorithms",
+      "parts": [
+        {"id": "L09.1", "title": "Lecture 9: Decoding Algorithms", "videoId": "0NxTw_G1jYs"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture 10: Akari Asai - Retrieval and RAG",
+      "parts": [
+        {"id": "L10.1", "title": "Lecture 10: Akari Asai - Retrieval and RAG", "videoId": "6PMEqN0-gkM"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture 11: Multimodal Modeling I",
+      "parts": [
+        {"id": "L11.1", "title": "Lecture 11: Multimodal Modeling I", "videoId": "MqZgTEsZ4DA"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lecture 12: Multimodal Modeling II",
+      "parts": [
+        {"id": "L12.1", "title": "Lecture 12: Multimodal Modeling II", "videoId": "rLMxaaiLNZM"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Lecture 13: Evaluation and Benchmarks",
+      "parts": [
+        {"id": "L13.1", "title": "Lecture 13: Evaluation and Benchmarks", "videoId": "C2CrlvE18ms"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Lecture 14: Research Skills and Experimental Design",
+      "parts": [
+        {"id": "L14.1", "title": "Lecture 14: Research Skills and Experimental Design", "videoId": "qO-qi7JRidY"}
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Lecture 15: Reinforcement Learning Fundamentals",
+      "parts": [
+        {"id": "L15.1", "title": "Lecture 15: Reinforcement Learning Fundamentals", "videoId": "CmyrQAV-vdY"}
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Lecture 16: Reinforcement Learning for LLMs",
+      "parts": [
+        {"id": "L16.1", "title": "Lecture 16: Reinforcement Learning for LLMs", "videoId": "eEssbb3E98s"}
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Lecture 17: Agents and RL",
+      "parts": [
+        {"id": "L17.1", "title": "Lecture 17: Agents and RL", "videoId": "EVCn5cUHkTs"}
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Lecture 18: Parallelism and Distributed Training",
+      "parts": [
+        {"id": "L18.1", "title": "Lecture 18: Parallelism and Distributed Training", "videoId": "BilLWDoyJRs"}
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Lecture 19: Quantization",
+      "parts": [
+        {"id": "L19.1", "title": "Lecture 19: Quantization", "videoId": "-Nax5r4VhwE"}
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Lecture 20: Long Sequence Models",
+      "parts": [
+        {"id": "L20.1", "title": "Lecture 20: Long Sequence Models", "videoId": "2uwKjBA8rX8"}
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Lecture 21: Mixture of Experts",
+      "parts": [
+        {"id": "L21.1", "title": "Lecture 21: Mixture of Experts", "videoId": "wowf1c2wAsE"}
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Lecture 22: Test-Time Scaling Strategies",
+      "parts": [
+        {"id": "L22.1", "title": "Lecture 22: Test-Time Scaling Strategies", "videoId": "VZ0Ziax674Y"}
+      ]
+    }
+  ]
+}

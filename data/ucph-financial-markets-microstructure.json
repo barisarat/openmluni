@@ -1,0 +1,276 @@
+{
+  "name": "Financial Markets Microstructure (UCPH)",
+  "category": "Fin",
+  "kind": "course",
+  "desc": "Graduate course from the University of Copenhagen (Egor Starkov, spring 2020) covering liquidity and its measurement, the Glosten-Milgrom and Kyle models, limit order book markets, market design, fragmentation, transparency, high-frequency and algorithmic trading, public information, herding and bubbles, and auction models. Multi-part lectures plus recorded exercise classes.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture 1: Concepts and Institutions",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Lecture 1: Concepts and Institutions",
+          "videoId": "nPqat782ADI"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture 2: Measuring Liquidity",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Lecture 2: Measuring Liquidity",
+          "videoId": "8hYE-QMI2Yg"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture 3: Information and Prices; Glosten-Milgrom Model",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Part 1: Information and Prices",
+          "videoId": "P0-92CIfAUo"
+        },
+        {
+          "id": "L03.2",
+          "title": "Part 2: Glosten-Milgrom Model",
+          "videoId": "W58yBI7owRs"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture 4: Determinants of Liquidity",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Lecture 4: Determinants of Liquidity",
+          "videoId": "-PzhkV1Evh4"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture 5: Depth Determinants, Kyle Model; Empirics of Illiquidity",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Part 1: Depth determinants, Kyle Model",
+          "videoId": "0isdYyPNXis"
+        },
+        {
+          "id": "L05.2",
+          "title": "Part 2: Empirics of Illiquidity",
+          "videoId": "w90xst83E-4"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture 6: Limit Order Book Markets",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Lecture 6: Limit Order Book Markets",
+          "videoId": "pO5dppc5N6s"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "Exercise class 3",
+      "parts": [
+        {
+          "id": "E03.1",
+          "title": "Exercise class 3, part 1",
+          "videoId": "LzoTFYQNeHU"
+        },
+        {
+          "id": "E03.2",
+          "title": "Exercise class 3, part 2",
+          "videoId": "oPjlj9pykhY"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture 7: Market Design; LOB Markets - Dynamic Analysis",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Part 1: Market Design",
+          "videoId": "BwTaqqIqXt4"
+        },
+        {
+          "id": "L07.2",
+          "title": "Part 2: LOB Markets - Dynamic Analysis",
+          "videoId": "3UB04Z6Yr7M"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture 8: Market Fragmentation",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Part 1: Market Fragmentation",
+          "videoId": "vE0Catso-JU"
+        },
+        {
+          "id": "L08.2",
+          "title": "Part 2: Market Fragmentation",
+          "videoId": "b9SA04w7K3w"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture 9: Market Transparency",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Part 1: Market Transparency",
+          "videoId": "Nut8VpWLdHM"
+        },
+        {
+          "id": "L09.2",
+          "title": "Part 2: Market Transparency",
+          "videoId": "I3NACEV8UJc"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture 10: Value of Liquidity",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Part 1: Value of Liquidity",
+          "videoId": "ElOupVrAjGY"
+        },
+        {
+          "id": "L10.2",
+          "title": "Part 2: Value of Liquidity",
+          "videoId": "KkjwMg_0yVI"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture 11: Corporate Governance; Digital Markets",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Part 1: Corporate Governance",
+          "videoId": "YBuvvpwvLi8"
+        },
+        {
+          "id": "L11.2",
+          "title": "Part 2: Digital Markets",
+          "videoId": "6xtWrXrXJzw"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lecture 12: High-Frequency and Algorithmic Trading",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Part 1: High-Frequency and Algorithmic Trading",
+          "videoId": "II0tXd4nADo"
+        },
+        {
+          "id": "L12.2",
+          "title": "Part 2: High-Frequency Trading",
+          "videoId": "DSrvRW8cuAo"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "Exercise class 4",
+      "parts": [
+        {
+          "id": "E04.1",
+          "title": "Exercise class 4, part 1",
+          "videoId": "2EWy4SmA1gI"
+        },
+        {
+          "id": "E04.2",
+          "title": "Exercise class 4, part 2",
+          "videoId": "8dbaev3YA4o"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Lecture 13: High-Frequency Trading; Public Information",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Part 1: High-Frequency Trading; Public Information",
+          "videoId": "gKMkC60ekFs"
+        },
+        {
+          "id": "L13.2",
+          "title": "Part 2: Public Information",
+          "videoId": "uasHez_934k"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Exercise class 5",
+      "parts": [
+        {
+          "id": "E05.1",
+          "title": "Exercise class 5, part 1",
+          "videoId": "A1CxZZQU6Kk"
+        },
+        {
+          "id": "E05.2",
+          "title": "Exercise class 5, part 2",
+          "videoId": "Og3iSc8gV5I"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Lecture 14: Herding and Bubbles",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Part 1: Herding and Bubbles",
+          "videoId": "lpJ_77vK3CY"
+        },
+        {
+          "id": "L14.2",
+          "title": "Part 2: Herding and Bubbles",
+          "videoId": "t57ZYH7VJ50"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Lecture 15: Auction Models",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "Part 1: Auction Models",
+          "videoId": "298J1bjzav0"
+        },
+        {
+          "id": "L15.2",
+          "title": "Part 2: Auction Models",
+          "videoId": "GrLXDAmmh_c"
+        }
+      ]
+    }
+  ]
+}

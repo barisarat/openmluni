@@ -1,0 +1,162 @@
+{
+  "name": "Cache Lack Design of Experiments",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Lecture series on the design and analysis of statistical experiments from Cache Lack Math & Stats Lectures covering one-way and two-way ANOVA, post-hoc Tukey tests, Cochran's theorem, randomized block designs, Latin squares, balanced incomplete block designs and split plots, nested factors and ANCOVA, multiple testing with FWER and FDR, and full, fractional, and 3^k factorial designs.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Design of Experiments, Lecture 1: One-Way ANOVA",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Design of Experiments, Lecture 1: One-Way ANOVA",
+          "videoId": "BAIBz495XIw"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Design of Experiments, Lecture 2: Post-Hoc Tukey Test",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Design of Experiments, Lecture 2: Post-Hoc Tukey Test",
+          "videoId": "-AZesbhCEO0"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Design of Experiments, Lecture 3: Cochran's Theorem",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Design of Experiments, Lecture 3: Cochran's Theorem",
+          "videoId": "jr94IlSW2X4"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Design of Experiments, Lecture 4: Randomized Block Design",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Design of Experiments, Lecture 4: Randomized Block Design",
+          "videoId": "eRJydADumTc"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Design of Experiments, Lecture 5: Two Way ANOVA and Latin Squares",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Design of Experiments, Lecture 5: Two Way ANOVA and Latin Squares",
+          "videoId": "mme9ywVsFqo"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Design of Experiments, Lecture 6: Balanced Incomplete Block Designs and Split Plots",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Design of Experiments, Lecture 6: Balanced Incomplete Block Designs and Split Plots",
+          "videoId": "vSku9W6mozI"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Design of Experiments, Lecture 7: Nested Factors and ANCOVA",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Design of Experiments, Lecture 7: Nested Factors and ANCOVA",
+          "videoId": "Fd6u5zZkaZA"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Design of Experiments, Lecture 8: Multiple Testing with FWER",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Design of Experiments, Lecture 8: Multiple Testing with FWER",
+          "videoId": "_kb8HycEBII"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Design of Experiments, Lecture 9: Multiple Testing with FDR",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Design of Experiments, Lecture 9: Multiple Testing with FDR",
+          "videoId": "qXW2uNtFSeY"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Design of Experiments, Lecture 10: Full Factorial Design",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Design of Experiments, Lecture 10: Full Factorial Design",
+          "videoId": "9AMbFqgFkzk"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Design of Experiments, Lecture 11: 2^k Blocking and Variance",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Design of Experiments, Lecture 11: 2^k Blocking and Variance",
+          "videoId": "vy_SV-3NR1c"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Design of Experiments, Lecture 12: Fractional Factorial Design",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Design of Experiments, Lecture 12: Fractional Factorial Design",
+          "videoId": "Pwjf_5Gq5xU"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Design of Experiments, Lecture 13: Dealiasing Fractional Designs",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Design of Experiments, Lecture 13: Dealiasing Fractional Designs",
+          "videoId": "9imKqRm13HA"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Design of Experiments, Lecture 14: 3^k Full Factorial Designs",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Design of Experiments, Lecture 14: 3^k Full Factorial Designs",
+          "videoId": "VdzQ3_XnNQs"
+        }
+      ]
+    }
+  ]
+}

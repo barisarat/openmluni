@@ -1,0 +1,151 @@
+{
+  "name": "Cache Lack Probability and Measure",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Measure-theoretic probability lecture series from Cache Lack Math & Stats Lectures covering measures and sigma-algebras, Caratheodory extension, Lebesgue measure, measurable functions, integration and convergence theorems, Lebesgue-Stieltjes and product measures with Fubini-Tonelli, Lp spaces and inequalities, convergence of measures, the strong law of large numbers, the central limit theorem, and the ergodic theorem.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Probability and Measure, Lecture 1: What is a Measure?",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Probability and Measure, Lecture 1: What is a Measure?",
+          "videoId": "qnVZku1_a3Q"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Probability and Measure, Lecture 2: Carathéodory's Extension Theorem",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Probability and Measure, Lecture 2: Carathéodory's Extension Theorem",
+          "videoId": "NdZnhTMoNnM"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Probability and Measure, Lecture 3: Uniqueness and Dynkin's Pi-Lambda Theorem",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Probability and Measure, Lecture 3: Uniqueness and Dynkin's Pi-Lambda Theorem",
+          "videoId": "uSSnwNr0Iec"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Probability and Measure, Lecture 4: Lebesgue Measure",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Probability and Measure, Lecture 4: Lebesgue Measure",
+          "videoId": "yFZ3N85NIbc"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Probability and Measure, Lecture 5: Measurable Functions",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Probability and Measure, Lecture 5: Measurable Functions",
+          "videoId": "eyWLekPzzuE"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Probability and Measure, Lecture 6: Integration and Convergence Theorems",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Probability and Measure, Lecture 6: Integration and Convergence Theorems",
+          "videoId": "8wLfUmhM6YA"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Probability and Measure, Lecture 7: Lebesgue-Stieltjes Measure and Monotone Classes",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Probability and Measure, Lecture 7: Lebesgue-Stieltjes Measure and Monotone Classes",
+          "videoId": "2YWdiX2_6y4"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Probability and Measure, Lecture 8: Product Measure and Fubini-Tonelli",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Probability and Measure, Lecture 8: Product Measure and Fubini-Tonelli",
+          "videoId": "s4XU4ZHTyAM"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Probability and Measure, Lecture 9: Lp spaces and Inequalities",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Probability and Measure, Lecture 9: Lp spaces and Inequalities",
+          "videoId": "P-Mugj2ZcoQ"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Probability and Measure, Lecture 10: Convergence of Measures",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Probability and Measure, Lecture 10: Convergence of Measures",
+          "videoId": "rqJFB_ZIszc"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Probability and Measure, Lecture 11: The Strong Law of Large Numbers",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Probability and Measure, Lecture 11: The Strong Law of Large Numbers",
+          "videoId": "FbxgkW0oPUM"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Probability and Measure, Lecture 12: The Central Limit Theorem",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Probability and Measure, Lecture 12: The Central Limit Theorem",
+          "videoId": "jAqxInFkY74"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Probability and Measure, Lecture 13: The Ergodic Theorem",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Probability and Measure, Lecture 13: The Ergodic Theorem",
+          "videoId": "6GYzu52NliE"
+        }
+      ]
+    }
+  ]
+}

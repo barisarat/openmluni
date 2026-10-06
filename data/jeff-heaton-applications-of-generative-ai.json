@@ -1,0 +1,701 @@
+{
+  "name": "Jeff Heaton Applications of Generative Artificial Intelligence",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Jeff Heaton's applications-focused generative AI course (2026, taught at Washington University) covering the OpenAI API and LangChain, prompting for code generation and debugging, LLM foundation models and text tasks, conversational memory, structured output parsers, RAG with ChromaDB and word embeddings, LangChain agents and tools, Kaggle and small LLMs, multimodal models and DALL-E image generation and editing, building StreamLit chat applications, OpenAI fine tuning, prompt engineering patterns from few shot and chain of thought to persona and verification patterns, and speech processing with text to speech and voice-enabled chatbots.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Applications of GenAI (1.1, Spring 2026)",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Applications of GenAI (1.1, Spring 2026)",
+          "videoId": "EqyFvrBHS3A"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Generative AI Overview (1.2)",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Generative AI Overview (1.2)",
+          "videoId": "ohmPaSsKhMs"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Introduction to OpenAI (1.3)",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Introduction to OpenAI (1.3)",
+          "videoId": "C2xyi2Cq-bU"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Introduction to LangChain (1.4)",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Introduction to LangChain (1.4)",
+          "videoId": "qQI5AhaKxuI"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Prompt Engineering (1.5)",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Prompt Engineering (1.5)",
+          "videoId": "_Uot1i5sIXo"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Prompting for Code Generation (2.1)",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Prompting for Code Generation (2.1)",
+          "videoId": "HVId6kYKKgQ"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Handling Revision Prompts (2.2)",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Handling Revision Prompts (2.2)",
+          "videoId": "APpV46tplXA"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Using a LLM to Help Debug (2.3)",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Using a LLM to Help Debug (2.3)",
+          "videoId": "VPqSNb38QK0"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Tracking Prompts in Software Development (2.4)",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Tracking Prompts in Software Development (2.4)",
+          "videoId": "oUFUuYfvXZU"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Limits of LLM Code Generation (2.5)",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Limits of LLM Code Generation (2.5)",
+          "videoId": "dKtRI0LZSyY"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "LLM Foundation Models (3.1)",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "LLM Foundation Models (3.1)",
+          "videoId": "Gb0tk5qq1fA"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "LLM Text Generation (3.2)",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "LLM Text Generation (3.2)",
+          "videoId": "lB97Lqt7q58"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "LLM Text Summarization (3.3)",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "LLM Text Summarization (3.3)",
+          "videoId": "3MoIUXE2eEU"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "LLM Text Classification (3.4)",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "LLM Text Classification (3.4)",
+          "videoId": "2VpOwFIGmA8"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "LLM Writes a Book (3.5)",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "LLM Writes a Book (3.5)",
+          "videoId": "iU40Rttlb_Q"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "LangChain Conversations (4.1)",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "LangChain Conversations (4.1)",
+          "videoId": "-wXT2RlzJec"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Conversation Buffer Window Memory (4.2)",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Conversation Buffer Window Memory (4.2)",
+          "videoId": "G-l3T1Z9CHc"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Chat with Summary and Fixed Window (4.3)",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Chat with Summary and Fixed Window (4.3)",
+          "videoId": "z0iTmoEgn9U"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "LangChain Chat with Persistence, Rollback and Regeneration (4.4)",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "LangChain Chat with Persistence, Rollback and Regeneration (4.4)",
+          "videoId": "7QEFjNE6wxs"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Automated Coder Application (4.5)",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Automated Coder Application (4.5)",
+          "videoId": "pHcKXOMDZKU"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Structured Output Parser (5.1)",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Structured Output Parser (5.1)",
+          "videoId": "62CSR141VRE"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Other Parsers CSV, JSON, Pandas, Datetime (5.2)",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Other Parsers CSV, JSON, Pandas, Datetime (5.2)",
+          "videoId": "VXm8gPzU3qc"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Pydantic parser (5.3)",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Pydantic parser (5.3)",
+          "videoId": "dc4fn-W60hg"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Custom Output Parser (5.4)",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Custom Output Parser (5.4)",
+          "videoId": "jBpkAblQC_U"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Output-Fixing Parser (5.5)",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "Output-Fixing Parser (5.5)",
+          "videoId": "_txWiLjf4bo"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "Introduction to RAG (6.1)",
+      "parts": [
+        {
+          "id": "L26.1",
+          "title": "Introduction to RAG (6.1)",
+          "videoId": "qA52K0K181Q"
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "Introduction to Embedding Database, ChromaDB (6.2)",
+      "parts": [
+        {
+          "id": "L27.1",
+          "title": "Introduction to Embedding Database, ChromaDB (6.2)",
+          "videoId": "R53lo4sevLQ"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "Word Embeddings (6.3)",
+      "parts": [
+        {
+          "id": "L28.1",
+          "title": "Word Embeddings (6.3)",
+          "videoId": "Tq82Gl2ZZNM"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "Question Answering over Documents with RAG (6.4)",
+      "parts": [
+        {
+          "id": "L29.1",
+          "title": "Question Answering over Documents with RAG (6.4)",
+          "videoId": "hCwL_lW-gP0"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "Running ChromaDB as a Server (6.5)",
+      "parts": [
+        {
+          "id": "L30.1",
+          "title": "Running ChromaDB as a Server (6.5)",
+          "videoId": "BG2gT4uYxhM"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "LangChain Agents (7.1)",
+      "parts": [
+        {
+          "id": "L31.1",
+          "title": "LangChain Agents (7.1)",
+          "videoId": "J5Vr___lSSs"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "LangChain Agent Tools (7.2)",
+      "parts": [
+        {
+          "id": "L32.1",
+          "title": "LangChain Agent Tools (7.2)",
+          "videoId": "qMquBmteYw4"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "LangChain Agent Search Tools (7.3)",
+      "parts": [
+        {
+          "id": "L33.1",
+          "title": "LangChain Agent Search Tools (7.3)",
+          "videoId": "NB5qGPLoBBE"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "LangChain Agents, RAG, Tools, Memory (7.4)",
+      "parts": [
+        {
+          "id": "L34.1",
+          "title": "LangChain Agents, RAG, Tools, Memory (7.4)",
+          "videoId": "OJe5oHvrdHk"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "LangChain Custom Agents (7.5)",
+      "parts": [
+        {
+          "id": "L35.1",
+          "title": "LangChain Custom Agents (7.5)",
+          "videoId": "IsJemVYSEdc"
+        }
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "Kaggle Introduction (8.1)",
+      "parts": [
+        {
+          "id": "L36.1",
+          "title": "Kaggle Introduction (8.1)",
+          "videoId": "t0iz2zZ-jXU"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "Kaggle Notebooks (8.2)",
+      "parts": [
+        {
+          "id": "L37.1",
+          "title": "Kaggle Notebooks (8.2)",
+          "videoId": "5Bv8rFm_cas"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "Small Large Language Models (8.3)",
+      "parts": [
+        {
+          "id": "L38.1",
+          "title": "Small Large Language Models (8.3)",
+          "videoId": "1Hm337_vVCM"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "Running Small LLMs in Kaggle Notebook (8.4)",
+      "parts": [
+        {
+          "id": "L39.1",
+          "title": "Running Small LLMs in Kaggle Notebook (8.4)",
+          "videoId": "o5PriYNQrqo"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "Introduction to MultiModal and Text to Image (9.1)",
+      "parts": [
+        {
+          "id": "L40.1",
+          "title": "Introduction to MultiModal and Text to Image (9.1)",
+          "videoId": "lcUsade04pg"
+        }
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "Generating Images with DALL-E (9.2)",
+      "parts": [
+        {
+          "id": "L41.1",
+          "title": "Generating Images with DALL-E (9.2)",
+          "videoId": "CBfT1y1V1e0"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "Editing Existing Images with DALL-E (9.3)",
+      "parts": [
+        {
+          "id": "L42.1",
+          "title": "Editing Existing Images with DALL-E (9.3)",
+          "videoId": "5gdaXrJs3Kk"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "MultiModal Models (9.4)",
+      "parts": [
+        {
+          "id": "L43.1",
+          "title": "MultiModal Models (9.4)",
+          "videoId": "rYlj9t_wlFA"
+        }
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "LLM and DALL-E Creates Illustrated Book (9.5)",
+      "parts": [
+        {
+          "id": "L44.1",
+          "title": "LLM and DALL-E Creates Illustrated Book (9.5)",
+          "videoId": "TTGen7P3ScU"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "Running StreamLit in Google CoLab (10.1)",
+      "parts": [
+        {
+          "id": "L45.1",
+          "title": "Running StreamLit in Google CoLab (10.1)",
+          "videoId": "VxEYeZ7AGDc"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "title": "StreamLit Introduction (10.2)",
+      "parts": [
+        {
+          "id": "L46.1",
+          "title": "StreamLit Introduction (10.2)",
+          "videoId": "5n3cgUG2ylM"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "title": "Understanding StreamLit State (10.3)",
+      "parts": [
+        {
+          "id": "L47.1",
+          "title": "Understanding StreamLit State (10.3)",
+          "videoId": "4jOOL6YE_hY"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "title": "Creating an LLM Chat Application (10.4)",
+      "parts": [
+        {
+          "id": "L48.1",
+          "title": "Creating an LLM Chat Application (10.4)",
+          "videoId": "qsDStop6hWQ"
+        }
+      ]
+    },
+    {
+      "id": "L49",
+      "title": "MultiModal LLM Chat Application in StreamLit (10.5)",
+      "parts": [
+        {
+          "id": "L49.1",
+          "title": "MultiModal LLM Chat Application in StreamLit (10.5)",
+          "videoId": "rYWLvCeoDA4"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "title": "When is fine tuning necessary (11.1)",
+      "parts": [
+        {
+          "id": "L50.1",
+          "title": "When is fine tuning necessary (11.1)",
+          "videoId": "fflySydZABM"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "title": "Preparing a dataset for fine tuning (11.2)",
+      "parts": [
+        {
+          "id": "L51.1",
+          "title": "Preparing a dataset for fine tuning (11.2)",
+          "videoId": "RIJj1QLk-V4"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "title": "OpenAI Fine Tuning (11.3)",
+      "parts": [
+        {
+          "id": "L52.1",
+          "title": "OpenAI Fine Tuning (11.3)",
+          "videoId": "29tUrxrneOs"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "title": "Evaluating Finetuning (11.4)",
+      "parts": [
+        {
+          "id": "L53.1",
+          "title": "Evaluating Finetuning (11.4)",
+          "videoId": "MrwFSG4PWUY"
+        }
+      ]
+    },
+    {
+      "id": "L54",
+      "title": "Intro to Prompt Engineering (12.1)",
+      "parts": [
+        {
+          "id": "L54.1",
+          "title": "Intro to Prompt Engineering (12.1)",
+          "videoId": "p8q2kFhyX3M"
+        }
+      ]
+    },
+    {
+      "id": "L55",
+      "title": "Few Shot and Chain of Thought (12.2)",
+      "parts": [
+        {
+          "id": "L55.1",
+          "title": "Few Shot and Chain of Thought (12.2)",
+          "videoId": "Bj-zOiqpp6g"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "title": "Persona and Role Patterns (12.3)",
+      "parts": [
+        {
+          "id": "L56.1",
+          "title": "Persona and Role Patterns (12.3)",
+          "videoId": "uD9z3LFw7nA"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "title": "Question, Refinement and Verification Patterns (12.4)",
+      "parts": [
+        {
+          "id": "L57.1",
+          "title": "Question, Refinement and Verification Patterns (12.4)",
+          "videoId": "UF0gN79hg4g"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "title": "Content Creation and Structured Prompt Patterns (12.5)",
+      "parts": [
+        {
+          "id": "L58.1",
+          "title": "Content Creation and Structured Prompt Patterns (12.5)",
+          "videoId": "PPNnTDfKjPE"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "title": "Intro to Speech Processing (13.1)",
+      "parts": [
+        {
+          "id": "L59.1",
+          "title": "Intro to Speech Processing (13.1)",
+          "videoId": "ILNcv9zrMyQ"
+        }
+      ]
+    },
+    {
+      "id": "L60",
+      "title": "Text to Speech (13.2)",
+      "parts": [
+        {
+          "id": "L60.1",
+          "title": "Text to Speech (13.2)",
+          "videoId": "O5_oaK5fHqI"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "title": "Speech to Text (13.3)",
+      "parts": [
+        {
+          "id": "L61.1",
+          "title": "Speech to Text (13.3)",
+          "videoId": "zor64w90fpQ"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "title": "Voice Enabled ChatBot (13.4)",
+      "parts": [
+        {
+          "id": "L62.1",
+          "title": "Voice Enabled ChatBot (13.4)",
+          "videoId": "8fgxX6yLorI"
+        }
+      ]
+    },
+    {
+      "id": "L63",
+      "title": "Future of GenAI (13.5)",
+      "parts": [
+        {
+          "id": "L63.1",
+          "title": "Future of GenAI (13.5)",
+          "videoId": "T4AYP_XXTbg"
+        }
+      ]
+    }
+  ]
+}

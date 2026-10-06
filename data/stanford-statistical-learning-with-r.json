@@ -1,0 +1,190 @@
+{
+  "name": "Stanford Statistical Learning with R",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Full lecture series from Stanford Online by Trevor Hastie and Robert Tibshirani, the companion course to An Introduction to Statistical Learning (ISLR, 2nd edition), covering regression, classification, resampling, regularization, splines and GAMs, trees and boosting, SVMs, deep learning, survival analysis, unsupervised learning, and multiple testing (FWER, Bonferroni, Holm, FDR and Benjamini-Hochberg), each chapter with R labs.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Chapter 1: Introduction",
+      "parts": [
+        {"id": "L01.1", "title": "1.1 Opening Remarks", "videoId": "LvySJGj-88U"},
+        {"id": "L01.2", "title": "8 Years Later (Second Edition of the Course)", "videoId": "9vlDVxG4ulA"},
+        {"id": "L01.3", "title": "1.2 Examples and Framework", "videoId": "B9s8rpdNxU0"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Chapter 2: Statistical Learning",
+      "parts": [
+        {"id": "L02.1", "title": "2.1 Introduction to Regression Models", "videoId": "ox0cKk7h4o0"},
+        {"id": "L02.2", "title": "2.2 Dimensionality and Structured Models", "videoId": "uFwbrdvrAJs"},
+        {"id": "L02.3", "title": "2.3 Model Selection and Bias Variance Tradeoff", "videoId": "pvcEQfcO3pk"},
+        {"id": "L02.4", "title": "2.4 Classification", "videoId": "BMJQ3LQ_QKU"},
+        {"id": "L02.5", "title": "2.R Introduction to R", "videoId": "L03A81OgLlk"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Chapter 3: Linear Regression",
+      "parts": [
+        {"id": "L03.1", "title": "3.1 Simple linear regression", "videoId": "vCHtY6Me5FI"},
+        {"id": "L03.2", "title": "3.2 Hypothesis Testing and Confidence Intervals", "videoId": "3GiWpRfkSjc"},
+        {"id": "L03.3", "title": "3.3 Multiple Linear Regression", "videoId": "o9hoLdylWKo"},
+        {"id": "L03.4", "title": "3.4 Some important questions", "videoId": "50sv4UTjE90"},
+        {"id": "L03.5", "title": "3.5 Extensions of the Linear Model", "videoId": "dEBQmiXv9fk"},
+        {"id": "L03.6", "title": "3.R Regression in R", "videoId": "gNZfqHhq_B4"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Chapter 4: Classification",
+      "parts": [
+        {"id": "L04.1", "title": "4.1 Introduction to Classification Problems", "videoId": "ju3J7iRy6xI"},
+        {"id": "L04.2", "title": "4.2 Logistic Regression", "videoId": "kr_Be9NVXOM"},
+        {"id": "L04.3", "title": "4.3 Multivariate Logistic Regression", "videoId": "1uJVE8bkabc"},
+        {"id": "L04.4", "title": "4.4 Logistic Regression Case Control Sampling and Multiclass", "videoId": "sYDDk6R-be0"},
+        {"id": "L04.5", "title": "4.5 Discriminant Analysis", "videoId": "oJc2r246VoQ"},
+        {"id": "L04.6", "title": "4.6 Gaussian Discriminant Analysis (One Variable)", "videoId": "14JVlzWHKgk"},
+        {"id": "L04.7", "title": "4.7 Gaussian Discriminant Analysis (Many Variables)", "videoId": "aUlTqhDtpnw"},
+        {"id": "L04.8", "title": "4.8 Generalized Linear Models", "videoId": "n8Nj64FyjSo"},
+        {"id": "L04.9", "title": "4.9 Quadratic Discriminant Analysis and Naive Bayes", "videoId": "giCZkipHEmA"},
+        {"id": "L04.10", "title": "4.R.1 Logistic Regression", "videoId": "QEUtuHSipNE"},
+        {"id": "L04.11", "title": "4.R.2 Linear Discriminant Analysis", "videoId": "WXhku-ISml8"},
+        {"id": "L04.12", "title": "4.R.3 Nearest Neighbor Classification", "videoId": "JRxKBj5ArgU"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Chapter 5: Resampling Methods",
+      "parts": [
+        {"id": "L05.1", "title": "5.1 Cross Validation", "videoId": "6eWODQJrMKs"},
+        {"id": "L05.2", "title": "5.2 K-fold Cross Validation", "videoId": "AMfvd_hLssE"},
+        {"id": "L05.3", "title": "5.3 Cross Validation the wrong and right way", "videoId": "jgoa28FR__Y"},
+        {"id": "L05.4", "title": "5.4 The Bootstrap", "videoId": "h_LweqiIotE"},
+        {"id": "L05.5", "title": "5.5 More on the Bootstrap", "videoId": "OKREmw6YP64"},
+        {"id": "L05.6", "title": "5.R.1 Cross Validation", "videoId": "nwD-03ncOZ8"},
+        {"id": "L05.7", "title": "5.R.2 Bootstrap", "videoId": "sM_Gve1K4II"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Chapter 6: Linear Model Selection and Regularization",
+      "parts": [
+        {"id": "L06.1", "title": "6.1 Introduction and Best Subset Selection", "videoId": "nsv5rEV3mVI"},
+        {"id": "L06.2", "title": "6.2 Stepwise Selection", "videoId": "ynXq-Gw1xfE"},
+        {"id": "L06.3", "title": "6.3 Backward stepwise selection", "videoId": "c5aI9cowjRI"},
+        {"id": "L06.4", "title": "6.4 Estimating test error", "videoId": "48P-oV6cH44"},
+        {"id": "L06.5", "title": "6.5 Validation and cross validation", "videoId": "mzb5Xs58bb0"},
+        {"id": "L06.6", "title": "6.6 Shrinkage methods and ridge regression", "videoId": "lLlG5xkyqIA"},
+        {"id": "L06.7", "title": "6.7 The Lasso", "videoId": "0tfPuddPhEY"},
+        {"id": "L06.8", "title": "6.8 Tuning parameter selection", "videoId": "KV1Kt6I8rYs"},
+        {"id": "L06.9", "title": "6.9 Dimension Reduction Methods", "videoId": "bpto4g5l_go"},
+        {"id": "L06.10", "title": "6.10 Principal Components Regression and Partial Least Squares", "videoId": "Uo19ST0IEZI"},
+        {"id": "L06.11", "title": "6.R.1 Markdown in RStudio and Best Subset Regression", "videoId": "r2uSyYTMfnU"},
+        {"id": "L06.12", "title": "6.R.2 Forward Stepwise Regression", "videoId": "XiCXmecCMB4"},
+        {"id": "L06.13", "title": "6.R.3 Model Selection and Cross-Validation", "videoId": "x7b9gmP-L7Q"},
+        {"id": "L06.14", "title": "6.R.4 Ridge Regression and Lasso", "videoId": "KUIIgUwxGxs"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Chapter 7: Moving Beyond Linearity",
+      "parts": [
+        {"id": "L07.1", "title": "7.1 Polynomials and Step Functions", "videoId": "F-D3lZzYn50"},
+        {"id": "L07.2", "title": "7.2 Piecewise Polynomials and Splines", "videoId": "FrVaxvwCLYM"},
+        {"id": "L07.3", "title": "7.3 Smoothing Splines", "videoId": "b_HSFOnrGLI"},
+        {"id": "L07.4", "title": "7.4 Generalized Additive Models and Local Regression", "videoId": "3aMB51GMUyQ"},
+        {"id": "L07.5", "title": "7.R.1 Polynomials in GLMs", "videoId": "ywQviM69DKI"},
+        {"id": "L07.6", "title": "7.R.2 Splines and GAMs", "videoId": "RkSrnBBx8sg"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Chapter 8: Tree-Based Methods",
+      "parts": [
+        {"id": "L08.1", "title": "8.1 Tree based methods", "videoId": "QNnayf--_yk"},
+        {"id": "L08.2", "title": "8.2 More details on Trees", "videoId": "JaoTOfTNOVk"},
+        {"id": "L08.3", "title": "8.3 Classification Trees", "videoId": "gLcfKSMKOb0"},
+        {"id": "L08.4", "title": "8.4 Bagging", "videoId": "_cKAxjnInfA"},
+        {"id": "L08.5", "title": "8.5 Boosting", "videoId": "cdl4C2eCOHk"},
+        {"id": "L08.6", "title": "8.6 Bayesian Additive Regression Trees", "videoId": "xWhPwHZF4c0"},
+        {"id": "L08.7", "title": "8.R.1 Fitting Trees", "videoId": "GHXUm7GnGGE"},
+        {"id": "L08.8", "title": "8.R.2 Random Forests and Boosting", "videoId": "98mnFELJ8z8"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Chapter 9: Support Vector Machines",
+      "parts": [
+        {"id": "L09.1", "title": "9.1 Optimal Separating Hyperplane", "videoId": "Op0OyOuDjcQ"},
+        {"id": "L09.2", "title": "9.2 Support Vector Classifier", "videoId": "pjvnCEfAswc"},
+        {"id": "L09.3", "title": "9.3 Feature Expansion and the SVM", "videoId": "02icdqOJsH4"},
+        {"id": "L09.4", "title": "9.4 Example and Comparison with Logistic Regression", "videoId": "m5d7-URGnVY"},
+        {"id": "L09.5", "title": "9.R.1 Support Vector Classifier", "videoId": "WCRwbrNWrpw"},
+        {"id": "L09.6", "title": "9.R.2 Nonlinear Support Vector Machine", "videoId": "VuQOjKk0_tE"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Chapter 10: Deep Learning",
+      "parts": [
+        {"id": "L10.1", "title": "10.1 Introduction to Neural Networks", "videoId": "jJb2qytbcNg"},
+        {"id": "L10.2", "title": "10.2 Convolutional Neural Networks", "videoId": "ggOZuZnA6is"},
+        {"id": "L10.3", "title": "10.3 Document Classification", "videoId": "Zw3L-0ZP_DA"},
+        {"id": "L10.4", "title": "10.4 Recurrent Neural Networks", "videoId": "MexNVKPwu7g"},
+        {"id": "L10.5", "title": "10.5 Time Series Forecasting", "videoId": "ogx1q2xBHkc"},
+        {"id": "L10.6", "title": "10.6 Fitting Neural Networks", "videoId": "07zslA8BXZY"},
+        {"id": "L10.7", "title": "10.7 Interpolation and Double Descent", "videoId": "qRHdQz_P_Lo"},
+        {"id": "L10.8", "title": "10.R.1 Neural Networks in R and the MNIST data", "videoId": "Ut647c_aZoc"},
+        {"id": "L10.9", "title": "10.R.2 Convolutional Neural Networks in R", "videoId": "cVtL_ITG8po"},
+        {"id": "L10.10", "title": "10.R.3 Document Classification", "videoId": "SFHNg2X9o60"},
+        {"id": "L10.11", "title": "10.R.4 Recurrent Neural Networks", "videoId": "bi34fBER1ds"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Chapter 11: Survival Analysis and Censored Data",
+      "parts": [
+        {"id": "L11.1", "title": "11.1 Introduction to Survival Data and Censoring", "videoId": "7_XK7mGMm1E"},
+        {"id": "L11.2", "title": "11.2 Proportional Hazards Model", "videoId": "lP42Vly2MVg"},
+        {"id": "L11.3", "title": "11.3 Estimation of Cox Model with Examples", "videoId": "ujIMPpl2Tr0"},
+        {"id": "L11.4", "title": "11.4 Model Evaluation and Further Topics", "videoId": "rRYfWAsG4RI"},
+        {"id": "L11.5", "title": "11.R.1 Survival Curves Brain Cancer Data", "videoId": "hfKYYexJfuY"},
+        {"id": "L11.6", "title": "11.R.2 Cox Models I Publication Data", "videoId": "j3rcoz4u7m8"},
+        {"id": "L11.7", "title": "11.R.3 Cox Models II Call Center Data", "videoId": "w6VAT8jqTjk"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Chapter 12: Unsupervised Learning",
+      "parts": [
+        {"id": "L12.1", "title": "12.1 Principal Components", "videoId": "kpuQqOzQXfM"},
+        {"id": "L12.2", "title": "12.2 Higher order principal components", "videoId": "O30nHhyBiAs"},
+        {"id": "L12.3", "title": "12.3 k means Clustering", "videoId": "ded_NQqOe7I"},
+        {"id": "L12.4", "title": "12.4 Hierarchical Clustering", "videoId": "yktzn-Mr2Nw"},
+        {"id": "L12.5", "title": "12.5 Matrix Completion", "videoId": "MYKb5KcI55s"},
+        {"id": "L12.6", "title": "12.6 Breast Cancer Example", "videoId": "InBhMLEx6sU"},
+        {"id": "L12.7", "title": "12.R.1 Principal Components", "videoId": "YCwSrtSoZ9M"},
+        {"id": "L12.8", "title": "12.R.2 K means Clustering", "videoId": "j6aM9ITqLIY"},
+        {"id": "L12.9", "title": "12.R.3 Hierarchical Clustering", "videoId": "dJr7wBUYNgw"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Chapter 13: Multiple Testing",
+      "parts": [
+        {"id": "L13.1", "title": "13.1 Introduction to Hypothesis Testing", "videoId": "ti9NFdjf3sM"},
+        {"id": "L13.2", "title": "13.1 Introduction to Hypothesis Testing II", "videoId": "klFG10_XajI"},
+        {"id": "L13.3", "title": "13.2 Introduction to Multiple Testing and Family Wise Error Rate", "videoId": "-6zM6mydlfA"},
+        {"id": "L13.4", "title": "13.3 Bonferroni Method for Controlling FWER", "videoId": "xML6pCgPv2c"},
+        {"id": "L13.5", "title": "13.4 Holm's Method for Controlling FWER", "videoId": "8r_pMRnG97s"},
+        {"id": "L13.6", "title": "13.5 False Discovery Rate and Benjamini Hochberg Method", "videoId": "4RPUrwzgO6c"},
+        {"id": "L13.7", "title": "13.6 Resampling Approaches", "videoId": "BwjVTbU6is0"},
+        {"id": "L13.8", "title": "13.6 Resampling Approaches II", "videoId": "Zylc7K3hZoA"},
+        {"id": "L13.9", "title": "13.R.1 Bonferroni and Holm", "videoId": "3pelOJpcnxA"},
+        {"id": "L13.10", "title": "13.R.1 Bonferroni and Holm II", "videoId": "BLDCLw4ke-Q"}
+      ]
+    }
+  ]
+}

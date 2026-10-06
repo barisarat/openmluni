@@ -1,0 +1,2989 @@
+{
+  "name": "Ben Lambert A Full Course in Econometrics - Undergraduate Level",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Ben Lambert's complete undergraduate econometrics course (parts 1 and 2 merged). Part 1 covers estimators and their properties, deriving OLS and BLUE, the Gauss-Markov assumptions and their violations (omitted variable bias, reverse causality, measurement error, heteroskedasticity, serial correlation, multicollinearity), hypothesis testing, F tests, diagnostic tests, weighted least squares and feasible GLS, instrumental variables and two stage least squares, and time series foundations from stationarity through unit roots and cointegration. Part 2 continues with ARMA and error correction models, pooled cross sections and panel data with first differences, fixed and random effects, discrete choice models with logit and probit, maximum likelihood estimation and the likelihood ratio, Wald, and score tests, simultaneous equation models, and Monte Carlo simulation.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Undergraduate econometrics syllabus",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Undergraduate econometrics syllabus",
+          "videoId": "M_5SLG7sUa0"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "What is econometrics?",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "What is econometrics?",
+          "videoId": "RG7Wr2cCWj8"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Econometrics vs hard science",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Econometrics vs hard science",
+          "videoId": "CMjM5nJTOx4"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Natural experiments in econometrics",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Natural experiments in econometrics",
+          "videoId": "OUN6Gp_H3q4"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Populations and samples in econometrics",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Populations and samples in econometrics",
+          "videoId": "M9s91hSoNtk"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Estimators - the basics",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Estimators - the basics",
+          "videoId": "qvR7sSGphQ4"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Estimator properties",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Estimator properties",
+          "videoId": "UxbY85Cm9SQ"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Unbiasedness and consistency",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Unbiasedness and consistency",
+          "videoId": "21lXGc02XwM"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Unbiasedness vs consistency of estimators - an example",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Unbiasedness vs consistency of estimators - an example",
+          "videoId": "6i7mqDJICzQ"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Efficiency of estimators",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Efficiency of estimators",
+          "videoId": "_iR4uG8MVpA"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Good estimator properties summary",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Good estimator properties summary",
+          "videoId": "uh4zUdKvxPA"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lines of best fit in econometrics",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Lines of best fit in econometrics",
+          "videoId": "KIQbe-FJoa8"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "The mathematics behind drawing a line of best fit",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "The mathematics behind drawing a line of best fit",
+          "videoId": "YL-NNb4gojA"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Least Squares Estimators as BLUE",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Least Squares Estimators as BLUE",
+          "videoId": "vOBtEiij-fA"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Deriving Least Squares Estimators - part 1",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "Deriving Least Squares Estimators - part 1",
+          "videoId": "Hi5EJnBHFB4"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Deriving Least Squares Estimators - part 2",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "Deriving Least Squares Estimators - part 2",
+          "videoId": "hGv9fnmlYaU"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Deriving Least Squares Estimators - part 3",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Deriving Least Squares Estimators - part 3",
+          "videoId": "jF3_s2wqPGQ"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Deriving Least Squares Estimators - part 4",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Deriving Least Squares Estimators - part 4",
+          "videoId": "AIjuYfjU9dc"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Deriving Least Squares Estimators - part 5",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "Deriving Least Squares Estimators - part 5",
+          "videoId": "JC0Tm9j-k80"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Least Squares Estimators - in summary",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Least Squares Estimators - in summary",
+          "videoId": "y5INeKvfpcQ"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Taking expectations of a random variable",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Taking expectations of a random variable",
+          "videoId": "6XqICKT1Kug"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Moments of a random variable",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Moments of a random variable",
+          "videoId": "U2L809GBMcI"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Central moments of a random variable",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Central moments of a random variable",
+          "videoId": "BXN8jgQTjao"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Kurtosis",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Kurtosis",
+          "videoId": "Pf7awGwzy4k"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Skewness",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "Skewness",
+          "videoId": "z3XaFUP1rAM"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "Expectations and Variance properties",
+      "parts": [
+        {
+          "id": "L26.1",
+          "title": "Expectations and Variance properties",
+          "videoId": "NcJdOXuUdgU"
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "Covariance and correlation",
+      "parts": [
+        {
+          "id": "L27.1",
+          "title": "Covariance and correlation",
+          "videoId": "KDw3hC2YNFc"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "Population vs sample quantities",
+      "parts": [
+        {
+          "id": "L28.1",
+          "title": "Population vs sample quantities",
+          "videoId": "fOAZQ_U7-qk"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "The Population Regression Function",
+      "parts": [
+        {
+          "id": "L29.1",
+          "title": "The Population Regression Function",
+          "videoId": "oFaoCzj3YUY"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "Problem set 1 - estimators introduction",
+      "parts": [
+        {
+          "id": "L30.1",
+          "title": "Problem set 1 - estimators introduction",
+          "videoId": "jCOLMmlD90A"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "Gauss-Markov assumptions part 1",
+      "parts": [
+        {
+          "id": "L31.1",
+          "title": "Gauss-Markov assumptions part 1",
+          "videoId": "NjTpHS5xLP8"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "Gauss-Markov assumptions part 2",
+      "parts": [
+        {
+          "id": "L32.1",
+          "title": "Gauss-Markov assumptions part 2",
+          "videoId": "ti9h-Au8LQw"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "Zero conditional mean of errors - Gauss-Markov assumption",
+      "parts": [
+        {
+          "id": "L33.1",
+          "title": "Zero conditional mean of errors - Gauss-Markov assumption",
+          "videoId": "msSDI328UPc"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "Omitted variable bias - example 1",
+      "parts": [
+        {
+          "id": "L34.1",
+          "title": "Omitted variable bias - example 1",
+          "videoId": "6I1tUM0RB6I"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "Omitted variable bias - example 2",
+      "parts": [
+        {
+          "id": "L35.1",
+          "title": "Omitted variable bias - example 2",
+          "videoId": "_Ka_PAvdDjk"
+        }
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "Omitted variable bias - example 3",
+      "parts": [
+        {
+          "id": "L36.1",
+          "title": "Omitted variable bias - example 3",
+          "videoId": "CndHm9WDVIE"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "Omitted variable bias - proof part 1",
+      "parts": [
+        {
+          "id": "L37.1",
+          "title": "Omitted variable bias - proof part 1",
+          "videoId": "9-lPES4e0n8"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "Omitted variable bias - proof part 2",
+      "parts": [
+        {
+          "id": "L38.1",
+          "title": "Omitted variable bias - proof part 2",
+          "videoId": "l1wh5px1oFc"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "Reverse Causality - part 1",
+      "parts": [
+        {
+          "id": "L39.1",
+          "title": "Reverse Causality - part 1",
+          "videoId": "yBipwlHXxJc"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "Reverse Causality - part 2",
+      "parts": [
+        {
+          "id": "L40.1",
+          "title": "Reverse Causality - part 2",
+          "videoId": "1VWevzuw4TI"
+        }
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "Measurement error in independent variable - part 1",
+      "parts": [
+        {
+          "id": "L41.1",
+          "title": "Measurement error in independent variable - part 1",
+          "videoId": "fcRI605uXlM"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "Measurement error in independent variable - part 2",
+      "parts": [
+        {
+          "id": "L42.1",
+          "title": "Measurement error in independent variable - part 2",
+          "videoId": "00mmPOvMgy4"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "Functional misspecification 1",
+      "parts": [
+        {
+          "id": "L43.1",
+          "title": "Functional misspecification 1",
+          "videoId": "5a6eW6UzTUk"
+        }
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "Functional misspecification 2",
+      "parts": [
+        {
+          "id": "L44.1",
+          "title": "Functional misspecification 2",
+          "videoId": "040N6ZIEgGM"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "Linearity in parameters - Gauss-Markov",
+      "parts": [
+        {
+          "id": "L45.1",
+          "title": "Linearity in parameters - Gauss-Markov",
+          "videoId": "DJaIOlu5kM0"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "title": "Random sample summary - Gauss-Markov",
+      "parts": [
+        {
+          "id": "L46.1",
+          "title": "Random sample summary - Gauss-Markov",
+          "videoId": "OOoJHh1jmS0"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "title": "Gauss-Markov - explanation of random sampling and serial correlation",
+      "parts": [
+        {
+          "id": "L47.1",
+          "title": "Gauss-Markov - explanation of random sampling and serial correlation",
+          "videoId": "HjzwvwjalOI"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "title": "Serial Correlation summary",
+      "parts": [
+        {
+          "id": "L48.1",
+          "title": "Serial Correlation summary",
+          "videoId": "fGsu0OzLUDk"
+        }
+      ]
+    },
+    {
+      "id": "L49",
+      "title": "Serial Correlation - as a symptom of omitted variable bias",
+      "parts": [
+        {
+          "id": "L49.1",
+          "title": "Serial Correlation - as a symptom of omitted variable bias",
+          "videoId": "6CIRaVzD0vw"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "title": "Serial Correlation - as a symptom of functional misspecification",
+      "parts": [
+        {
+          "id": "L50.1",
+          "title": "Serial Correlation - as a symptom of functional misspecification",
+          "videoId": "rDnRXWTOO64"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "title": "Serial Correlation - caused by measurement error",
+      "parts": [
+        {
+          "id": "L51.1",
+          "title": "Serial Correlation - caused by measurement error",
+          "videoId": "f25laEVwUu4"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "title": "Serial correlation biased standard errors (advanced topic) - part 1",
+      "parts": [
+        {
+          "id": "L52.1",
+          "title": "Serial correlation biased standard errors (advanced topic) - part 1",
+          "videoId": "D1WEddlHKoM"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "title": "Serial correlation biased standard errors (advanced topic) - part 2",
+      "parts": [
+        {
+          "id": "L53.1",
+          "title": "Serial correlation biased standard errors (advanced topic) - part 2",
+          "videoId": "kOSg1gJdaDo"
+        }
+      ]
+    },
+    {
+      "id": "L54",
+      "title": "Heteroskedasticity summary",
+      "parts": [
+        {
+          "id": "L54.1",
+          "title": "Heteroskedasticity summary",
+          "videoId": "zRklTsY9w9c"
+        }
+      ]
+    },
+    {
+      "id": "L55",
+      "title": "Heteroskedastic errors - example 1",
+      "parts": [
+        {
+          "id": "L55.1",
+          "title": "Heteroskedastic errors - example 1",
+          "videoId": "QlP25vfW0AA"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "title": "Heteroskedasticity - example 2",
+      "parts": [
+        {
+          "id": "L56.1",
+          "title": "Heteroskedasticity - example 2",
+          "videoId": "IqzNqSDk2PY"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "title": "Heteroskedasticity caused by data aggregation (advanced topic)",
+      "parts": [
+        {
+          "id": "L57.1",
+          "title": "Heteroskedasticity caused by data aggregation (advanced topic)",
+          "videoId": "sa_88OzYmPM"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "title": "Perfect collinearity - example 1",
+      "parts": [
+        {
+          "id": "L58.1",
+          "title": "Perfect collinearity - example 1",
+          "videoId": "DDRQYKVFoP0"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "title": "Perfect collinearity - example 2",
+      "parts": [
+        {
+          "id": "L59.1",
+          "title": "Perfect collinearity - example 2",
+          "videoId": "TZw78YshbfE"
+        }
+      ]
+    },
+    {
+      "id": "L60",
+      "title": "Multicollinearity",
+      "parts": [
+        {
+          "id": "L60.1",
+          "title": "Multicollinearity",
+          "videoId": "O4jDva9B3fw"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "title": "Index - where we currently are in the overall plan of econometrics",
+      "parts": [
+        {
+          "id": "L61.1",
+          "title": "Index - where we currently are in the overall plan of econometrics",
+          "videoId": "P6j2yMNfzuM"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "title": "Gauss-Markov proof part 1 (advanced)",
+      "parts": [
+        {
+          "id": "L62.1",
+          "title": "Gauss-Markov proof part 1 (advanced)",
+          "videoId": "yHXjZTUjzgE"
+        }
+      ]
+    },
+    {
+      "id": "L63",
+      "title": "Gauss-Markov proof part 2 (advanced)",
+      "parts": [
+        {
+          "id": "L63.1",
+          "title": "Gauss-Markov proof part 2 (advanced)",
+          "videoId": "2qs-rmbDTz0"
+        }
+      ]
+    },
+    {
+      "id": "L64",
+      "title": "Gauss-Markov proof part 3 (advanced)",
+      "parts": [
+        {
+          "id": "L64.1",
+          "title": "Gauss-Markov proof part 3 (advanced)",
+          "videoId": "al5nVXRt1iQ"
+        }
+      ]
+    },
+    {
+      "id": "L65",
+      "title": "Gauss-Markov proof part 4 (advanced)",
+      "parts": [
+        {
+          "id": "L65.1",
+          "title": "Gauss-Markov proof part 4 (advanced)",
+          "videoId": "35YuV9is9ik"
+        }
+      ]
+    },
+    {
+      "id": "L66",
+      "title": "Gauss-Markov proof part 5 (advanced)",
+      "parts": [
+        {
+          "id": "L66.1",
+          "title": "Gauss-Markov proof part 5 (advanced)",
+          "videoId": "oxzy9Rltw0Q"
+        }
+      ]
+    },
+    {
+      "id": "L67",
+      "title": "Gauss-Markov proof part 6 (advanced)",
+      "parts": [
+        {
+          "id": "L67.1",
+          "title": "Gauss-Markov proof part 6 (advanced)",
+          "videoId": "vW4Bx4R4hPo"
+        }
+      ]
+    },
+    {
+      "id": "L68",
+      "title": "Errors in populations vs estimated errors",
+      "parts": [
+        {
+          "id": "L68.1",
+          "title": "Errors in populations vs estimated errors",
+          "videoId": "pW5mEem1Pbw"
+        }
+      ]
+    },
+    {
+      "id": "L69",
+      "title": "Sum of squares",
+      "parts": [
+        {
+          "id": "L69.1",
+          "title": "Sum of squares",
+          "videoId": "I8cRj0wefi8"
+        }
+      ]
+    },
+    {
+      "id": "L70",
+      "title": "R squared part 1",
+      "parts": [
+        {
+          "id": "L70.1",
+          "title": "R squared part 1",
+          "videoId": "QQQz0qefj2c"
+        }
+      ]
+    },
+    {
+      "id": "L71",
+      "title": "R squared part 2",
+      "parts": [
+        {
+          "id": "L71.1",
+          "title": "R squared part 2",
+          "videoId": "xwrrhtAlSZM"
+        }
+      ]
+    },
+    {
+      "id": "L72",
+      "title": "Degrees of freedom part 1",
+      "parts": [
+        {
+          "id": "L72.1",
+          "title": "Degrees of freedom part 1",
+          "videoId": "-4aiKmPC994"
+        }
+      ]
+    },
+    {
+      "id": "L73",
+      "title": "Degrees of freedom part 2 (advanced)",
+      "parts": [
+        {
+          "id": "L73.1",
+          "title": "Degrees of freedom part 2 (advanced)",
+          "videoId": "iA2KZHHZmmg"
+        }
+      ]
+    },
+    {
+      "id": "L74",
+      "title": "Overfitting in econometrics",
+      "parts": [
+        {
+          "id": "L74.1",
+          "title": "Overfitting in econometrics",
+          "videoId": "uIHpi6nYcRc"
+        }
+      ]
+    },
+    {
+      "id": "L75",
+      "title": "Adjusted R squared",
+      "parts": [
+        {
+          "id": "L75.1",
+          "title": "Adjusted R squared",
+          "videoId": "8W2fGkU5LYU"
+        }
+      ]
+    },
+    {
+      "id": "L76",
+      "title": "Unbiasedness of OLS - part one",
+      "parts": [
+        {
+          "id": "L76.1",
+          "title": "Unbiasedness of OLS - part one",
+          "videoId": "n5vh2CozAlU"
+        }
+      ]
+    },
+    {
+      "id": "L77",
+      "title": "Unbiasedness of OLS - part two",
+      "parts": [
+        {
+          "id": "L77.1",
+          "title": "Unbiasedness of OLS - part two",
+          "videoId": "_L-TxH40H70"
+        }
+      ]
+    },
+    {
+      "id": "L78",
+      "title": "Variance of OLS estimators - part one",
+      "parts": [
+        {
+          "id": "L78.1",
+          "title": "Variance of OLS estimators - part one",
+          "videoId": "_3WiM5WmL3M"
+        }
+      ]
+    },
+    {
+      "id": "L79",
+      "title": "Variance of OLS estimators - part two",
+      "parts": [
+        {
+          "id": "L79.1",
+          "title": "Variance of OLS estimators - part two",
+          "videoId": "HsyEKR4g6BY"
+        }
+      ]
+    },
+    {
+      "id": "L80",
+      "title": "Estimator for the population error variance",
+      "parts": [
+        {
+          "id": "L80.1",
+          "title": "Estimator for the population error variance",
+          "videoId": "H8tAmuk1lDc"
+        }
+      ]
+    },
+    {
+      "id": "L81",
+      "title": "Estimated variance of OLS estimators - intuition behind maths",
+      "parts": [
+        {
+          "id": "L81.1",
+          "title": "Estimated variance of OLS estimators - intuition behind maths",
+          "videoId": "rJFAGGvXj2U"
+        }
+      ]
+    },
+    {
+      "id": "L82",
+      "title": "Variance of OLS estimators in the presence of heteroscedasticity",
+      "parts": [
+        {
+          "id": "L82.1",
+          "title": "Variance of OLS estimators in the presence of heteroscedasticity",
+          "videoId": "WPzK3lR1unc"
+        }
+      ]
+    },
+    {
+      "id": "L83",
+      "title": "Variance of OLS estimators in the presence of serial correlation",
+      "parts": [
+        {
+          "id": "L83.1",
+          "title": "Variance of OLS estimators in the presence of serial correlation",
+          "videoId": "qNnHnoSdLFE"
+        }
+      ]
+    },
+    {
+      "id": "L84",
+      "title": "Gauss Markov conditions summary of problems of violation",
+      "parts": [
+        {
+          "id": "L84.1",
+          "title": "Gauss Markov conditions summary of problems of violation",
+          "videoId": "HzP2qYLkvxQ"
+        }
+      ]
+    },
+    {
+      "id": "L85",
+      "title": "Estimating the population variance from a sample - part one",
+      "parts": [
+        {
+          "id": "L85.1",
+          "title": "Estimating the population variance from a sample - part one",
+          "videoId": "xsFnm7D2iC8"
+        }
+      ]
+    },
+    {
+      "id": "L86",
+      "title": "Estimating the population variance from a sample - part two",
+      "parts": [
+        {
+          "id": "L86.1",
+          "title": "Estimating the population variance from a sample - part two",
+          "videoId": "-rJj-Mi0De0"
+        }
+      ]
+    },
+    {
+      "id": "L87",
+      "title": "Problem set 2 - OLS introduction - NBA players' wages",
+      "parts": [
+        {
+          "id": "L87.1",
+          "title": "Problem set 2 - OLS introduction - NBA players' wages",
+          "videoId": "CwXTOGVS9eE"
+        }
+      ]
+    },
+    {
+      "id": "L88",
+      "title": "Hypothesis testing",
+      "parts": [
+        {
+          "id": "L88.1",
+          "title": "Hypothesis testing",
+          "videoId": "_dULun-EpX0"
+        }
+      ]
+    },
+    {
+      "id": "L89",
+      "title": "Hypothesis testing - one and two tailed tests",
+      "parts": [
+        {
+          "id": "L89.1",
+          "title": "Hypothesis testing - one and two tailed tests",
+          "videoId": "dHK4qx5ODJs"
+        }
+      ]
+    },
+    {
+      "id": "L90",
+      "title": "Central Limit Theorem",
+      "parts": [
+        {
+          "id": "L90.1",
+          "title": "Central Limit Theorem",
+          "videoId": "RzxYTQKjdTo"
+        }
+      ]
+    },
+    {
+      "id": "L91",
+      "title": "Hypothesis testing in linear regression part 1",
+      "parts": [
+        {
+          "id": "L91.1",
+          "title": "Hypothesis testing in linear regression part 1",
+          "videoId": "fZV4ntLEPlU"
+        }
+      ]
+    },
+    {
+      "id": "L92",
+      "title": "Hypothesis testing in linear regression part 2",
+      "parts": [
+        {
+          "id": "L92.1",
+          "title": "Hypothesis testing in linear regression part 2",
+          "videoId": "78YNvrsRzVw"
+        }
+      ]
+    },
+    {
+      "id": "L93",
+      "title": "Hypothesis testing in linear regression part 3",
+      "parts": [
+        {
+          "id": "L93.1",
+          "title": "Hypothesis testing in linear regression part 3",
+          "videoId": "NwpaTO43bgk"
+        }
+      ]
+    },
+    {
+      "id": "L94",
+      "title": "Hypothesis testing in linear regression part 4",
+      "parts": [
+        {
+          "id": "L94.1",
+          "title": "Hypothesis testing in linear regression part 4",
+          "videoId": "Y3SgdIDyqkQ"
+        }
+      ]
+    },
+    {
+      "id": "L95",
+      "title": "Hypothesis testing in linear regression part 5",
+      "parts": [
+        {
+          "id": "L95.1",
+          "title": "Hypothesis testing in linear regression part 5",
+          "videoId": "uW82edXqMWw"
+        }
+      ]
+    },
+    {
+      "id": "L96",
+      "title": "Normally distributed errors - finite sample inference",
+      "parts": [
+        {
+          "id": "L96.1",
+          "title": "Normally distributed errors - finite sample inference",
+          "videoId": "lG3utXmdE54"
+        }
+      ]
+    },
+    {
+      "id": "L97",
+      "title": "Tests for normally distributed errors",
+      "parts": [
+        {
+          "id": "L97.1",
+          "title": "Tests for normally distributed errors",
+          "videoId": "TyjYI7yjFZI"
+        }
+      ]
+    },
+    {
+      "id": "L98",
+      "title": "Interpreting Regression Coefficients in Linear Regression",
+      "parts": [
+        {
+          "id": "L98.1",
+          "title": "Interpreting Regression Coefficients in Linear Regression",
+          "videoId": "JwGaos2Y9bM"
+        }
+      ]
+    },
+    {
+      "id": "L99",
+      "title": "Interpreting regression coefficients in log models part 1",
+      "parts": [
+        {
+          "id": "L99.1",
+          "title": "Interpreting regression coefficients in log models part 1",
+          "videoId": "aXBFKKh54Es"
+        }
+      ]
+    },
+    {
+      "id": "L100",
+      "title": "Interpreting regression coefficients in log models part 2",
+      "parts": [
+        {
+          "id": "L100.1",
+          "title": "Interpreting regression coefficients in log models part 2",
+          "videoId": "QkI202Yb4dk"
+        }
+      ]
+    },
+    {
+      "id": "L101",
+      "title": "The benefits of a log dependent variable",
+      "parts": [
+        {
+          "id": "L101.1",
+          "title": "The benefits of a log dependent variable",
+          "videoId": "ONxpL-8a5xg"
+        }
+      ]
+    },
+    {
+      "id": "L102",
+      "title": "Dummy variables - an introduction",
+      "parts": [
+        {
+          "id": "L102.1",
+          "title": "Dummy variables - an introduction",
+          "videoId": "s7EyQwJahgw"
+        }
+      ]
+    },
+    {
+      "id": "L103",
+      "title": "Dummy variables - interaction terms explanation",
+      "parts": [
+        {
+          "id": "L103.1",
+          "title": "Dummy variables - interaction terms explanation",
+          "videoId": "ScKL40dp8M4"
+        }
+      ]
+    },
+    {
+      "id": "L104",
+      "title": "Continuous variables - interaction term interpretation",
+      "parts": [
+        {
+          "id": "L104.1",
+          "title": "Continuous variables - interaction term interpretation",
+          "videoId": "HyA_Vgbc0t4"
+        }
+      ]
+    },
+    {
+      "id": "L105",
+      "title": "The F statistic - an introduction",
+      "parts": [
+        {
+          "id": "L105.1",
+          "title": "The F statistic - an introduction",
+          "videoId": "ie-MYQp1Nic"
+        }
+      ]
+    },
+    {
+      "id": "L106",
+      "title": "F test - example 1",
+      "parts": [
+        {
+          "id": "L106.1",
+          "title": "F test - example 1",
+          "videoId": "orGhAoQvSOM"
+        }
+      ]
+    },
+    {
+      "id": "L107",
+      "title": "F test - example 2",
+      "parts": [
+        {
+          "id": "L107.1",
+          "title": "F test - example 2",
+          "videoId": "Ga8BJe5nG3I"
+        }
+      ]
+    },
+    {
+      "id": "L108",
+      "title": "F test - the similarity with the t test",
+      "parts": [
+        {
+          "id": "L108.1",
+          "title": "F test - the similarity with the t test",
+          "videoId": "OzGuXV_qZHg"
+        }
+      ]
+    },
+    {
+      "id": "L109",
+      "title": "The F test - R Squared form",
+      "parts": [
+        {
+          "id": "L109.1",
+          "title": "The F test - R Squared form",
+          "videoId": "Bs1koG5U2QU"
+        }
+      ]
+    },
+    {
+      "id": "L110",
+      "title": "Testing hypothesis about linear combinations of parameters - part 1",
+      "parts": [
+        {
+          "id": "L110.1",
+          "title": "Testing hypothesis about linear combinations of parameters - part 1",
+          "videoId": "4K27HhxwPaY"
+        }
+      ]
+    },
+    {
+      "id": "L111",
+      "title": "Testing hypothesis about linear combinations of parameters - part 2",
+      "parts": [
+        {
+          "id": "L111.1",
+          "title": "Testing hypothesis about linear combinations of parameters - part 2",
+          "videoId": "B8UTrAvFbWM"
+        }
+      ]
+    },
+    {
+      "id": "L112",
+      "title": "Testing hypothesis about linear combinations of parameters - part 3",
+      "parts": [
+        {
+          "id": "L112.1",
+          "title": "Testing hypothesis about linear combinations of parameters - part 3",
+          "videoId": "hxYt4KDTCuM"
+        }
+      ]
+    },
+    {
+      "id": "L113",
+      "title": "Testing hypothesis about linear combinations of parameters - part 4",
+      "parts": [
+        {
+          "id": "L113.1",
+          "title": "Testing hypothesis about linear combinations of parameters - part 4",
+          "videoId": "U-ij_2RPLhg"
+        }
+      ]
+    },
+    {
+      "id": "L114",
+      "title": "Confidence intervals",
+      "parts": [
+        {
+          "id": "L114.1",
+          "title": "Confidence intervals",
+          "videoId": "MFqWrhWQgXo"
+        }
+      ]
+    },
+    {
+      "id": "L115",
+      "title": "The Goldfeld-Quandt test for heteroscedasticity",
+      "parts": [
+        {
+          "id": "L115.1",
+          "title": "The Goldfeld-Quandt test for heteroscedasticity",
+          "videoId": "yb4CIJzftjc"
+        }
+      ]
+    },
+    {
+      "id": "L116",
+      "title": "The Breusch Pagan test for heteroscedasticity",
+      "parts": [
+        {
+          "id": "L116.1",
+          "title": "The Breusch Pagan test for heteroscedasticity",
+          "videoId": "wzLADO24CDk"
+        }
+      ]
+    },
+    {
+      "id": "L117",
+      "title": "The White test for heteroscedasticity",
+      "parts": [
+        {
+          "id": "L117.1",
+          "title": "The White test for heteroscedasticity",
+          "videoId": "M5xqpKzhyAM"
+        }
+      ]
+    },
+    {
+      "id": "L118",
+      "title": "Serial correlation testing - introduction",
+      "parts": [
+        {
+          "id": "L118.1",
+          "title": "Serial correlation testing - introduction",
+          "videoId": "g1HNNo31bCA"
+        }
+      ]
+    },
+    {
+      "id": "L119",
+      "title": "Serial correlation - The Durbin-Watson test",
+      "parts": [
+        {
+          "id": "L119.1",
+          "title": "Serial correlation - The Durbin-Watson test",
+          "videoId": "QGN073tpDXE"
+        }
+      ]
+    },
+    {
+      "id": "L120",
+      "title": "Serial correlation testing - the Breusch-Godfrey test",
+      "parts": [
+        {
+          "id": "L120.1",
+          "title": "Serial correlation testing - the Breusch-Godfrey test",
+          "videoId": "JN6Sblxz7v0"
+        }
+      ]
+    },
+    {
+      "id": "L121",
+      "title": "Ramsey RESET test for functional misspecification",
+      "parts": [
+        {
+          "id": "L121.1",
+          "title": "Ramsey RESET test for functional misspecification",
+          "videoId": "DC7dAI4D-EI"
+        }
+      ]
+    },
+    {
+      "id": "L122",
+      "title": "Gauss-Markov violations: summary of issues",
+      "parts": [
+        {
+          "id": "L122.1",
+          "title": "Gauss-Markov violations: summary of issues",
+          "videoId": "osl1hscP65c"
+        }
+      ]
+    },
+    {
+      "id": "L123",
+      "title": "Heteroscedasticity: as a symptom of omitted variable bias - part 1",
+      "parts": [
+        {
+          "id": "L123.1",
+          "title": "Heteroscedasticity: as a symptom of omitted variable bias - part 1",
+          "videoId": "sFOtuCKQztc"
+        }
+      ]
+    },
+    {
+      "id": "L124",
+      "title": "Heteroscedasticity: as a symptom of omitted variable bias - part 2",
+      "parts": [
+        {
+          "id": "L124.1",
+          "title": "Heteroscedasticity: as a symptom of omitted variable bias - part 2",
+          "videoId": "E9I11GlCDrg"
+        }
+      ]
+    },
+    {
+      "id": "L125",
+      "title": "Serial correlation: a symptom of omitted variable bias",
+      "parts": [
+        {
+          "id": "L125.1",
+          "title": "Serial correlation: a symptom of omitted variable bias",
+          "videoId": "MT25MC50aBE"
+        }
+      ]
+    },
+    {
+      "id": "L126",
+      "title": "Heteroscedasticity: dealing with the problems caused",
+      "parts": [
+        {
+          "id": "L126.1",
+          "title": "Heteroscedasticity: dealing with the problems caused",
+          "videoId": "upAQ_gCGnL8"
+        }
+      ]
+    },
+    {
+      "id": "L127",
+      "title": "Problem set 3 - Presidential election data - hypothesis testing and model selection",
+      "parts": [
+        {
+          "id": "L127.1",
+          "title": "Problem set 3 - Presidential election data - hypothesis testing and model selection",
+          "videoId": "CKSj8u52t04"
+        }
+      ]
+    },
+    {
+      "id": "L128",
+      "title": "Weighted Least Squares: an introduction",
+      "parts": [
+        {
+          "id": "L128.1",
+          "title": "Weighted Least Squares: an introduction",
+          "videoId": "wCJ8I-MtJdQ"
+        }
+      ]
+    },
+    {
+      "id": "L129",
+      "title": "Weighted Least Squares: mathematical introduction",
+      "parts": [
+        {
+          "id": "L129.1",
+          "title": "Weighted Least Squares: mathematical introduction",
+          "videoId": "nNRcJgKSpjg"
+        }
+      ]
+    },
+    {
+      "id": "L130",
+      "title": "Weighted Least Squares: an example",
+      "parts": [
+        {
+          "id": "L130.1",
+          "title": "Weighted Least Squares: an example",
+          "videoId": "Ghs69kGWwAA"
+        }
+      ]
+    },
+    {
+      "id": "L131",
+      "title": "Weighted Least Squares in practice - feasible GLS - part 1",
+      "parts": [
+        {
+          "id": "L131.1",
+          "title": "Weighted Least Squares in practice - feasible GLS - part 1",
+          "videoId": "XJCMbuGv4v4"
+        }
+      ]
+    },
+    {
+      "id": "L132",
+      "title": "Weighted Least Squares in practice - feasible GLS - part 2",
+      "parts": [
+        {
+          "id": "L132.1",
+          "title": "Weighted Least Squares in practice - feasible GLS - part 2",
+          "videoId": "QTItKluW88M"
+        }
+      ]
+    },
+    {
+      "id": "L133",
+      "title": "How to address the issue of serial correlation",
+      "parts": [
+        {
+          "id": "L133.1",
+          "title": "How to address the issue of serial correlation",
+          "videoId": "ZjsDE3SyDlk"
+        }
+      ]
+    },
+    {
+      "id": "L134",
+      "title": "GLS estimation to correct for serial correlation",
+      "parts": [
+        {
+          "id": "L134.1",
+          "title": "GLS estimation to correct for serial correlation",
+          "videoId": "YuVpwN_KOWk"
+        }
+      ]
+    },
+    {
+      "id": "L135",
+      "title": "fGLS for serially correlated errors",
+      "parts": [
+        {
+          "id": "L135.1",
+          "title": "fGLS for serially correlated errors",
+          "videoId": "--H9uI_BFIc"
+        }
+      ]
+    },
+    {
+      "id": "L136",
+      "title": "Instrumental Variables - an introduction",
+      "parts": [
+        {
+          "id": "L136.1",
+          "title": "Instrumental Variables - an introduction",
+          "videoId": "NLgB2WGGKUw"
+        }
+      ]
+    },
+    {
+      "id": "L137",
+      "title": "Endogeneity and Instrumental Variables",
+      "parts": [
+        {
+          "id": "L137.1",
+          "title": "Endogeneity and Instrumental Variables",
+          "videoId": "lLI-0pK9MD8"
+        }
+      ]
+    },
+    {
+      "id": "L138",
+      "title": "Instrumental Variables intuition - part 1",
+      "parts": [
+        {
+          "id": "L138.1",
+          "title": "Instrumental Variables intuition - part 1",
+          "videoId": "OWHCbEP56ms"
+        }
+      ]
+    },
+    {
+      "id": "L139",
+      "title": "Instrumental Variables intuition - part 2",
+      "parts": [
+        {
+          "id": "L139.1",
+          "title": "Instrumental Variables intuition - part 2",
+          "videoId": "cX5q_dKt6iU"
+        }
+      ]
+    },
+    {
+      "id": "L140",
+      "title": "Instrumental Variables example - returns to schooling",
+      "parts": [
+        {
+          "id": "L140.1",
+          "title": "Instrumental Variables example - returns to schooling",
+          "videoId": "pI9YGSJ2qPk"
+        }
+      ]
+    },
+    {
+      "id": "L141",
+      "title": "Instrumental Variables example - classroom size",
+      "parts": [
+        {
+          "id": "L141.1",
+          "title": "Instrumental Variables example - classroom size",
+          "videoId": "41gFMpOu0Is"
+        }
+      ]
+    },
+    {
+      "id": "L142",
+      "title": "Instrumental Variables estimation - colonial origins of economic development",
+      "parts": [
+        {
+          "id": "L142.1",
+          "title": "Instrumental Variables estimation - colonial origins of economic development",
+          "videoId": "q_hh_SOCzIs"
+        }
+      ]
+    },
+    {
+      "id": "L143",
+      "title": "Instrumental Variables as Two Stage Least Squares",
+      "parts": [
+        {
+          "id": "L143.1",
+          "title": "Instrumental Variables as Two Stage Least Squares",
+          "videoId": "WjcoHAJ4_Mc"
+        }
+      ]
+    },
+    {
+      "id": "L144",
+      "title": "Proof that Instrumental Variables estimators are Two Stage Least Squares",
+      "parts": [
+        {
+          "id": "L144.1",
+          "title": "Proof that Instrumental Variables estimators are Two Stage Least Squares",
+          "videoId": "phVSac1iO18"
+        }
+      ]
+    },
+    {
+      "id": "L145",
+      "title": "Bad instruments - part 1",
+      "parts": [
+        {
+          "id": "L145.1",
+          "title": "Bad instruments - part 1",
+          "videoId": "-x2yrtL4qV8"
+        }
+      ]
+    },
+    {
+      "id": "L146",
+      "title": "Bad instruments - part 2",
+      "parts": [
+        {
+          "id": "L146.1",
+          "title": "Bad instruments - part 2",
+          "videoId": "MSVTJedpBME"
+        }
+      ]
+    },
+    {
+      "id": "L147",
+      "title": "Bias of Instrumental Variables - part 1",
+      "parts": [
+        {
+          "id": "L147.1",
+          "title": "Bias of Instrumental Variables - part 1",
+          "videoId": "0V7trG99nbc"
+        }
+      ]
+    },
+    {
+      "id": "L148",
+      "title": "Bias of Instrumental Variables - part 2",
+      "parts": [
+        {
+          "id": "L148.1",
+          "title": "Bias of Instrumental Variables - part 2",
+          "videoId": "soufipB-Yhc"
+        }
+      ]
+    },
+    {
+      "id": "L149",
+      "title": "Bias of Instrumental Variables - intuition",
+      "parts": [
+        {
+          "id": "L149.1",
+          "title": "Bias of Instrumental Variables - intuition",
+          "videoId": "lr0NYwwG6T4"
+        }
+      ]
+    },
+    {
+      "id": "L150",
+      "title": "Consistency of Instrumental Variables - intuition",
+      "parts": [
+        {
+          "id": "L150.1",
+          "title": "Consistency of Instrumental Variables - intuition",
+          "videoId": "R84P0I0T3-o"
+        }
+      ]
+    },
+    {
+      "id": "L151",
+      "title": "Consistency - comparing Ordinary Least Squares with Instrumental Variables",
+      "parts": [
+        {
+          "id": "L151.1",
+          "title": "Consistency - comparing Ordinary Least Squares with Instrumental Variables",
+          "videoId": "7eNIeiRctEY"
+        }
+      ]
+    },
+    {
+      "id": "L152",
+      "title": "Inference using Instrumental Variables estimators",
+      "parts": [
+        {
+          "id": "L152.1",
+          "title": "Inference using Instrumental Variables estimators",
+          "videoId": "L6Iu_bqYFi8"
+        }
+      ]
+    },
+    {
+      "id": "L153",
+      "title": "Multiple regressor Instrumental Variables estimation",
+      "parts": [
+        {
+          "id": "L153.1",
+          "title": "Multiple regressor Instrumental Variables estimation",
+          "videoId": "qy6pRkPxzoo"
+        }
+      ]
+    },
+    {
+      "id": "L154",
+      "title": "Two Stage Least Squares - an introduction",
+      "parts": [
+        {
+          "id": "L154.1",
+          "title": "Two Stage Least Squares - an introduction",
+          "videoId": "3GF3rpkaDfU"
+        }
+      ]
+    },
+    {
+      "id": "L155",
+      "title": "Two Stage Least Squares - example",
+      "parts": [
+        {
+          "id": "L155.1",
+          "title": "Two Stage Least Squares - example",
+          "videoId": "54QIRrMkJsk"
+        }
+      ]
+    },
+    {
+      "id": "L156",
+      "title": "Two Stage Least Squares - multiple endogenous explanatory variables",
+      "parts": [
+        {
+          "id": "L156.1",
+          "title": "Two Stage Least Squares - multiple endogenous explanatory variables",
+          "videoId": "ooqVndstzT8"
+        }
+      ]
+    },
+    {
+      "id": "L157",
+      "title": "Testing for endogeneity",
+      "parts": [
+        {
+          "id": "L157.1",
+          "title": "Testing for endogeneity",
+          "videoId": "61I-8tDgwag"
+        }
+      ]
+    },
+    {
+      "id": "L158",
+      "title": "Testing for endogenous instruments - test for overidentifying restriction",
+      "parts": [
+        {
+          "id": "L158.1",
+          "title": "Testing for endogenous instruments - test for overidentifying restriction",
+          "videoId": "nTUespZbELo"
+        }
+      ]
+    },
+    {
+      "id": "L159",
+      "title": "Problem set 4 - the return to education - WLS and IV estimators",
+      "parts": [
+        {
+          "id": "L159.1",
+          "title": "Problem set 4 - the return to education - WLS and IV estimators",
+          "videoId": "lDfsMn0cWkE"
+        }
+      ]
+    },
+    {
+      "id": "L160",
+      "title": "Time series vs cross sectional data",
+      "parts": [
+        {
+          "id": "L160.1",
+          "title": "Time series vs cross sectional data",
+          "videoId": "-gmlyRRscXo"
+        }
+      ]
+    },
+    {
+      "id": "L161",
+      "title": "Time series Gauss Markov conditions",
+      "parts": [
+        {
+          "id": "L161.1",
+          "title": "Time series Gauss Markov conditions",
+          "videoId": "bWo_ka37szw"
+        }
+      ]
+    },
+    {
+      "id": "L162",
+      "title": "Strict exogeneity",
+      "parts": [
+        {
+          "id": "L162.1",
+          "title": "Strict exogeneity",
+          "videoId": "LgIOgb-6mYA"
+        }
+      ]
+    },
+    {
+      "id": "L163",
+      "title": "Strict exogeneity assumption - intuition",
+      "parts": [
+        {
+          "id": "L163.1",
+          "title": "Strict exogeneity assumption - intuition",
+          "videoId": "a7_3qX67e7c"
+        }
+      ]
+    },
+    {
+      "id": "L164",
+      "title": "Lagged dependent variable model - strict exogeneity",
+      "parts": [
+        {
+          "id": "L164.1",
+          "title": "Lagged dependent variable model - strict exogeneity",
+          "videoId": "wL8NgC0Fm0Y"
+        }
+      ]
+    },
+    {
+      "id": "L165",
+      "title": "Asymptotic assumptions for time series least squares",
+      "parts": [
+        {
+          "id": "L165.1",
+          "title": "Asymptotic assumptions for time series least squares",
+          "videoId": "BGNjzEIqi6M"
+        }
+      ]
+    },
+    {
+      "id": "L166",
+      "title": "Conditions for stationary and weakly dependent series",
+      "parts": [
+        {
+          "id": "L166.1",
+          "title": "Conditions for stationary and weakly dependent series",
+          "videoId": "JytDF8ph2ko"
+        }
+      ]
+    },
+    {
+      "id": "L167",
+      "title": "Stationary in mean",
+      "parts": [
+        {
+          "id": "L167.1",
+          "title": "Stationary in mean",
+          "videoId": "sGgOBa7hgFE"
+        }
+      ]
+    },
+    {
+      "id": "L168",
+      "title": "Spurious regression - part 1",
+      "parts": [
+        {
+          "id": "L168.1",
+          "title": "Spurious regression - part 1",
+          "videoId": "nt1h8iR0Sac"
+        }
+      ]
+    },
+    {
+      "id": "L169",
+      "title": "Spurious regression - part 2",
+      "parts": [
+        {
+          "id": "L169.1",
+          "title": "Spurious regression - part 2",
+          "videoId": "eozA46jWBck"
+        }
+      ]
+    },
+    {
+      "id": "L170",
+      "title": "Variance stationary processes",
+      "parts": [
+        {
+          "id": "L170.1",
+          "title": "Variance stationary processes",
+          "videoId": "OqdyGRaaM98"
+        }
+      ]
+    },
+    {
+      "id": "L171",
+      "title": "Covariance stationary processes",
+      "parts": [
+        {
+          "id": "L171.1",
+          "title": "Covariance stationary processes",
+          "videoId": "6t4rrYEZ76c"
+        }
+      ]
+    },
+    {
+      "id": "L172",
+      "title": "Stationary series summary",
+      "parts": [
+        {
+          "id": "L172.1",
+          "title": "Stationary series summary",
+          "videoId": "ZIWyGjrAlks"
+        }
+      ]
+    },
+    {
+      "id": "L173",
+      "title": "Weakly dependent time series",
+      "parts": [
+        {
+          "id": "L173.1",
+          "title": "Weakly dependent time series",
+          "videoId": "7xJ8mT6gZb4"
+        }
+      ]
+    },
+    {
+      "id": "L174",
+      "title": "An introduction to Moving Average Order One processes",
+      "parts": [
+        {
+          "id": "L174.1",
+          "title": "An introduction to Moving Average Order One processes",
+          "videoId": "lUhtcP2SUsg"
+        }
+      ]
+    },
+    {
+      "id": "L175",
+      "title": "Moving Average processes - Stationary and Weakly Dependent",
+      "parts": [
+        {
+          "id": "L175.1",
+          "title": "Moving Average processes - Stationary and Weakly Dependent",
+          "videoId": "uyIY8ddims0"
+        }
+      ]
+    },
+    {
+      "id": "L176",
+      "title": "Autoregressive Order one process introduction and example",
+      "parts": [
+        {
+          "id": "L176.1",
+          "title": "Autoregressive Order one process introduction and example",
+          "videoId": "AN0a58F6cxA"
+        }
+      ]
+    },
+    {
+      "id": "L177",
+      "title": "Autoregressive order 1 process - conditions for stationary in mean",
+      "parts": [
+        {
+          "id": "L177.1",
+          "title": "Autoregressive order 1 process - conditions for stationary in mean",
+          "videoId": "L2b2dCO_-PA"
+        }
+      ]
+    },
+    {
+      "id": "L178",
+      "title": "Autoregressive order 1 process - conditions for stationary in variance",
+      "parts": [
+        {
+          "id": "L178.1",
+          "title": "Autoregressive order 1 process - conditions for stationary in variance",
+          "videoId": "9mXV3mjPmw8"
+        }
+      ]
+    },
+    {
+      "id": "L179",
+      "title": "Autoregressive order 1 process - conditions for Stationary Covariance and Weak Dependence",
+      "parts": [
+        {
+          "id": "L179.1",
+          "title": "Autoregressive order 1 process - conditions for Stationary Covariance and Weak Dependence",
+          "videoId": "jbT5MDzoRy0"
+        }
+      ]
+    },
+    {
+      "id": "L180",
+      "title": "Autoregressive vs Moving Average Order One processes - part 1",
+      "parts": [
+        {
+          "id": "L180.1",
+          "title": "Autoregressive vs Moving Average Order One processes - part 1",
+          "videoId": "-xPDcd7WzhU"
+        }
+      ]
+    },
+    {
+      "id": "L181",
+      "title": "Autoregressive vs Moving Average Order One processes - part 2",
+      "parts": [
+        {
+          "id": "L181.1",
+          "title": "Autoregressive vs Moving Average Order One processes - part 2",
+          "videoId": "LHDqNaXZn9Q"
+        }
+      ]
+    },
+    {
+      "id": "L182",
+      "title": "Partial vs total autocorrelation",
+      "parts": [
+        {
+          "id": "L182.1",
+          "title": "Partial vs total autocorrelation",
+          "videoId": "R-oWTWdS1Jg"
+        }
+      ]
+    },
+    {
+      "id": "L183",
+      "title": "A Random Walk - introduction and properties",
+      "parts": [
+        {
+          "id": "L183.1",
+          "title": "A Random Walk - introduction and properties",
+          "videoId": "ouahL4HbwBE"
+        }
+      ]
+    },
+    {
+      "id": "L184",
+      "title": "The qualitative difference between stationary and non-stationary AR(1)",
+      "parts": [
+        {
+          "id": "L184.1",
+          "title": "The qualitative difference between stationary and non-stationary AR(1)",
+          "videoId": "v70-kLB3BLM"
+        }
+      ]
+    },
+    {
+      "id": "L185",
+      "title": "Random walk not weakly dependent",
+      "parts": [
+        {
+          "id": "L185.1",
+          "title": "Random walk not weakly dependent",
+          "videoId": "wKjiQV-C2S8"
+        }
+      ]
+    },
+    {
+      "id": "L186",
+      "title": "Random walk with drift",
+      "parts": [
+        {
+          "id": "L186.1",
+          "title": "Random walk with drift",
+          "videoId": "Nxcqi7UZenc"
+        }
+      ]
+    },
+    {
+      "id": "L187",
+      "title": "Deterministic vs stochastic trends",
+      "parts": [
+        {
+          "id": "L187.1",
+          "title": "Deterministic vs stochastic trends",
+          "videoId": "yCM6N8sRtPY"
+        }
+      ]
+    },
+    {
+      "id": "L188",
+      "title": "Dickey Fuller test for unit root",
+      "parts": [
+        {
+          "id": "L188.1",
+          "title": "Dickey Fuller test for unit root",
+          "videoId": "2GxWgIumPTA"
+        }
+      ]
+    },
+    {
+      "id": "L189",
+      "title": "Augmented Dickey Fuller tests",
+      "parts": [
+        {
+          "id": "L189.1",
+          "title": "Augmented Dickey Fuller tests",
+          "videoId": "X8nGZ2UCJsk"
+        }
+      ]
+    },
+    {
+      "id": "L190",
+      "title": "Dickey Fuller test with time trend",
+      "parts": [
+        {
+          "id": "L190.1",
+          "title": "Dickey Fuller test with time trend",
+          "videoId": "wPBlWDQ-vPk"
+        }
+      ]
+    },
+    {
+      "id": "L191",
+      "title": "Highly persistent time series",
+      "parts": [
+        {
+          "id": "L191.1",
+          "title": "Highly persistent time series",
+          "videoId": "-3r3yCsDOQM"
+        }
+      ]
+    },
+    {
+      "id": "L192",
+      "title": "Integrated order of processes",
+      "parts": [
+        {
+          "id": "L192.1",
+          "title": "Integrated order of processes",
+          "videoId": "LAjI9YWnV-I"
+        }
+      ]
+    },
+    {
+      "id": "L193",
+      "title": "Cointegration - an introduction",
+      "parts": [
+        {
+          "id": "L193.1",
+          "title": "Cointegration - an introduction",
+          "videoId": "vvTKjm94Ars"
+        }
+      ]
+    },
+    {
+      "id": "L194",
+      "title": "Cointegration tests",
+      "parts": [
+        {
+          "id": "L194.1",
+          "title": "Cointegration tests",
+          "videoId": "q5wbOSjbVW4"
+        }
+      ]
+    },
+    {
+      "id": "L195",
+      "title": "Levels vs differences regression - motivation for cointegrated regression",
+      "parts": [
+        {
+          "id": "L195.1",
+          "title": "Levels vs differences regression - motivation for cointegrated regression",
+          "videoId": "eQYZK9Ah7TY"
+        }
+      ]
+    },
+    {
+      "id": "L196",
+      "title": "Leads and lags estimator for inference in cointegrated models (advanced)",
+      "parts": [
+        {
+          "id": "L196.1",
+          "title": "Leads and lags estimator for inference in cointegrated models (advanced)",
+          "videoId": "k2gQ_DQrS8M"
+        }
+      ]
+    },
+    {
+      "id": "L197",
+      "title": "Lagged independent variables",
+      "parts": [
+        {
+          "id": "L197.1",
+          "title": "Lagged independent variables",
+          "videoId": "zkr_eRp0zR0"
+        }
+      ]
+    },
+    {
+      "id": "L198",
+      "title": "Problem set 5 - an introduction to time series",
+      "parts": [
+        {
+          "id": "L198.1",
+          "title": "Problem set 5 - an introduction to time series",
+          "videoId": "RDbzp0jpipc"
+        }
+      ]
+    },
+    {
+      "id": "L199",
+      "title": "Mean and median lag",
+      "parts": [
+        {
+          "id": "L199.1",
+          "title": "Mean and median lag",
+          "videoId": "E5pS8UBLtGc"
+        }
+      ]
+    },
+    {
+      "id": "L200",
+      "title": "Lagged dependent variable ARMA",
+      "parts": [
+        {
+          "id": "L200.1",
+          "title": "Lagged dependent variable ARMA",
+          "videoId": "Ky0YCQlQ5ZI"
+        }
+      ]
+    },
+    {
+      "id": "L201",
+      "title": "Koyck transformation",
+      "parts": [
+        {
+          "id": "L201.1",
+          "title": "Koyck transformation",
+          "videoId": "hppHTnz0NgU"
+        }
+      ]
+    },
+    {
+      "id": "L202",
+      "title": "Invertibility - converting an MA(1) to an AR(infinite) process",
+      "parts": [
+        {
+          "id": "L202.1",
+          "title": "Invertibility - converting an MA(1) to an AR(infinite) process",
+          "videoId": "BblqiDVn9P4"
+        }
+      ]
+    },
+    {
+      "id": "L203",
+      "title": "ARMA(1,1) processes - introduction and examples",
+      "parts": [
+        {
+          "id": "L203.1",
+          "title": "ARMA(1,1) processes - introduction and examples",
+          "videoId": "Pg0RnP1uLVc"
+        }
+      ]
+    },
+    {
+      "id": "L204",
+      "title": "The partial adjustment model",
+      "parts": [
+        {
+          "id": "L204.1",
+          "title": "The partial adjustment model",
+          "videoId": "AhIXGqhunXQ"
+        }
+      ]
+    },
+    {
+      "id": "L205",
+      "title": "Error correction model - part 1",
+      "parts": [
+        {
+          "id": "L205.1",
+          "title": "Error correction model - part 1",
+          "videoId": "wYQ_v_0tk_c"
+        }
+      ]
+    },
+    {
+      "id": "L206",
+      "title": "Error correction model - part 2",
+      "parts": [
+        {
+          "id": "L206.1",
+          "title": "Error correction model - part 2",
+          "videoId": "xVIkb-QeZ40"
+        }
+      ]
+    },
+    {
+      "id": "L207",
+      "title": "Pooled cross sectional models introduction",
+      "parts": [
+        {
+          "id": "L207.1",
+          "title": "Pooled cross sectional models introduction",
+          "videoId": "CwcNyXDvznE"
+        }
+      ]
+    },
+    {
+      "id": "L208",
+      "title": "Pooled cross sectional data benefits - part 1",
+      "parts": [
+        {
+          "id": "L208.1",
+          "title": "Pooled cross sectional data benefits - part 1",
+          "videoId": "kBh14ltCq1A"
+        }
+      ]
+    },
+    {
+      "id": "L209",
+      "title": "Pooled cross sectional data benefits - part 2",
+      "parts": [
+        {
+          "id": "L209.1",
+          "title": "Pooled cross sectional data benefits - part 2",
+          "videoId": "u1xPoMZ1OeI"
+        }
+      ]
+    },
+    {
+      "id": "L210",
+      "title": "Panel vs pooled data",
+      "parts": [
+        {
+          "id": "L210.1",
+          "title": "Panel vs pooled data",
+          "videoId": "rHq695M3GvQ"
+        }
+      ]
+    },
+    {
+      "id": "L211",
+      "title": "Panel data econometrics - an introduction",
+      "parts": [
+        {
+          "id": "L211.1",
+          "title": "Panel data econometrics - an introduction",
+          "videoId": "aYx88zmTM0U"
+        }
+      ]
+    },
+    {
+      "id": "L212",
+      "title": "First Differences estimator",
+      "parts": [
+        {
+          "id": "L212.1",
+          "title": "First Differences estimator",
+          "videoId": "m_8AsmtxKqs"
+        }
+      ]
+    },
+    {
+      "id": "L213",
+      "title": "Fixed Effects estimators: an introduction",
+      "parts": [
+        {
+          "id": "L213.1",
+          "title": "Fixed Effects estimators: an introduction",
+          "videoId": "sFvV9b1cGFc"
+        }
+      ]
+    },
+    {
+      "id": "L214",
+      "title": "Least Squares Dummy Variables estimators",
+      "parts": [
+        {
+          "id": "L214.1",
+          "title": "Least Squares Dummy Variables estimators",
+          "videoId": "i7vYh1kCEOY"
+        }
+      ]
+    },
+    {
+      "id": "L215",
+      "title": "Estimating unobserved heterogeneity",
+      "parts": [
+        {
+          "id": "L215.1",
+          "title": "Estimating unobserved heterogeneity",
+          "videoId": "7g8C5_KEufM"
+        }
+      ]
+    },
+    {
+      "id": "L216",
+      "title": "The concept of R-Squared in Fixed Effects and LSDV estimators",
+      "parts": [
+        {
+          "id": "L216.1",
+          "title": "The concept of R-Squared in Fixed Effects and LSDV estimators",
+          "videoId": "M0uEjhRNddI"
+        }
+      ]
+    },
+    {
+      "id": "L217",
+      "title": "Fixed Effects, First Differences and Pooled OLS - intuition",
+      "parts": [
+        {
+          "id": "L217.1",
+          "title": "Fixed Effects, First Differences and Pooled OLS - intuition",
+          "videoId": "1SchyQ77VFg"
+        }
+      ]
+    },
+    {
+      "id": "L218",
+      "title": "Fixed Effects and First Differences comparison - part 1",
+      "parts": [
+        {
+          "id": "L218.1",
+          "title": "Fixed Effects and First Differences comparison - part 1",
+          "videoId": "G7WqK2o474Y"
+        }
+      ]
+    },
+    {
+      "id": "L219",
+      "title": "Fixed Effects and First Differences comparison - part 2",
+      "parts": [
+        {
+          "id": "L219.1",
+          "title": "Fixed Effects and First Differences comparison - part 2",
+          "videoId": "zZnk-HpGizI"
+        }
+      ]
+    },
+    {
+      "id": "L220",
+      "title": "Fixed Effects and First Differences comparison - part 3",
+      "parts": [
+        {
+          "id": "L220.1",
+          "title": "Fixed Effects and First Differences comparison - part 3",
+          "videoId": "SLvdik53JMQ"
+        }
+      ]
+    },
+    {
+      "id": "L221",
+      "title": "Random Effects Estimator - an introduction",
+      "parts": [
+        {
+          "id": "L221.1",
+          "title": "Random Effects Estimator - an introduction",
+          "videoId": "bQampZBzU9Q"
+        }
+      ]
+    },
+    {
+      "id": "L222",
+      "title": "How does Random Effects work?",
+      "parts": [
+        {
+          "id": "L222.1",
+          "title": "How does Random Effects work?",
+          "videoId": "EbdBHJYbOrg"
+        }
+      ]
+    },
+    {
+      "id": "L223",
+      "title": "Random Effects estimators as fGLS",
+      "parts": [
+        {
+          "id": "L223.1",
+          "title": "Random Effects estimators as fGLS",
+          "videoId": "1FHfvHv2kSM"
+        }
+      ]
+    },
+    {
+      "id": "L224",
+      "title": "Random Effects estimators - time-invariant variables effects benefit",
+      "parts": [
+        {
+          "id": "L224.1",
+          "title": "Random Effects estimators - time-invariant variables effects benefit",
+          "videoId": "hd-IdhWbWLI"
+        }
+      ]
+    },
+    {
+      "id": "L225",
+      "title": "Random Effects vs Fixed Effects estimators",
+      "parts": [
+        {
+          "id": "L225.1",
+          "title": "Random Effects vs Fixed Effects estimators",
+          "videoId": "weylnmScboA"
+        }
+      ]
+    },
+    {
+      "id": "L226",
+      "title": "Hausman test for Random Effects vs Fixed Effects",
+      "parts": [
+        {
+          "id": "L226.1",
+          "title": "Hausman test for Random Effects vs Fixed Effects",
+          "videoId": "54o4-bN9By4"
+        }
+      ]
+    },
+    {
+      "id": "L227",
+      "title": "Panel data conditions for consistency and unbiasedness of estimators",
+      "parts": [
+        {
+          "id": "L227.1",
+          "title": "Panel data conditions for consistency and unbiasedness of estimators",
+          "videoId": "gf6HvnDluOc"
+        }
+      ]
+    },
+    {
+      "id": "L228",
+      "title": "Panel data conditions for BLUE estimation and inference",
+      "parts": [
+        {
+          "id": "L228.1",
+          "title": "Panel data conditions for BLUE estimation and inference",
+          "videoId": "FLxc1J8MmxQ"
+        }
+      ]
+    },
+    {
+      "id": "L229",
+      "title": "The linear probability model - an introduction",
+      "parts": [
+        {
+          "id": "L229.1",
+          "title": "The linear probability model - an introduction",
+          "videoId": "RY31VsA67Uc"
+        }
+      ]
+    },
+    {
+      "id": "L230",
+      "title": "The linear probability model - example",
+      "parts": [
+        {
+          "id": "L230.1",
+          "title": "The linear probability model - example",
+          "videoId": "gFQo1Rttj6M"
+        }
+      ]
+    },
+    {
+      "id": "L231",
+      "title": "The problems with the linear probability model - part 1",
+      "parts": [
+        {
+          "id": "L231.1",
+          "title": "The problems with the linear probability model - part 1",
+          "videoId": "Q0BH-5OGwBc"
+        }
+      ]
+    },
+    {
+      "id": "L232",
+      "title": "The problems with the linear probability model - part 2",
+      "parts": [
+        {
+          "id": "L232.1",
+          "title": "The problems with the linear probability model - part 2",
+          "videoId": "pgPhbVEbYqw"
+        }
+      ]
+    },
+    {
+      "id": "L233",
+      "title": "The problems with the linear probability model - part 3",
+      "parts": [
+        {
+          "id": "L233.1",
+          "title": "The problems with the linear probability model - part 3",
+          "videoId": "pxQ8fs8w69M"
+        }
+      ]
+    },
+    {
+      "id": "L234",
+      "title": "Nonlinear discrete choice models - an introduction",
+      "parts": [
+        {
+          "id": "L234.1",
+          "title": "Nonlinear discrete choice models - an introduction",
+          "videoId": "8aUTmFs_LcQ"
+        }
+      ]
+    },
+    {
+      "id": "L235",
+      "title": "Discrete choice models - introduction to logit and probit",
+      "parts": [
+        {
+          "id": "L235.1",
+          "title": "Discrete choice models - introduction to logit and probit",
+          "videoId": "yPCQZeGWJjw"
+        }
+      ]
+    },
+    {
+      "id": "L236",
+      "title": "Discrete choice models - partial effect part 1",
+      "parts": [
+        {
+          "id": "L236.1",
+          "title": "Discrete choice models - partial effect part 1",
+          "videoId": "-9SlfOHCguk"
+        }
+      ]
+    },
+    {
+      "id": "L237",
+      "title": "Discrete choice models - partial effect part 2",
+      "parts": [
+        {
+          "id": "L237.1",
+          "title": "Discrete choice models - partial effect part 2",
+          "videoId": "1kqb2K6Zmpc"
+        }
+      ]
+    },
+    {
+      "id": "L238",
+      "title": "Nonlinear discrete choice model estimation",
+      "parts": [
+        {
+          "id": "L238.1",
+          "title": "Nonlinear discrete choice model estimation",
+          "videoId": "ZQ8YQwNBnmw"
+        }
+      ]
+    },
+    {
+      "id": "L239",
+      "title": "Maximum Likelihood estimation - an introduction part 1",
+      "parts": [
+        {
+          "id": "L239.1",
+          "title": "Maximum Likelihood estimation - an introduction part 1",
+          "videoId": "I_dhPETvll8"
+        }
+      ]
+    },
+    {
+      "id": "L240",
+      "title": "Maximum Likelihood estimation - an introduction part 2",
+      "parts": [
+        {
+          "id": "L240.1",
+          "title": "Maximum Likelihood estimation - an introduction part 2",
+          "videoId": "Z582V53dfr8"
+        }
+      ]
+    },
+    {
+      "id": "L241",
+      "title": "Maximum Likelihood estimation - an introduction part 3",
+      "parts": [
+        {
+          "id": "L241.1",
+          "title": "Maximum Likelihood estimation - an introduction part 3",
+          "videoId": "jpHreXjtw1Q"
+        }
+      ]
+    },
+    {
+      "id": "L242",
+      "title": "Why maximise 'log' likelihood?",
+      "parts": [
+        {
+          "id": "L242.1",
+          "title": "Why maximise 'log' likelihood?",
+          "videoId": "ddqny3aZNPY"
+        }
+      ]
+    },
+    {
+      "id": "L243",
+      "title": "The Cramer-Rao Lower Bound: Inference in Maximum Likelihood Estimation",
+      "parts": [
+        {
+          "id": "L243.1",
+          "title": "The Cramer-Rao Lower Bound: Inference in Maximum Likelihood Estimation",
+          "videoId": "igQIsYAlKlY"
+        }
+      ]
+    },
+    {
+      "id": "L244",
+      "title": "Maximum Likelihood - Cramer-Rao Lower Bound Intuition",
+      "parts": [
+        {
+          "id": "L244.1",
+          "title": "Maximum Likelihood - Cramer-Rao Lower Bound Intuition",
+          "videoId": "i0JiSddCXMM"
+        }
+      ]
+    },
+    {
+      "id": "L245",
+      "title": "Likelihood ratio test - introduction",
+      "parts": [
+        {
+          "id": "L245.1",
+          "title": "Likelihood ratio test - introduction",
+          "videoId": "Tn5y2i_MqQ8"
+        }
+      ]
+    },
+    {
+      "id": "L246",
+      "title": "Wald Test - introduction",
+      "parts": [
+        {
+          "id": "L246.1",
+          "title": "Wald Test - introduction",
+          "videoId": "TFKbyXAfr1M"
+        }
+      ]
+    },
+    {
+      "id": "L247",
+      "title": "Score test (Lagrange Multiplier test) - introduction",
+      "parts": [
+        {
+          "id": "L247.1",
+          "title": "Score test (Lagrange Multiplier test) - introduction",
+          "videoId": "Ck7EChMRQ9o"
+        }
+      ]
+    },
+    {
+      "id": "L248",
+      "title": "Maximum Likelihood estimators of population mean and variance - part 1",
+      "parts": [
+        {
+          "id": "L248.1",
+          "title": "Maximum Likelihood estimators of population mean and variance - part 1",
+          "videoId": "iDezY7m1S3g"
+        }
+      ]
+    },
+    {
+      "id": "L249",
+      "title": "Maximum Likelihood estimators of population mean and variance - part 2",
+      "parts": [
+        {
+          "id": "L249.1",
+          "title": "Maximum Likelihood estimators of population mean and variance - part 2",
+          "videoId": "3i1vd9jg0CQ"
+        }
+      ]
+    },
+    {
+      "id": "L250",
+      "title": "Maximum Likelihood estimators of population mean and variance - part 3",
+      "parts": [
+        {
+          "id": "L250.1",
+          "title": "Maximum Likelihood estimators of population mean and variance - part 3",
+          "videoId": "RUAzDnDH4Hs"
+        }
+      ]
+    },
+    {
+      "id": "L251",
+      "title": "Maximum likelihood: Normal error distribution - estimator variance part 1",
+      "parts": [
+        {
+          "id": "L251.1",
+          "title": "Maximum likelihood: Normal error distribution - estimator variance part 1",
+          "videoId": "HfFftnxfQ78"
+        }
+      ]
+    },
+    {
+      "id": "L252",
+      "title": "Maximum likelihood: Normal error distribution - estimator variance part 2",
+      "parts": [
+        {
+          "id": "L252.1",
+          "title": "Maximum likelihood: Normal error distribution - estimator variance part 2",
+          "videoId": "2GwzENe_1wM"
+        }
+      ]
+    },
+    {
+      "id": "L253",
+      "title": "Maximum likelihood: Normal error distribution - estimator variance part 3",
+      "parts": [
+        {
+          "id": "L253.1",
+          "title": "Maximum likelihood: Normal error distribution - estimator variance part 3",
+          "videoId": "IaLpmuITb84"
+        }
+      ]
+    },
+    {
+      "id": "L254",
+      "title": "Maximum Likelihood: Bernoulli random variables estimator variance part 1",
+      "parts": [
+        {
+          "id": "L254.1",
+          "title": "Maximum Likelihood: Bernoulli random variables estimator variance part 1",
+          "videoId": "KO1l8yZJqrg"
+        }
+      ]
+    },
+    {
+      "id": "L255",
+      "title": "Maximum Likelihood: Bernoulli random variables estimator variance part 2",
+      "parts": [
+        {
+          "id": "L255.1",
+          "title": "Maximum Likelihood: Bernoulli random variables estimator variance part 2",
+          "videoId": "ESKpJi2vLCw"
+        }
+      ]
+    },
+    {
+      "id": "L256",
+      "title": "Least Squares as a Maximum Likelihood estimator",
+      "parts": [
+        {
+          "id": "L256.1",
+          "title": "Least Squares as a Maximum Likelihood estimator",
+          "videoId": "_-Gnu498s3o"
+        }
+      ]
+    },
+    {
+      "id": "L257",
+      "title": "Least squares comparison with Maximum Likelihood - proof that OLS is BUE",
+      "parts": [
+        {
+          "id": "L257.1",
+          "title": "Least squares comparison with Maximum Likelihood - proof that OLS is BUE",
+          "videoId": "1ChjaRSZUZk"
+        }
+      ]
+    },
+    {
+      "id": "L258",
+      "title": "Maximum Likelihood estimation of Logit and Probit",
+      "parts": [
+        {
+          "id": "L258.1",
+          "title": "Maximum Likelihood estimation of Logit and Probit",
+          "videoId": "WflqTUOvdik"
+        }
+      ]
+    },
+    {
+      "id": "L259",
+      "title": "Log odds interpretation of logistic regression",
+      "parts": [
+        {
+          "id": "L259.1",
+          "title": "Log odds interpretation of logistic regression",
+          "videoId": "fJ53tIDbvTM"
+        }
+      ]
+    },
+    {
+      "id": "L260",
+      "title": "Probit model as a result of a latent variable model",
+      "parts": [
+        {
+          "id": "L260.1",
+          "title": "Probit model as a result of a latent variable model",
+          "videoId": "q-Fa6WzL60w"
+        }
+      ]
+    },
+    {
+      "id": "L261",
+      "title": "Simultaneous equation models - an introduction",
+      "parts": [
+        {
+          "id": "L261.1",
+          "title": "Simultaneous equation models - an introduction",
+          "videoId": "HfnFeJlkfZE"
+        }
+      ]
+    },
+    {
+      "id": "L262",
+      "title": "Simultaneous equation models - reduced form and structural equations",
+      "parts": [
+        {
+          "id": "L262.1",
+          "title": "Simultaneous equation models - reduced form and structural equations",
+          "videoId": "3j5IeuvSebQ"
+        }
+      ]
+    },
+    {
+      "id": "L263",
+      "title": "Simultaneous equation models - parameter identification",
+      "parts": [
+        {
+          "id": "L263.1",
+          "title": "Simultaneous equation models - parameter identification",
+          "videoId": "WcXQzp4IRyI"
+        }
+      ]
+    },
+    {
+      "id": "L264",
+      "title": "Simultaneous Equation Models: Order condition for parameter identification",
+      "parts": [
+        {
+          "id": "L264.1",
+          "title": "Simultaneous Equation Models: Order condition for parameter identification",
+          "videoId": "KcrBLFnh87o"
+        }
+      ]
+    },
+    {
+      "id": "L265",
+      "title": "Monte Carlo Simulation for estimators: An Introduction",
+      "parts": [
+        {
+          "id": "L265.1",
+          "title": "Monte Carlo Simulation for estimators: An Introduction",
+          "videoId": "5nM5e2_1OQ0"
+        }
+      ]
+    },
+    {
+      "id": "L266",
+      "title": "Monte Carlo Simulation for Ordinary Least Squares",
+      "parts": [
+        {
+          "id": "L266.1",
+          "title": "Monte Carlo Simulation for Ordinary Least Squares",
+          "videoId": "BsCgwERndJ0"
+        }
+      ]
+    },
+    {
+      "id": "L267",
+      "title": "Monte Carlo Simulation of Omitted Variable Bias in Least Squares",
+      "parts": [
+        {
+          "id": "L267.1",
+          "title": "Monte Carlo Simulation of Omitted Variable Bias in Least Squares",
+          "videoId": "BmQvpLiM1ks"
+        }
+      ]
+    },
+    {
+      "id": "L268",
+      "title": "Testing for significance of correlation",
+      "parts": [
+        {
+          "id": "L268.1",
+          "title": "Testing for significance of correlation",
+          "videoId": "zMOvsBI5Txo"
+        }
+      ]
+    },
+    {
+      "id": "L269",
+      "title": "One sample t test on mean",
+      "parts": [
+        {
+          "id": "L269.1",
+          "title": "One sample t test on mean",
+          "videoId": "46SqMrzQQ2w"
+        }
+      ]
+    },
+    {
+      "id": "L270",
+      "title": "Independent two sample t test for populations with equal variances",
+      "parts": [
+        {
+          "id": "L270.1",
+          "title": "Independent two sample t test for populations with equal variances",
+          "videoId": "kkDKRAKWPBQ"
+        }
+      ]
+    },
+    {
+      "id": "L271",
+      "title": "Variance Inflation Factors: testing for multicollinearity",
+      "parts": [
+        {
+          "id": "L271.1",
+          "title": "Variance Inflation Factors: testing for multicollinearity",
+          "videoId": "0SBIXgPVex8"
+        }
+      ]
+    }
+  ]
+}

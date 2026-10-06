@@ -1,0 +1,822 @@
+{
+  "name": "Ben Lambert A Graduate Course in Econometrics",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Graduate econometrics lecture series by Ben Lambert covering the matrix formulation of econometrics: vector differentiation, derivation of Ordinary Least Squares estimators, expectations and variance of random vectors, unbiasedness and the Gauss-Markov theorem, the geometric interpretation of least squares and orthogonal projection, error variance estimation, GLS under heteroscedasticity and autocorrelation, Kronecker products and SURE estimation, and causal inference with the Rubin causal model, selection bias, random assignment, conditional independence, and propensity score matching.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Introduction to the matrix formulation of econometrics",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Introduction to the matrix formulation of econometrics",
+          "videoId": "GMVh02WGhoc"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "The matrix formulation of econometrics - example",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "The matrix formulation of econometrics - example",
+          "videoId": "TNU-flAzSTM"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "How to differentiate with respect to a vector - part 1",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "How to differentiate with respect to a vector - part 1",
+          "videoId": "iWxY7VdcSH8"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "How to differentiate with respect to a vector - part 2",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "How to differentiate with respect to a vector - part 2",
+          "videoId": "uoejt0FCWWA"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "How to differentiate with respect to a vector - part 3",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "How to differentiate with respect to a vector - part 3",
+          "videoId": "i6fqfH5hx60"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 1",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 1",
+          "videoId": "fb1CNQT-3Pg"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 2",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 2",
+          "videoId": "qeezdYISDlU"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 3",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Ordinary Least Squares Estimators - derivation in matrix form - part 3",
+          "videoId": "C-uW45FSsNQ"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Expectations and variance of a random vector - part 1",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Expectations and variance of a random vector - part 1",
+          "videoId": "LzLV35hf9kI"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Expectations and variance of a random vector - part 2",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Expectations and variance of a random vector - part 2",
+          "videoId": "idakTYatAp8"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Expectations and variance of a random vector - part 3",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Expectations and variance of a random vector - part 3",
+          "videoId": "cX47XyPuBgQ"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Expectations and variance of a random vector - part 4",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Expectations and variance of a random vector - part 4",
+          "videoId": "RVO2KQASAIE"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Least Squares as an unbiased estimator - matrix formulation",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Least Squares as an unbiased estimator - matrix formulation",
+          "videoId": "T5kjKqkCvHc"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Variance of Least Squares Estimators - Matrix Form",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Variance of Least Squares Estimators - Matrix Form",
+          "videoId": "11J0M7WBMy8"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "The Gauss-Markov Theorem proof - matrix form - part 1",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "The Gauss-Markov Theorem proof - matrix form - part 1",
+          "videoId": "V5gR6nBOC9E"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "The Gauss-Markov Theorem proof - matrix form - part 2",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "The Gauss-Markov Theorem proof - matrix form - part 2",
+          "videoId": "ZIHFl4hF29U"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "The Gauss-Markov Theorem proof - matrix form - part 3",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "The Gauss-Markov Theorem proof - matrix form - part 3",
+          "videoId": "poLwOIw7j40"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Geometric Interpretation of Ordinary Least Squares: An Introduction",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Geometric Interpretation of Ordinary Least Squares: An Introduction",
+          "videoId": "oWuhZuLOEFY"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Geometric Interpretation of Ordinary Least Squares: An Example",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "Geometric Interpretation of Ordinary Least Squares: An Example",
+          "videoId": "444ZkgiHI3Q"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Geometric Least Squares - Column Space Intuition",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Geometric Least Squares - Column Space Intuition",
+          "videoId": "ZKJtB5WUgok"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Geometric interpretation of least squares - orthogonal projection",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Geometric interpretation of least squares - orthogonal projection",
+          "videoId": "XfgohvQmKPU"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Geometric interpretation of Least Squares: geometrical derivation of estimator",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Geometric interpretation of Least Squares: geometrical derivation of estimator",
+          "videoId": "PbyP3goun2Y"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Orthogonal Projection Operator in Least Squares - part 1",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Orthogonal Projection Operator in Least Squares - part 1",
+          "videoId": "My51wdv2Uz0"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Orthogonal Projection Operator in Least Squares - part 2",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Orthogonal Projection Operator in Least Squares - part 2",
+          "videoId": "_EJ_bAjJnjQ"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Orthogonal Projection Operator in Least Squares - part 3",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "Orthogonal Projection Operator in Least Squares - part 3",
+          "videoId": "tN_fP24vcyE"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "Estimating the error variance in matrix form - part 1",
+      "parts": [
+        {
+          "id": "L26.1",
+          "title": "Estimating the error variance in matrix form - part 1",
+          "videoId": "EGRNCoQR3T0"
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "Estimating the error variance in matrix form - part 2",
+      "parts": [
+        {
+          "id": "L27.1",
+          "title": "Estimating the error variance in matrix form - part 2",
+          "videoId": "v0ZEZHw3RHE"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "Estimating the error variance in matrix form - part 3",
+      "parts": [
+        {
+          "id": "L28.1",
+          "title": "Estimating the error variance in matrix form - part 3",
+          "videoId": "o3OxsXrrQb0"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "Estimating the error variance in matrix form - part 4",
+      "parts": [
+        {
+          "id": "L29.1",
+          "title": "Estimating the error variance in matrix form - part 4",
+          "videoId": "rZdsmmb0Q64"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "Estimating the error variance in matrix form - part 5",
+      "parts": [
+        {
+          "id": "L30.1",
+          "title": "Estimating the error variance in matrix form - part 5",
+          "videoId": "kgS7HdnoRGU"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "Estimating the error variance in matrix form - part 6",
+      "parts": [
+        {
+          "id": "L31.1",
+          "title": "Estimating the error variance in matrix form - part 6",
+          "videoId": "FPzhbenKTAo"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "Proof that the trace of Mx is p",
+      "parts": [
+        {
+          "id": "L32.1",
+          "title": "Proof that the trace of Mx is p",
+          "videoId": "-C0XibIYFuc"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "Representing homoscedasticity and no autocorrelation in matrix form - part 1",
+      "parts": [
+        {
+          "id": "L33.1",
+          "title": "Representing homoscedasticity and no autocorrelation in matrix form - part 1",
+          "videoId": "uhpTGCp41gI"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "Representing homoscedasticity and no autocorrelation in matrix form - part 2",
+      "parts": [
+        {
+          "id": "L34.1",
+          "title": "Representing homoscedasticity and no autocorrelation in matrix form - part 2",
+          "videoId": "b9lTWamhS5I"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "Representing heteroscedasticity in matrix form",
+      "parts": [
+        {
+          "id": "L35.1",
+          "title": "Representing heteroscedasticity in matrix form",
+          "videoId": "DoN_5B2wBWE"
+        }
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "BLUE estimators in presence of heteroscedasticity - GLS - part 1",
+      "parts": [
+        {
+          "id": "L36.1",
+          "title": "BLUE estimators in presence of heteroscedasticity - GLS - part 1",
+          "videoId": "wJq-fSh1KRo"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "BLUE estimators in presence of heteroscedasticity - GLS - part 2",
+      "parts": [
+        {
+          "id": "L37.1",
+          "title": "BLUE estimators in presence of heteroscedasticity - GLS - part 2",
+          "videoId": "JpW-jyp6nvQ"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "GLS estimators in matrix form - part 1",
+      "parts": [
+        {
+          "id": "L38.1",
+          "title": "GLS estimators in matrix form - part 1",
+          "videoId": "4oanu3D3q6o"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "GLS estimators in matrix form - part 2",
+      "parts": [
+        {
+          "id": "L39.1",
+          "title": "GLS estimators in matrix form - part 2",
+          "videoId": "Y0dq81t0hAk"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "GLS estimators in matrix form - part 3",
+      "parts": [
+        {
+          "id": "L40.1",
+          "title": "GLS estimators in matrix form - part 3",
+          "videoId": "XusocSxLGkA"
+        }
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "The variance of GLS estimators",
+      "parts": [
+        {
+          "id": "L41.1",
+          "title": "The variance of GLS estimators",
+          "videoId": "JEQPis80KNw"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "GLS - example in matrix form",
+      "parts": [
+        {
+          "id": "L42.1",
+          "title": "GLS - example in matrix form",
+          "videoId": "weO1sgcFTTU"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "GLS estimators in the presence of autocorrelation and heteroscedasticity in matrix form",
+      "parts": [
+        {
+          "id": "L43.1",
+          "title": "GLS estimators in the presence of autocorrelation and heteroscedasticity in matrix form",
+          "videoId": "zK0IQNVmg2k"
+        }
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "The Kronecker Product of two matrices - an introduction",
+      "parts": [
+        {
+          "id": "L44.1",
+          "title": "The Kronecker Product of two matrices - an introduction",
+          "videoId": "e1UJXvu8VZk"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "SURE estimation - an introduction - part 1",
+      "parts": [
+        {
+          "id": "L45.1",
+          "title": "SURE estimation - an introduction - part 1",
+          "videoId": "c5xaUMM3_IQ"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "title": "SURE estimation - an introduction - part 2",
+      "parts": [
+        {
+          "id": "L46.1",
+          "title": "SURE estimation - an introduction - part 2",
+          "videoId": "rp4WJAvQe1Y"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "title": "SURE estimation - autocorrelation and heteroscedasticity",
+      "parts": [
+        {
+          "id": "L47.1",
+          "title": "SURE estimation - autocorrelation and heteroscedasticity",
+          "videoId": "jqoIDFOUWKY"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "title": "SURE estimator derivation - part 1",
+      "parts": [
+        {
+          "id": "L48.1",
+          "title": "SURE estimator derivation - part 1",
+          "videoId": "2qJ_S3_wUSg"
+        }
+      ]
+    },
+    {
+      "id": "L49",
+      "title": "SURE estimator derivation - part 2",
+      "parts": [
+        {
+          "id": "L49.1",
+          "title": "SURE estimator derivation - part 2",
+          "videoId": "N3d-MjUsUcs"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "title": "Kronecker Matrix Product - properties",
+      "parts": [
+        {
+          "id": "L50.1",
+          "title": "Kronecker Matrix Product - properties",
+          "videoId": "Oj3b7PJskN0"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "title": "SURE estimator - same independent variables - part 1",
+      "parts": [
+        {
+          "id": "L51.1",
+          "title": "SURE estimator - same independent variables - part 1",
+          "videoId": "Peos-c5wfAY"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "title": "SURE estimator - same independent variables - part 2",
+      "parts": [
+        {
+          "id": "L52.1",
+          "title": "SURE estimator - same independent variables - part 2",
+          "videoId": "zrpZVzrCJEg"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "title": "SURE estimator - same independent variables - part 3",
+      "parts": [
+        {
+          "id": "L53.1",
+          "title": "SURE estimator - same independent variables - part 3",
+          "videoId": "PlehWW6HBhU"
+        }
+      ]
+    },
+    {
+      "id": "L54",
+      "title": "Causality - an introduction",
+      "parts": [
+        {
+          "id": "L54.1",
+          "title": "Causality - an introduction",
+          "videoId": "Sqy_b5OSiXw"
+        }
+      ]
+    },
+    {
+      "id": "L55",
+      "title": "The Rubin Causal model - an introduction",
+      "parts": [
+        {
+          "id": "L55.1",
+          "title": "The Rubin Causal model - an introduction",
+          "videoId": "LrmrH26EhSo"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "title": "Causation in econometrics - a simple comparison of group means",
+      "parts": [
+        {
+          "id": "L56.1",
+          "title": "Causation in econometrics - a simple comparison of group means",
+          "videoId": "uKP4MnvUGEk"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "title": "Causation in econometrics - selection bias and average causal effect",
+      "parts": [
+        {
+          "id": "L57.1",
+          "title": "Causation in econometrics - selection bias and average causal effect",
+          "videoId": "RKGw2Lp6Y8I"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "title": "Random assignment - removes selection bias",
+      "parts": [
+        {
+          "id": "L58.1",
+          "title": "Random assignment - removes selection bias",
+          "videoId": "pE6zYPjFh4A"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "title": "How to check if treatment is randomly assigned?",
+      "parts": [
+        {
+          "id": "L59.1",
+          "title": "How to check if treatment is randomly assigned?",
+          "videoId": "FLQ_ittU1gc"
+        }
+      ]
+    },
+    {
+      "id": "L60",
+      "title": "The conditional independence assumption: introduction",
+      "parts": [
+        {
+          "id": "L60.1",
+          "title": "The conditional independence assumption: introduction",
+          "videoId": "PGal4YQQvZ4"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "title": "The conditional independence assumption - intuition",
+      "parts": [
+        {
+          "id": "L61.1",
+          "title": "The conditional independence assumption - intuition",
+          "videoId": "XJrTIsy_2Mk"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "title": "The average causal effect - an example",
+      "parts": [
+        {
+          "id": "L62.1",
+          "title": "The average causal effect - an example",
+          "videoId": "2544TkPttCQ"
+        }
+      ]
+    },
+    {
+      "id": "L63",
+      "title": "The average causal effect with continuous treatment variables",
+      "parts": [
+        {
+          "id": "L63.1",
+          "title": "The average causal effect with continuous treatment variables",
+          "videoId": "1-jjb6Y8gMQ"
+        }
+      ]
+    },
+    {
+      "id": "L64",
+      "title": "Conditional Independence Assumption for Continuous Variables",
+      "parts": [
+        {
+          "id": "L64.1",
+          "title": "Conditional Independence Assumption for Continuous Variables",
+          "videoId": "KdzNKozVDAI"
+        }
+      ]
+    },
+    {
+      "id": "L65",
+      "title": "Linear regression and causality",
+      "parts": [
+        {
+          "id": "L65.1",
+          "title": "Linear regression and causality",
+          "videoId": "fvz-qdS4WFI"
+        }
+      ]
+    },
+    {
+      "id": "L66",
+      "title": "Selection bias as viewed as a problem with samples",
+      "parts": [
+        {
+          "id": "L66.1",
+          "title": "Selection bias as viewed as a problem with samples",
+          "videoId": "s691VU9oFjc"
+        }
+      ]
+    },
+    {
+      "id": "L67",
+      "title": "Sample balancing via stratification and matching",
+      "parts": [
+        {
+          "id": "L67.1",
+          "title": "Sample balancing via stratification and matching",
+          "videoId": "GWqT3bCjWh0"
+        }
+      ]
+    },
+    {
+      "id": "L68",
+      "title": "Propensity score - introduction and theorem",
+      "parts": [
+        {
+          "id": "L68.1",
+          "title": "Propensity score - introduction and theorem",
+          "videoId": "s1YpulokvEQ"
+        }
+      ]
+    },
+    {
+      "id": "L69",
+      "title": "The Law of Iterated Expectations: an introduction",
+      "parts": [
+        {
+          "id": "L69.1",
+          "title": "The Law of Iterated Expectations: an introduction",
+          "videoId": "Ki2HpTCPwhM"
+        }
+      ]
+    },
+    {
+      "id": "L70",
+      "title": "The Law of Iterated Expectations: introduction to nested form",
+      "parts": [
+        {
+          "id": "L70.1",
+          "title": "The Law of Iterated Expectations: introduction to nested form",
+          "videoId": "6EauZqeAxcM"
+        }
+      ]
+    },
+    {
+      "id": "L71",
+      "title": "Propensity score theorem proof - part 1",
+      "parts": [
+        {
+          "id": "L71.1",
+          "title": "Propensity score theorem proof - part 1",
+          "videoId": "nnC1tlircdE"
+        }
+      ]
+    },
+    {
+      "id": "L72",
+      "title": "Propensity score theorem proof - part 2",
+      "parts": [
+        {
+          "id": "L72.1",
+          "title": "Propensity score theorem proof - part 2",
+          "videoId": "YwzkQnpXLDM"
+        }
+      ]
+    },
+    {
+      "id": "L73",
+      "title": "Propensity score matching: an introduction",
+      "parts": [
+        {
+          "id": "L73.1",
+          "title": "Propensity score matching: an introduction",
+          "videoId": "h0UU6trKR0E"
+        }
+      ]
+    },
+    {
+      "id": "L74",
+      "title": "Propensity score matching - mathematics behind estimation",
+      "parts": [
+        {
+          "id": "L74.1",
+          "title": "Propensity score matching - mathematics behind estimation",
+          "videoId": "S_2Al_v3oK4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Steve Brunton Singular Value Decomposition",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Lecture series by Steve Brunton on chapter 1 of Data-Driven Science and Engineering: the SVD, matrix approximation, unitary transformations, least squares and the pseudoinverse, linear regression, PCA, eigenfaces, optimal truncation, alignment, and randomized SVD. Most topics come as a concept lecture followed by Matlab and Python code videos.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Singular Value Decomposition (SVD): Overview",
+      "parts": [
+        {"id": "L01.1", "title": "Singular Value Decomposition (SVD): Overview", "videoId": "gXbThCXjZFM"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Singular Value Decomposition (SVD): Mathematical Overview",
+      "parts": [
+        {"id": "L02.1", "title": "Singular Value Decomposition (SVD): Mathematical Overview", "videoId": "nbBvuuNVfco"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Singular Value Decomposition (SVD): Matrix Approximation",
+      "parts": [
+        {"id": "L03.1", "title": "Singular Value Decomposition (SVD): Matrix Approximation", "videoId": "xy3QyyhiuY4"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Singular Value Decomposition (SVD): Dominant Correlations",
+      "parts": [
+        {"id": "L04.1", "title": "Singular Value Decomposition (SVD): Dominant Correlations", "videoId": "WmDnaoY2Ivs"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "SVD: Image Compression [Matlab]",
+      "parts": [
+        {"id": "L05.1", "title": "SVD: Image Compression [Matlab]", "videoId": "QQ8vxj-9OfQ"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "SVD: Image Compression [Python]",
+      "parts": [
+        {"id": "L06.1", "title": "SVD: Image Compression [Python]", "videoId": "H7qMMudo3e8"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "The Frobenius Norm for Matrices",
+      "parts": [
+        {"id": "L07.1", "title": "The Frobenius Norm for Matrices", "videoId": "Gt56YxMBlVA"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "SVD Method of Snapshots",
+      "parts": [
+        {"id": "L08.1", "title": "SVD Method of Snapshots", "videoId": "rs63fnUWJkk"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Matrix Completion and the Netflix Prize",
+      "parts": [
+        {"id": "L09.1", "title": "Matrix Completion and the Netflix Prize", "videoId": "sooj-_bXWgk"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Unitary Transformations",
+      "parts": [
+        {"id": "L10.1", "title": "Unitary Transformations", "videoId": "46Hpy4FiGls"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Unitary Transformations and the SVD [Matlab]",
+      "parts": [
+        {"id": "L11.1", "title": "Unitary Transformations and the SVD [Matlab]", "videoId": "_wOt50VnJw4"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Unitary Transformations and the SVD [Python]",
+      "parts": [
+        {"id": "L12.1", "title": "Unitary Transformations and the SVD [Python]", "videoId": "MJAvyt9v0g4"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Linear Systems of Equations, Least Squares Regression, Pseudoinverse",
+      "parts": [
+        {"id": "L13.1", "title": "Linear Systems of Equations, Least Squares Regression, Pseudoinverse", "videoId": "PjeOmOz9jSY"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Least Squares Regression and the SVD",
+      "parts": [
+        {"id": "L14.1", "title": "Least Squares Regression and the SVD", "videoId": "02QCtHM1qb4"}
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Linear Systems of Equations, Ax=b",
+      "parts": [
+        {"id": "L15.1", "title": "Linear Systems of Equations, Ax=b", "videoId": "N9uf0YGDaWk"}
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Linear Regression",
+      "parts": [
+        {"id": "L16.1", "title": "Linear Regression", "videoId": "EDPCsD6BzWE"}
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Linear Regression 1 [Matlab]",
+      "parts": [
+        {"id": "L17.1", "title": "Linear Regression 1 [Matlab]", "videoId": "AX_ZDX6aTT0"}
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Linear Regression 2 [Matlab]",
+      "parts": [
+        {"id": "L18.1", "title": "Linear Regression 2 [Matlab]", "videoId": "_HTjxl_sdUA"}
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Linear Regression 1 [Python]",
+      "parts": [
+        {"id": "L19.1", "title": "Linear Regression 1 [Python]", "videoId": "q6ksri0LeDE"}
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Linear Regression 2 [Python]",
+      "parts": [
+        {"id": "L20.1", "title": "Linear Regression 2 [Python]", "videoId": "88_wgLgx0_k"}
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Linear Regression 3 [Python]",
+      "parts": [
+        {"id": "L21.1", "title": "Linear Regression 3 [Python]", "videoId": "vNjLugdaGvs"}
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Principal Component Analysis (PCA)",
+      "parts": [
+        {"id": "L22.1", "title": "Principal Component Analysis (PCA)", "videoId": "fkf4IBRSeEc"}
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Principal Component Analysis (PCA) [Matlab]",
+      "parts": [
+        {"id": "L23.1", "title": "Principal Component Analysis (PCA) [Matlab]", "videoId": "VqjJ5YYt78Y"}
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Principal Component Analysis (PCA) 1 [Python]",
+      "parts": [
+        {"id": "L24.1", "title": "Principal Component Analysis (PCA) 1 [Python]", "videoId": "Oi4SJqJIL2E"}
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Principal Component Analysis (PCA) 2 [Python]",
+      "parts": [
+        {"id": "L25.1", "title": "Principal Component Analysis (PCA) 2 [Python]", "videoId": "fu7uXxZMzC8"}
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "SVD: Eigenfaces 1 [Matlab]",
+      "parts": [
+        {"id": "L26.1", "title": "SVD: Eigenfaces 1 [Matlab]", "videoId": "XwTW_YA3HG0"}
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "SVD: Eigenfaces 2 [Matlab]",
+      "parts": [
+        {"id": "L27.1", "title": "SVD: Eigenfaces 2 [Matlab]", "videoId": "I6cmIKIdROU"}
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "SVD: Eigenfaces 3 [Matlab]",
+      "parts": [
+        {"id": "L28.1", "title": "SVD: Eigenfaces 3 [Matlab]", "videoId": "dN4hIUhjUt0"}
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "SVD: Eigenfaces 4 [Matlab]",
+      "parts": [
+        {"id": "L29.1", "title": "SVD: Eigenfaces 4 [Matlab]", "videoId": "0y1LzRhQ4-I"}
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "SVD: Eigen Action Heros [Matlab]",
+      "parts": [
+        {"id": "L30.1", "title": "SVD: Eigen Action Heros [Matlab]", "videoId": "SD4NfEKZ_p8"}
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "SVD: Eigenfaces 1 [Python]",
+      "parts": [
+        {"id": "L31.1", "title": "SVD: Eigenfaces 1 [Python]", "videoId": "ofWji_wQBEE"}
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "SVD: Eigenfaces 2 [Python]",
+      "parts": [
+        {"id": "L32.1", "title": "SVD: Eigenfaces 2 [Python]", "videoId": "yYdYrAKghF4"}
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "SVD: Eigenfaces 3 [Python]",
+      "parts": [
+        {"id": "L33.1", "title": "SVD: Eigenfaces 3 [Python]", "videoId": "SsNXg6KpLSU"}
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "SVD and Optimal Truncation",
+      "parts": [
+        {"id": "L34.1", "title": "SVD and Optimal Truncation", "videoId": "9vJDjkx825k"}
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "SVD: Optimal Truncation [Matlab]",
+      "parts": [
+        {"id": "L35.1", "title": "SVD: Optimal Truncation [Matlab]", "videoId": "u4LG9z4AAdM"}
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "SVD: Optimal Truncation [Python]",
+      "parts": [
+        {"id": "L36.1", "title": "SVD: Optimal Truncation [Python]", "videoId": "epoHE2rex0g"}
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "SVD and Alignment: A Cautionary Tale",
+      "parts": [
+        {"id": "L37.1", "title": "SVD and Alignment: A Cautionary Tale", "videoId": "qfZcTtjBTSA"}
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "SVD: Importance of Alignment [Python]",
+      "parts": [
+        {"id": "L38.1", "title": "SVD: Importance of Alignment [Python]", "videoId": "5s2XU6FHoCs"}
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "SVD: Importance of Alignment [Matlab]",
+      "parts": [
+        {"id": "L39.1", "title": "SVD: Importance of Alignment [Matlab]", "videoId": "OaCmD08xxGw"}
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "Randomized Singular Value Decomposition (SVD)",
+      "parts": [
+        {"id": "L40.1", "title": "Randomized Singular Value Decomposition (SVD)", "videoId": "fJ2EyvR85ro"}
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "Randomized SVD: Power Iterations and Oversampling",
+      "parts": [
+        {"id": "L41.1", "title": "Randomized SVD: Power Iterations and Oversampling", "videoId": "UXXMbpLI7AM"}
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "Randomized SVD Code [Matlab]",
+      "parts": [
+        {"id": "L42.1", "title": "Randomized SVD Code [Matlab]", "videoId": "AFyfEqh6g3I"}
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "Randomized SVD Code [Python]",
+      "parts": [
+        {"id": "L43.1", "title": "Randomized SVD Code [Python]", "videoId": "vDSi271vUWk"}
+      ]
+    }
+  ]
+}

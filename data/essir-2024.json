@@ -1,0 +1,127 @@
+{
+  "name": "ESSIR 2024 European Summer School in Information Retrieval",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Lecture recordings from ESSIR 2024: IR foundations, deep learning and transformer language models, retrieval and re-ranking, LLMs for IR, generative and conversational IR, LLMs and IR evaluation, user models, fairness, explainability, learning to rank, and IR evaluation and user modelling. An unofficial upload by an attendee, not the school's own channel.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "42 Things to Know about IR",
+      "parts": [
+        {"id": "L01.1", "title": "42 Things to Know about IR", "videoId": "PT5R3LFrszM"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Introduction to Deep Learning",
+      "parts": [
+        {"id": "L02.1", "title": "Introduction to Deep Learning", "videoId": "q61iIGaTv7k"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Transformer-Based Language Models",
+      "parts": [
+        {"id": "L03.1", "title": "Transformer-Based Language Models", "videoId": "ZmK9v2zMqns"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Training LLMs at Scale",
+      "parts": [
+        {"id": "L04.1", "title": "Training LLMs at Scale", "videoId": "bE0A9nHmUzs"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Introduction to Recommender Systems",
+      "parts": [
+        {"id": "L05.1", "title": "Introduction to Recommender Systems", "videoId": "WR83pfKO35Y"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Retrieval and Re-Ranking",
+      "parts": [
+        {"id": "L06.1", "title": "Retrieval and Re-Ranking", "videoId": "IJB2otQfzvE"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Improvements That Add Up",
+      "parts": [
+        {"id": "L07.1", "title": "Improvements That Add Up", "videoId": "u83lpBzClBA"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "LLMs for IR",
+      "parts": [
+        {"id": "L08.1", "title": "LLMs for IR", "videoId": "N33CF790k9M"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Generative IR",
+      "parts": [
+        {"id": "L09.1", "title": "Generative IR", "videoId": "7kTHTg1Ad3g"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "LLMs and IR Evaluation",
+      "parts": [
+        {"id": "L10.1", "title": "LLMs and IR Evaluation", "videoId": "YqGiYKS-BUo"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Conversational IR",
+      "parts": [
+        {"id": "L11.1", "title": "Conversational IR", "videoId": "lvOQ-V1EoMU"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "User Models and Interactive IR",
+      "parts": [
+        {"id": "L12.1", "title": "User Models and Interactive IR", "videoId": "jrv76NIb2Qg"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Fairness in IR",
+      "parts": [
+        {"id": "L13.1", "title": "Fairness in IR", "videoId": "FXRBFriHPV8"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Explainable IR",
+      "parts": [
+        {"id": "L14.1", "title": "Explainable IR", "videoId": "pqU1dNzPO7w"}
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Neural Recommender Systems",
+      "parts": [
+        {"id": "L15.1", "title": "Neural Recommender Systems", "videoId": "Tan2o8osnW8"}
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Learning to Rank",
+      "parts": [
+        {"id": "L16.1", "title": "Learning to Rank", "videoId": "vXd3JZKAmeE"}
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "IR Evaluation and User Modelling",
+      "parts": [
+        {"id": "L17.1", "title": "IR Evaluation and User Modelling", "videoId": "GLnBwAs3QlQ"}
+      ]
+    }
+  ]
+}

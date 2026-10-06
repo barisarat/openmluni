@@ -1,0 +1,57 @@
+{
+  "name": "Sebastian Raschka Build a Large Language Model from Scratch",
+  "category": "CS",
+  "kind": "course",
+  "desc": "The code-along videos for his book Build a Large Language Model (From Scratch): environment setup, text data and tokenization, attention, a GPT model that generates text, pretraining, finetuning for classification, and instruction finetuning, in PyTorch. Long sessions, one per chapter.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "1: Set up your code environment",
+      "parts": [
+        {"id": "L01.1", "title": "1: Set up your code environment", "videoId": "yAcWnfsZhzo"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "2: Working with text data",
+      "parts": [
+        {"id": "L02.1", "title": "2: Working with text data", "videoId": "341Rb8fJxY0"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "3: Coding attention mechanisms",
+      "parts": [
+        {"id": "L03.1", "title": "3: Coding attention mechanisms", "videoId": "-Ll8DtpNtvk"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "4: Implementing a GPT model from Scratch To Generate Text",
+      "parts": [
+        {"id": "L04.1", "title": "4: Implementing a GPT model from Scratch To Generate Text", "videoId": "YSAkgEarBGE"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "5: Pretraining on Unlabeled Data",
+      "parts": [
+        {"id": "L05.1", "title": "5: Pretraining on Unlabeled Data", "videoId": "Zar2TJv-sE0"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "6: Finetuning for Classification",
+      "parts": [
+        {"id": "L06.1", "title": "6: Finetuning for Classification", "videoId": "5PFXJYme4ik"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "7: Instruction Finetuning",
+      "parts": [
+        {"id": "L07.1", "title": "7: Instruction Finetuning", "videoId": "4yNswvhPWCQ"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "name": "MIT 6.0002 Introduction to Computational Thinking and Data Science",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Full lecture series from MIT OpenCourseWare covering optimization problems, graph-theoretic models, stochastic thinking, random walks, Monte Carlo simulation, confidence intervals, sampling and standard error, understanding experimental data, and an introduction to machine learning with clustering, classification, and statistical sins. Fall 2016.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "1. Introduction, Optimization Problems",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "1. Introduction, Optimization Problems",
+          "videoId": "C1lhuz6pZC0"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "2. Optimization Problems",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "2. Optimization Problems",
+          "videoId": "uK5yvoXnkSk"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "3. Graph-theoretic Models",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "3. Graph-theoretic Models",
+          "videoId": "V_TulH374hw"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "4. Stochastic Thinking",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "4. Stochastic Thinking",
+          "videoId": "-1BnXEwHUok"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "5. Random Walks",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "5. Random Walks",
+          "videoId": "6wUD_gp5WeE"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "6. Monte Carlo Simulation",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "6. Monte Carlo Simulation",
+          "videoId": "OgO1gpXSUzU"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "7. Confidence Intervals",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "7. Confidence Intervals",
+          "videoId": "rUxP7TM8-wo"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "8. Sampling and Standard Error",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "8. Sampling and Standard Error",
+          "videoId": "soZv_KKax3E"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "9. Understanding Experimental Data",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "9. Understanding Experimental Data",
+          "videoId": "vIFKGFl1Cn8"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "10. Understanding Experimental Data (cont.)",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "10. Understanding Experimental Data (cont.)",
+          "videoId": "fQvg-hh9dUw"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "11. Introduction to Machine Learning",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "11. Introduction to Machine Learning",
+          "videoId": "h0e2HAPTGF4"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "12. Clustering",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "12. Clustering",
+          "videoId": "esmzYhuFnds"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "13. Classification",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "13. Classification",
+          "videoId": "eg8DJYwdMyg"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "14. Classification and Statistical Sins",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "14. Classification and Statistical Sins",
+          "videoId": "K2SC-WPdT6k"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "15. Statistical Sins and Wrap Up",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "15. Statistical Sins and Wrap Up",
+          "videoId": "iOZVbILaIZc"
+        }
+      ]
+    }
+  ]
+}

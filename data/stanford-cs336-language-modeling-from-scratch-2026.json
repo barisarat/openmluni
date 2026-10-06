@@ -1,0 +1,134 @@
+{
+  "name": "Stanford CS336 Language Modeling from Scratch 2026",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Spring 2026 edition. Building a language model end to end: tokenization, PyTorch, architectures and attention alternatives, GPUs and kernels, parallelism, scaling laws, inference, evaluation, data, mid- and post-training with RLVR, alignment and multimodality, plus a guest lecture.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture 1: Overview, Tokenization",
+      "parts": [
+        {"id": "L01.1", "title": "Lecture 1: Overview, Tokenization", "videoId": "JuoVZkPBiKk"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture 2: PyTorch (einops)",
+      "parts": [
+        {"id": "L02.1", "title": "Lecture 2: PyTorch (einops)", "videoId": "kuYAsz7zspQ"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture 3: Architectures",
+      "parts": [
+        {"id": "L03.1", "title": "Lecture 3: Architectures", "videoId": "lVynu4bo1rY"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture 4: Attention Alternatives",
+      "parts": [
+        {"id": "L04.1", "title": "Lecture 4: Attention Alternatives", "videoId": "cKSwj_qZ8Jg"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture 5: GPUs, TPUs",
+      "parts": [
+        {"id": "L05.1", "title": "Lecture 5: GPUs, TPUs", "videoId": "izZba4UA7iY"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture 6: Kernels, Triton, XLA",
+      "parts": [
+        {"id": "L06.1", "title": "Lecture 6: Kernels, Triton, XLA", "videoId": "xnDHaNUvHBg"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture 7: Parallelism",
+      "parts": [
+        {"id": "L07.1", "title": "Lecture 7: Parallelism", "videoId": "SzpOcwdIL0Y"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture 8: Parallelism",
+      "parts": [
+        {"id": "L08.1", "title": "Lecture 8: Parallelism", "videoId": "6-cXp-aOmdg"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture 9: Scaling Laws",
+      "parts": [
+        {"id": "L09.1", "title": "Lecture 9: Scaling Laws", "videoId": "Q15rhEWZPQ4"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture 10: Inference",
+      "parts": [
+        {"id": "L10.1", "title": "Lecture 10: Inference", "videoId": "EfM546A79aM"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture 11: Scaling Laws",
+      "parts": [
+        {"id": "L11.1", "title": "Lecture 11: Scaling Laws", "videoId": "vTfEyOyzV9E"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lecture 12: Evaluation",
+      "parts": [
+        {"id": "L12.1", "title": "Lecture 12: Evaluation", "videoId": "JpAxdTWQJxM"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Lecture 13: Data (Sources, Datasets)",
+      "parts": [
+        {"id": "L13.1", "title": "Lecture 13: Data (Sources, Datasets)", "videoId": "-qm0ln33G24"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Lecture 14: Data",
+      "parts": [
+        {"id": "L14.1", "title": "Lecture 14: Data", "videoId": "5sxHosTLPF8"}
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Lecture 15: Mid/Post-Training",
+      "parts": [
+        {"id": "L15.1", "title": "Lecture 15: Mid/Post-Training", "videoId": "2oH6PWPrYFo"}
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Lecture 16: Post-Training - RLVR",
+      "parts": [
+        {"id": "L16.1", "title": "Lecture 16: Post-Training - RLVR", "videoId": "dIFAi87Ws4E"}
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Lecture 17: Alignment - Multimodality",
+      "parts": [
+        {"id": "L17.1", "title": "Lecture 17: Alignment - Multimodality", "videoId": "26FtD08ZpOU"}
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Guest Lecture: Dan Fu",
+      "parts": [
+        {"id": "L18.1", "title": "Guest Lecture: Dan Fu", "videoId": "9EEm4iMAF5s"}
+      ]
+    }
+  ]
+}

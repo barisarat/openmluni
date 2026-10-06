@@ -1,0 +1,327 @@
+{
+  "name": "Stanford Writing in the Sciences",
+  "category": "Writing",
+  "kind": "course",
+  "desc": "Kristin Sainani's Writing in the Sciences, reconstructed from the sciwrite stanford channel (no playlist exists there; ordering rebuilt by unit.module from the channel uploads on 2026-09-01). The 2013 series only: unit 7.5, 7.6 and 8.4 were uploaded under Demo Edit titles and are slotted into their unit positions; 8.5 was never published. Four standalone demo-editing sessions close the course. The channel's 2021 Module-X-Y-NEWER re-recordings and the alternate Unit1 Mod1 cut are deliberately excluded - originals only. Lecture 1.1 also seeds the my-youtube professional-scientific-writing playlist as the way in.",
+  "lectures": [
+    {
+      "id": "U1",
+      "title": "Unit 1",
+      "parts": [
+        {
+          "id": "U1.1",
+          "title": "Module 1.1",
+          "videoId": "x33Km7hRzP0"
+        },
+        {
+          "id": "U1.2",
+          "title": "Module 1.2",
+          "videoId": "Tf0hJn7XWCs"
+        },
+        {
+          "id": "U1.3",
+          "title": "Module 1.3",
+          "videoId": "BAuxFWGORAM"
+        },
+        {
+          "id": "U1.4",
+          "title": "Module 1.4",
+          "videoId": "5ipMnCBifec"
+        },
+        {
+          "id": "U1.5",
+          "title": "Module 1.5",
+          "videoId": "w0R3Jr5qFUM"
+        },
+        {
+          "id": "U1.6",
+          "title": "Module 1.6",
+          "videoId": "68N-xrlzK64"
+        }
+      ]
+    },
+    {
+      "id": "U2",
+      "title": "Unit 2",
+      "parts": [
+        {
+          "id": "U2.1",
+          "title": "Module 2.1",
+          "videoId": "aZqjYzW-jtw"
+        },
+        {
+          "id": "U2.2",
+          "title": "Module 2.2",
+          "videoId": "tQHSp5VW63A"
+        },
+        {
+          "id": "U2.3",
+          "title": "Module 2.3",
+          "videoId": "XwBzeTfymBU"
+        },
+        {
+          "id": "U2.4",
+          "title": "Module 2.4",
+          "videoId": "VnAsdOG_1Tw"
+        },
+        {
+          "id": "U2.5",
+          "title": "Module 2.5",
+          "videoId": "LP_XGJgzWRo"
+        },
+        {
+          "id": "U2.6",
+          "title": "Module 2.6",
+          "videoId": "odGGS0uXRqs"
+        }
+      ]
+    },
+    {
+      "id": "U3",
+      "title": "Unit 3",
+      "parts": [
+        {
+          "id": "U3.1",
+          "title": "Module 3.1",
+          "videoId": "1stuu97jZjw"
+        },
+        {
+          "id": "U3.2",
+          "title": "Module 3.2",
+          "videoId": "hdKBmU7PTsY"
+        },
+        {
+          "id": "U3.3",
+          "title": "Module 3.3",
+          "videoId": "ScAyBtAivzk"
+        },
+        {
+          "id": "U3.4",
+          "title": "Module 3.4",
+          "videoId": "hOIBDSoxkls"
+        },
+        {
+          "id": "U3.5",
+          "title": "Module 3.5",
+          "videoId": "MIQhwBVuEmE"
+        },
+        {
+          "id": "U3.6",
+          "title": "Module 3.6",
+          "videoId": "xweGSvpHuxQ"
+        }
+      ]
+    },
+    {
+      "id": "U4",
+      "title": "Unit 4",
+      "parts": [
+        {
+          "id": "U4.1",
+          "title": "Module 4.1",
+          "videoId": "UH-VIonXNlk"
+        },
+        {
+          "id": "U4.2",
+          "title": "Module 4.2",
+          "videoId": "3GeyoQUDAE4"
+        },
+        {
+          "id": "U4.3",
+          "title": "Module 4.3",
+          "videoId": "KvBEMS6zcGc"
+        },
+        {
+          "id": "U4.4",
+          "title": "Module 4.4",
+          "videoId": "1ediizv2f3s"
+        },
+        {
+          "id": "U4.5",
+          "title": "Module 4.5",
+          "videoId": "ZURGKkABcRs"
+        },
+        {
+          "id": "U4.6",
+          "title": "Module 4.6",
+          "videoId": "TVEVgTTMuow"
+        },
+        {
+          "id": "U4.7",
+          "title": "Module 4.7",
+          "videoId": "O4kDqls9pZQ"
+        }
+      ]
+    },
+    {
+      "id": "U5",
+      "title": "Unit 5",
+      "parts": [
+        {
+          "id": "U5.1",
+          "title": "Module 5.1",
+          "videoId": "sl9o1cVaX2s"
+        },
+        {
+          "id": "U5.2",
+          "title": "Module 5.2",
+          "videoId": "O_BmWssXPhw"
+        },
+        {
+          "id": "U5.3",
+          "title": "Module 5.3",
+          "videoId": "GJdrfsnXSrA"
+        },
+        {
+          "id": "U5.4",
+          "title": "Module 5.4",
+          "videoId": "Hmi0T1NCX2w"
+        },
+        {
+          "id": "U5.5",
+          "title": "Module 5.5",
+          "videoId": "yazUGQdenvc"
+        },
+        {
+          "id": "U5.6",
+          "title": "Module 5.6",
+          "videoId": "JkXoD7j2M_Q"
+        }
+      ]
+    },
+    {
+      "id": "U6",
+      "title": "Unit 6",
+      "parts": [
+        {
+          "id": "U6.1",
+          "title": "Module 6.1",
+          "videoId": "I3-xAnn6KFw"
+        },
+        {
+          "id": "U6.2",
+          "title": "Module 6.2",
+          "videoId": "CEWZgZxi6Hc"
+        },
+        {
+          "id": "U6.3",
+          "title": "Module 6.3",
+          "videoId": "bprAaHZMASk"
+        },
+        {
+          "id": "U6.4",
+          "title": "Module 6.4",
+          "videoId": "1Yr1hn7T38U"
+        },
+        {
+          "id": "U6.5",
+          "title": "Module 6.5",
+          "videoId": "WfQiithqyiM"
+        },
+        {
+          "id": "U6.6",
+          "title": "Module 6.6",
+          "videoId": "4TxceENKu2g"
+        },
+        {
+          "id": "U6.7",
+          "title": "Module 6.7",
+          "videoId": "x_bBwVRceEU"
+        }
+      ]
+    },
+    {
+      "id": "U7",
+      "title": "Unit 7",
+      "parts": [
+        {
+          "id": "U7.1",
+          "title": "Module 7.1",
+          "videoId": "xZeXnM0n0Js"
+        },
+        {
+          "id": "U7.2",
+          "title": "Module 7.2",
+          "videoId": "R7mYCijlB_E"
+        },
+        {
+          "id": "U7.3",
+          "title": "Module 7.3",
+          "videoId": "LdJ-5DRvJIM"
+        },
+        {
+          "id": "U7.4",
+          "title": "Module 7.4",
+          "videoId": "xpwt504iTFA"
+        },
+        {
+          "id": "U7.5",
+          "title": "Module 7.5",
+          "videoId": "hqBRDyZ8BPY"
+        },
+        {
+          "id": "U7.6",
+          "title": "Module 7.6",
+          "videoId": "ZG3vGU14li4"
+        }
+      ]
+    },
+    {
+      "id": "U8",
+      "title": "Unit 8",
+      "parts": [
+        {
+          "id": "U8.1",
+          "title": "Module 8.1",
+          "videoId": "q7x7Nr2Scic"
+        },
+        {
+          "id": "U8.2",
+          "title": "Module 8.2",
+          "videoId": "ivJE190h858"
+        },
+        {
+          "id": "U8.3",
+          "title": "Module 8.3",
+          "videoId": "IKr32bXMwiQ"
+        },
+        {
+          "id": "U8.4",
+          "title": "Module 8.4",
+          "videoId": "kp7zd9sxOg4"
+        },
+        {
+          "id": "U8.6",
+          "title": "Module 8.6",
+          "videoId": "4bB0YKIiSPU"
+        }
+      ]
+    },
+    {
+      "id": "DE",
+      "title": "Demo Edits",
+      "parts": [
+        {
+          "id": "DE.1",
+          "title": "Demo Edit 1",
+          "videoId": "PYgvnuv1n54"
+        },
+        {
+          "id": "DE.2",
+          "title": "Demo Edit 2",
+          "videoId": "CC7BrhIUUSI"
+        },
+        {
+          "id": "DE.3",
+          "title": "Demo Edit 3",
+          "videoId": "xtl8mimS8b0"
+        },
+        {
+          "id": "DE.4",
+          "title": "Demo Edit 4",
+          "videoId": "Mv_9xHx-zrA"
+        }
+      ]
+    }
+  ]
+}

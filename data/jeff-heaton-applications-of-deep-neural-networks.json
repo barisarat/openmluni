@@ -1,0 +1,734 @@
+{
+  "name": "Jeff Heaton Applications of Deep Neural Networks (PyTorch)",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Jeff Heaton's applications-focused deep learning course (2026 PyTorch version, taught at Washington University) covering Python and Pandas foundations, building and regularizing neural networks in PyTorch, convolutional networks and YOLO object detection, transformers and LLMs with LangChain, generative AI with StyleGAN3, Stable Diffusion, and Dreambooth, Kaggle and Bayesian hyperparameter optimization, facial detection applications, time series with LSTMs, transformers, and Prophet, Hugging Face NLP, reinforcement learning with Gymnasium and Stable Baselines, autoencoders and anomaly detection, model drift, and TPUs.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Applications of Deep Neural Networks PyTorch Course Overview (1.1, Spring 2026)",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Applications of Deep Neural Networks PyTorch Course Overview (1.1, Spring 2026)",
+          "videoId": "7npB3eTPsAc"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Introduction to Python for PyTorch Deep Learning (1.2)",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Introduction to Python for PyTorch Deep Learning (1.2)",
+          "videoId": "ZAOOinw51no"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Python Lists, Dictionaries, Sets & JSON for PyTorch (1.3)",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Python Lists, Dictionaries, Sets & JSON for PyTorch (1.3)",
+          "videoId": "5jZWWLO71bE"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Python File Handling for PyTorch (1.4)",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Python File Handling for PyTorch (1.4)",
+          "videoId": "CPrp1Sm-AhQ"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Python Functions, Lambdas, and Map/Reduce (1.5)",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Python Functions, Lambdas, and Map/Reduce (1.5)",
+          "videoId": "DEg8a22mtBs"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "How to Install PyTorch GPU for Mac M1/M2 with Conda",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "How to Install PyTorch GPU for Mac M1/M2 with Conda",
+          "videoId": "VEDy-c5Sk8Y"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Introduction to Pandas for PyTorch Deep Learning (2.1)",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Introduction to Pandas for PyTorch Deep Learning (2.1)",
+          "videoId": "wixHCvnvnsU"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Encoding Categorical Values in Pandas for PyTorch (2.2)",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Encoding Categorical Values in Pandas for PyTorch (2.2)",
+          "videoId": "Fm7Ax23hDP0"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Grouping, Sorting, and Shuffling in Python Pandas for PyTorch (2.3)",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Grouping, Sorting, and Shuffling in Python Pandas for PyTorch (2.3)",
+          "videoId": "tUhaD8xWd7k"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Using Apply and Map in Pandas for PyTorch (2.4)",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Using Apply and Map in Pandas for PyTorch (2.4)",
+          "videoId": "YNo_mg1RrkM"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Feature Engineering in Pandas for Deep Learning in PyTorch (2.5)",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Feature Engineering in Pandas for Deep Learning in PyTorch (2.5)",
+          "videoId": "ezaVtM405Qs"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Deep Learning and Neural Network Introduction with PyTorch (3.1)",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Deep Learning and Neural Network Introduction with PyTorch (3.1)",
+          "videoId": "d-rU5IuFqLs"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Introduction to PyTorch for Deep Learning with Python (3.2)",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Introduction to PyTorch for Deep Learning with Python (3.2)",
+          "videoId": "Pf-rrhMolm0"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Encoding a Feature Vector for PyTorch Deep Learning (3.3)",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Encoding a Feature Vector for PyTorch Deep Learning (3.3)",
+          "videoId": "7SGPm2tIT58"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "PyTorch Early Stopping and Model Persistence (3.4)",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "PyTorch Early Stopping and Model Persistence (3.4)",
+          "videoId": "lS0vvIWiahU"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "PyTorch Network Definition Class or Sequence? (3.5)",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "PyTorch Network Definition Class or Sequence? (3.5)",
+          "videoId": "NOu8jMZx3LY"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "PyTorch K-Fold Cross Validation (4.1)",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "PyTorch K-Fold Cross Validation (4.1)",
+          "videoId": "Q8ZQNvZwsNE"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "PyTorch Learning Rate Schedules (4.2)",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "PyTorch Learning Rate Schedules (4.2)",
+          "videoId": "lMMlbmfvKDQ"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "PyTorch Dropout Regularization (4.3)",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "PyTorch Dropout Regularization (4.3)",
+          "videoId": "4ixjgw6Q42U"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "PyTorch Batch Normalization (4.4)",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "PyTorch Batch Normalization (4.4)",
+          "videoId": "1U5nOKh9OLQ"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "RAPIDS for End-to-End GPU Processing in Machine Learning (4.5)",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "RAPIDS for End-to-End GPU Processing in Machine Learning (4.5)",
+          "videoId": "KgoXuhG_kfs"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Image Processing in Python for Machine Learning (5.1)",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Image Processing in Python for Machine Learning (5.1)",
+          "videoId": "Sob7VDb4xh8"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "PyTorch Convolutional Neural Networks for Machine Learning (5.2)",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "PyTorch Convolutional Neural Networks for Machine Learning (5.2)",
+          "videoId": "jL0_lOpEwSk"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Using PyTorch Pretrained Neural Networks (5.3)",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Using PyTorch Pretrained Neural Networks (5.3)",
+          "videoId": "W2T-dfiHYSo"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "PyTorch Transformations to Augment Image Training Data (5.4)",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "PyTorch Transformations to Augment Image Training Data (5.4)",
+          "videoId": "20JoEmQb810"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "Detecting Multiple Items in an Image with YOLOv5 (5.5)",
+      "parts": [
+        {
+          "id": "L26.1",
+          "title": "Detecting Multiple Items in an Image with YOLOv5 (5.5)",
+          "videoId": "7Uu1n9Tp0Mk"
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "Introduction to Transformers (6.1)",
+      "parts": [
+        {
+          "id": "L27.1",
+          "title": "Introduction to Transformers (6.1)",
+          "videoId": "mn6r5PYJcu0"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "LangChain and Accessing the OpenAI LLM API (6.2)",
+      "parts": [
+        {
+          "id": "L28.1",
+          "title": "LangChain and Accessing the OpenAI LLM API (6.2)",
+          "videoId": "YM8OOVfSORg"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "LLM Memory with LangChain (6.3)",
+      "parts": [
+        {
+          "id": "L29.1",
+          "title": "LLM Memory with LangChain (6.3)",
+          "videoId": "QJIBNqwAuS4"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "What are PyTorch Embeddings Layers (6.4)",
+      "parts": [
+        {
+          "id": "L30.1",
+          "title": "What are PyTorch Embeddings Layers (6.4)",
+          "videoId": "e6kcs9Uj_ps"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "Prompt Engineering (6.5)",
+      "parts": [
+        {
+          "id": "L31.1",
+          "title": "Prompt Engineering (6.5)",
+          "videoId": "miTpIDR7k6c"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "Introduction to Generative AI (7.1)",
+      "parts": [
+        {
+          "id": "L32.1",
+          "title": "Introduction to Generative AI (7.1)",
+          "videoId": "2FbkbSnS8sg"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "Generating Faces with StyleGAN3 (7.2)",
+      "parts": [
+        {
+          "id": "L33.1",
+          "title": "Generating Faces with StyleGAN3 (7.2)",
+          "videoId": "VcI2o1yEQa0"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "GANS to Enhance Old Photographs Deoldify (7.3)",
+      "parts": [
+        {
+          "id": "L34.1",
+          "title": "GANS to Enhance Old Photographs Deoldify (7.3)",
+          "videoId": "y7HvjfKsZ50"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "Text to Images with StableDiffusion (7.4)",
+      "parts": [
+        {
+          "id": "L35.1",
+          "title": "Text to Images with StableDiffusion (7.4)",
+          "videoId": "gLj6-gJ-lR4"
+        }
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "Finetuning with Dreambooth (7.5)",
+      "parts": [
+        {
+          "id": "L36.1",
+          "title": "Finetuning with Dreambooth (7.5)",
+          "videoId": "G_FYFSzkB5Y"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "Introduction to Kaggle (8.1)",
+      "parts": [
+        {
+          "id": "L37.1",
+          "title": "Introduction to Kaggle (8.1)",
+          "videoId": "7Mk46fb0Ayg"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "Building Ensembles with Scikit-Learn and PyTorch (8.2)",
+      "parts": [
+        {
+          "id": "L38.1",
+          "title": "Building Ensembles with Scikit-Learn and PyTorch (8.2)",
+          "videoId": "przbLRCRL24"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "How Should you Architect Your PyTorch Neural Network: Hyperparameters (8.3)",
+      "parts": [
+        {
+          "id": "L39.1",
+          "title": "How Should you Architect Your PyTorch Neural Network: Hyperparameters (8.3)",
+          "videoId": "YTL2BR4U2Ng"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "Bayesian Hyperparameter Optimization for PyTorch (8.4)",
+      "parts": [
+        {
+          "id": "L40.1",
+          "title": "Bayesian Hyperparameter Optimization for PyTorch (8.4)",
+          "videoId": "1f4psgAcefU"
+        }
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "Install PyTorch for Windows GPU",
+      "parts": [
+        {
+          "id": "L41.1",
+          "title": "Install PyTorch for Windows GPU",
+          "videoId": "gsixIQYvj3U"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "Detecting Faces in an Image (9.1)",
+      "parts": [
+        {
+          "id": "L42.1",
+          "title": "Detecting Faces in an Image (9.1)",
+          "videoId": "Hpp3D3P2iWQ"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "Detecting Facial Features (9.2)",
+      "parts": [
+        {
+          "id": "L43.1",
+          "title": "Detecting Facial Features (9.2)",
+          "videoId": "AblTbq0T2wE"
+        }
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "Reality Augmentation (9.3)",
+      "parts": [
+        {
+          "id": "L44.1",
+          "title": "Reality Augmentation (9.3)",
+          "videoId": "jfZDiRxx5Bc"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "Application: Emotion Detection (9.4)",
+      "parts": [
+        {
+          "id": "L45.1",
+          "title": "Application: Emotion Detection (9.4)",
+          "videoId": "F0H6vojQhE8"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "title": "Application: Blink Efficiency (9.5)",
+      "parts": [
+        {
+          "id": "L46.1",
+          "title": "Application: Blink Efficiency (9.5)",
+          "videoId": "96LPEStHCUA"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "title": "Time Series Data Encoding for Deep Learning, PyTorch (10.1)",
+      "parts": [
+        {
+          "id": "L47.1",
+          "title": "Time Series Data Encoding for Deep Learning, PyTorch (10.1)",
+          "videoId": "CZi5Avp6p1s"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "title": "LSTM-Based Time Series with PyTorch (10.2)",
+      "parts": [
+        {
+          "id": "L48.1",
+          "title": "LSTM-Based Time Series with PyTorch (10.2)",
+          "videoId": "hIQLy5zCgH4"
+        }
+      ]
+    },
+    {
+      "id": "L49",
+      "title": "Transformer-Based Time Series with PyTorch (10.3)",
+      "parts": [
+        {
+          "id": "L49.1",
+          "title": "Transformer-Based Time Series with PyTorch (10.3)",
+          "videoId": "NGzQpphf_Vc"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "title": "Seasonality and Trend (10.4)",
+      "parts": [
+        {
+          "id": "L50.1",
+          "title": "Seasonality and Trend (10.4)",
+          "videoId": "HOkxoLaUF9s"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "title": "Predicting with Meta Prophet (10.5)",
+      "parts": [
+        {
+          "id": "L51.1",
+          "title": "Predicting with Meta Prophet (10.5)",
+          "videoId": "MzjMVsz0GyA"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "title": "Introduction to Natural Language Processing and Hugging Face (11.1)",
+      "parts": [
+        {
+          "id": "L52.1",
+          "title": "Introduction to Natural Language Processing and Hugging Face (11.1)",
+          "videoId": "PzuL84ksRuE"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "title": "Hugging Face Introduction in Python (11.2)",
+      "parts": [
+        {
+          "id": "L53.1",
+          "title": "Hugging Face Introduction in Python (11.2)",
+          "videoId": "tkGIF4CFoV4"
+        }
+      ]
+    },
+    {
+      "id": "L54",
+      "title": "Hugging Face Tokenizers (11.3)",
+      "parts": [
+        {
+          "id": "L54.1",
+          "title": "Hugging Face Tokenizers (11.3)",
+          "videoId": "Cz2nvfK28eI"
+        }
+      ]
+    },
+    {
+      "id": "L55",
+      "title": "Hugging Face Data Sets (11.4)",
+      "parts": [
+        {
+          "id": "L55.1",
+          "title": "Hugging Face Data Sets (11.4)",
+          "videoId": "yLlCZLzE2XU"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "title": "Training a Model in Hugging Face (11.5)",
+      "parts": [
+        {
+          "id": "L56.1",
+          "title": "Training a Model in Hugging Face (11.5)",
+          "videoId": "7YZOik5S3vs"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "title": "Introduction to Gymnasium (12.1)",
+      "parts": [
+        {
+          "id": "L57.1",
+          "title": "Introduction to Gymnasium (12.1)",
+          "videoId": "FvuyrpzvwdI"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "title": "Introduction to Q-Learning (12.2)",
+      "parts": [
+        {
+          "id": "L58.1",
+          "title": "Introduction to Q-Learning (12.2)",
+          "videoId": "VKuqvbG_KAw"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "title": "Stable Baselines Q-Learning (12.3)",
+      "parts": [
+        {
+          "id": "L59.1",
+          "title": "Stable Baselines Q-Learning (12.3)",
+          "videoId": "kl7zsCjULN0"
+        }
+      ]
+    },
+    {
+      "id": "L60",
+      "title": "Atari Games with Stable Baselines Neural Networks (12.4)",
+      "parts": [
+        {
+          "id": "L60.1",
+          "title": "Atari Games with Stable Baselines Neural Networks (12.4)",
+          "videoId": "maLA1_d4pzQ"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "title": "Future of Reinforcement Learning (12.5)",
+      "parts": [
+        {
+          "id": "L61.1",
+          "title": "Future of Reinforcement Learning (12.5)",
+          "videoId": "-euo5pTjP8E"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "title": "Using Denoising AutoEncoders (13.1)",
+      "parts": [
+        {
+          "id": "L62.1",
+          "title": "Using Denoising AutoEncoders (13.1)",
+          "videoId": "BBrRD89sTk8"
+        }
+      ]
+    },
+    {
+      "id": "L63",
+      "title": "Anomaly Detection (13.2)",
+      "parts": [
+        {
+          "id": "L63.1",
+          "title": "Anomaly Detection (13.2)",
+          "videoId": "wubZ516TkI8"
+        }
+      ]
+    },
+    {
+      "id": "L64",
+      "title": "Model Drift and Retraining (13.3)",
+      "parts": [
+        {
+          "id": "L64.1",
+          "title": "Model Drift and Retraining (13.3)",
+          "videoId": "F4395B1ySpg"
+        }
+      ]
+    },
+    {
+      "id": "L65",
+      "title": "Tensor Processing Units (TPUs) (13.4)",
+      "parts": [
+        {
+          "id": "L65.1",
+          "title": "Tensor Processing Units (TPUs) (13.4)",
+          "videoId": "Cp3xOyxOZNo"
+        }
+      ]
+    },
+    {
+      "id": "L66",
+      "title": "Future Directions in Artificial Intelligence (13.5)",
+      "parts": [
+        {
+          "id": "L66.1",
+          "title": "Future Directions in Artificial Intelligence (13.5)",
+          "videoId": "RjxvEZh73Yc"
+        }
+      ]
+    }
+  ]
+}

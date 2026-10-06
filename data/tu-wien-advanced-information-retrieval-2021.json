@@ -1,0 +1,129 @@
+{
+  "name": "TU Wien Advanced Information Retrieval 2021",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Advanced Information Retrieval lecture series by Sebastian Hofstaetter from TU Wien 2021, covering IR fundamentals, evaluation, test collections, word representation learning, sequence modelling with CNNs and RNNs, Transformers and BERT pre-training, neural re-ranking, domain specific applications, and dense retrieval with knowledge distillation.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture 1: Course Introduction",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Course Introduction",
+          "videoId": "6FNISntK6Sk"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture 2: Crash Course IR - Fundamentals",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Crash Course IR - Fundamentals",
+          "videoId": "ZC94KSDd4DM"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture 3: Crash Course IR - Evaluation",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Crash Course IR - Evaluation",
+          "videoId": "EiDltQZ713I"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture 4: Crash Course IR - Test Collections",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Crash Course IR - Test Collections",
+          "videoId": "pRRveh3D0pI"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture 5: Word Representation Learning",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Word Representation Learning",
+          "videoId": "f3nM6DKVwug"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture 6: Sequence Modelling with CNNs and RNNs",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Sequence Modelling with CNNs and RNNs",
+          "videoId": "7Bfj_UuJh38"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture 7: Transformer and BERT Pre-training",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Transformer and BERT Pre-training",
+          "videoId": "Mt7UJNKxscA"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture 8: Introduction to Neural Re-Ranking",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Introduction to Neural Re-Ranking",
+          "videoId": "GSixIsI1eZE"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture 9: Transformer Contextualized Re-Ranking",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Transformer Contextualized Re-Ranking",
+          "videoId": "Fle-jKzV-Rk"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture 10: Domain Specific Applications",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Domain Specific Applications",
+          "videoId": "rHXTpHIiq6U"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture 11: Dense Retrieval and Knowledge Distillation",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Dense Retrieval and Knowledge Distillation",
+          "videoId": "EJ_7Gx6amt8"
+        }
+      ]
+    }
+  ]
+}

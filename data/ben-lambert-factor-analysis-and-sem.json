@@ -1,0 +1,217 @@
+{
+  "name": "Ben Lambert Factor Analysis and SEM",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Lecture series by Ben Lambert introducing factor analysis and structural equation modeling from first principles: model representation in scalar and matrix form, model assumptions, derivation of the variance-covariance matrix, predicted variance and covariance of indicators, covariance between indicators and factors, the model-implied variance-covariance matrix, and maximum likelihood estimation of factor analysis models.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Factor Analysis - an introduction",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Factor Analysis - an introduction",
+          "videoId": "WV_jcaDBZ2I"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Factor Analysis - model representation",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Factor Analysis - model representation",
+          "videoId": "TeIx7dRedkg"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Factor Analysis - model representation - part 2",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Factor Analysis - model representation - part 2",
+          "videoId": "mIx-qlI4mJo"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Factor Analysis - model representation - part 3 (matrix form)",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Factor Analysis - model representation - part 3 (matrix form)",
+          "videoId": "yWUKzEIeVWU"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Factor Analysis - model representation - part 4 (matrix form)",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Factor Analysis - model representation - part 4 (matrix form)",
+          "videoId": "-XBqfU4AzFE"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Factor analysis assumptions",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Factor analysis assumptions",
+          "videoId": "PgqiBezoAUA"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Derivation of variance-covariance matrix in factor analysis - part 1",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Derivation of variance-covariance matrix in factor analysis - part 1",
+          "videoId": "Vl7mtAmveYQ"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Derivation of variance-covariance matrix in factor analysis - part 2",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Derivation of variance-covariance matrix in factor analysis - part 2",
+          "videoId": "9j-c9fOIHmM"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Derivation of variance-covariance matrix in factor analysis - part 3",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Derivation of variance-covariance matrix in factor analysis - part 3",
+          "videoId": "yj7Q0EM5VMA"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Factor analysis: predicted variance and covariance of indicators - part 1",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Factor analysis: predicted variance and covariance of indicators - part 1",
+          "videoId": "9m2Paww59bk"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Factor analysis: predicted variance and covariance of indicators - part 2",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Factor analysis: predicted variance and covariance of indicators - part 2",
+          "videoId": "V8puar14pCI"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Variance-covariance matrix using matrix notation of factor analysis",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Variance-covariance matrix using matrix notation of factor analysis",
+          "videoId": "G16c2ZODcg8"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Covariance between indicators and factors",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Covariance between indicators and factors",
+          "videoId": "lSSayWqkCX4"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Model implied variance-covariance matrix of indicators (matrix form) - part 1",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Model implied variance-covariance matrix of indicators (matrix form) - part 1",
+          "videoId": "Goe8A68FDbA"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Model implied variance-covariance matrix of indicators (matrix form) - part 2",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "Model implied variance-covariance matrix of indicators (matrix form) - part 2",
+          "videoId": "6JVHreiagFw"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Model implied variance-covariance matrix - an example",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "Model implied variance-covariance matrix - an example",
+          "videoId": "-jX3th4JFLA"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Maximum likelihood estimation of factor analysis models - part 1",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Maximum likelihood estimation of factor analysis models - part 1",
+          "videoId": "SfhJPUw1bCk"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Maximum likelihood estimation of factor analysis models - part 2",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Maximum likelihood estimation of factor analysis models - part 2",
+          "videoId": "CZBygVGiDP4"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Maximum likelihood estimation of factor analysis models - fitting function",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "Maximum likelihood estimation of factor analysis models - fitting function",
+          "videoId": "Wvu5niKXfJQ"
+        }
+      ]
+    }
+  ]
+}

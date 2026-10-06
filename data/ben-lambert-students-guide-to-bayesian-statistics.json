@@ -1,0 +1,833 @@
+{
+  "name": "Ben Lambert A Student's Guide to Bayesian Statistics",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Companion lecture series by Ben Lambert to his book A Student's Guide to Bayesian Statistics, covering probability distributions and likelihoods, Bayes' rule, priors from conjugate to Jeffreys and reference priors, model evaluation with posterior predictive checks, AIC, DIC, WAIC, LOO-CV, and Bayes factors, independent sampling methods including rejection, inverse transform, and importance sampling, MCMC with Random Walk Metropolis, Metropolis-Hastings, Gibbs sampling, and Hamiltonian Monte Carlo, and applied Bayesian modeling in Stan including hierarchical models.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "The syllabus covered by the book and YouTube course",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "The syllabus covered by the book and YouTube course",
+          "videoId": "P_og8H-VkIY"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Random variables and probability distributions.",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Random variables and probability distributions.",
+          "videoId": "pvkhK03aFDM"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "An introduction to discrete probability distributions",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "An introduction to discrete probability distributions",
+          "videoId": "4Ghtj_iTSpI"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "An introduction to continuous probability distributions.",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "An introduction to continuous probability distributions.",
+          "videoId": "s87mffcX0xU"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Two-dimensional discrete distributions: an introduction",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Two-dimensional discrete distributions: an introduction",
+          "videoId": "trWTk31jYQU"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Two-dimensional continuous distributions: an introduction",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Two-dimensional continuous distributions: an introduction",
+          "videoId": "0BxDoyiZd44"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "An introduction to discrete marginal probability distributions",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "An introduction to discrete marginal probability distributions",
+          "videoId": "M3MlaoW0TT4"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "An introduction to continuous marginal probability distributions",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "An introduction to continuous marginal probability distributions",
+          "videoId": "F97Qf5FGt5M"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "An introduction to discrete conditional probability distributions.",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "An introduction to discrete conditional probability distributions.",
+          "videoId": "RThhuFuyftA"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "An introduction to continuous conditional probability distributions",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "An introduction to continuous conditional probability distributions",
+          "videoId": "U7t8lG4E634"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "An introduction to central limit theorems",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "An introduction to central limit theorems",
+          "videoId": "q7aEQ1dKB18"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Breast cancer example use of Bayes' rule - 1",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Breast cancer example use of Bayes' rule - 1",
+          "videoId": "YLSSyMn2XWg"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Breast cancer example use of Bayes' rule - 2",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Breast cancer example use of Bayes' rule - 2",
+          "videoId": "8mAheteag6Q"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "The duality of meaning for likelihoods and probability distributions: the equivalence principle",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "The duality of meaning for likelihoods and probability distributions: the equivalence principle",
+          "videoId": "bWaACQGsk7c"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "What does it mean to sample from a distribution?",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "What does it mean to sample from a distribution?",
+          "videoId": "7WOxSh-QcA0"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Why is a likelihood not a probability distribution?",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "Why is a likelihood not a probability distribution?",
+          "videoId": "IhoEwC9R8pA"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Example likelihood model: waiting times between beer orders",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Example likelihood model: waiting times between beer orders",
+          "videoId": "JLkQerOyydM"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Maximum likelihood estimation for the beer example model",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Maximum likelihood estimation for the beer example model",
+          "videoId": "2NiyN7eFc4I"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "An example of how an improper prior leads to an improper posterior",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "An example of how an improper prior leads to an improper posterior",
+          "videoId": "lJzSgAVKvcU"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Why is it difficult to calculate the denominator of Bayes' rule in practice?",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Why is it difficult to calculate the denominator of Bayes' rule in practice?",
+          "videoId": "8FbqSVFzmoY"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Using a Bayes box to calculate the denominator",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Using a Bayes box to calculate the denominator",
+          "videoId": "mLxDzAsIg7I"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Explaining the difference between confidence and credible intervals",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Explaining the difference between confidence and credible intervals",
+          "videoId": "wMfODgwqEr0"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Explaining the intuition behind Bayesian inference",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Explaining the intuition behind Bayesian inference",
+          "videoId": "yvWlpwnT1nw"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Estimating the posterior predictive distribution by sampling",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Estimating the posterior predictive distribution by sampling",
+          "videoId": "TMnXQ6G6E5Y"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "An introduction to the Bernoulli and binomial distributions",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "An introduction to the Bernoulli and binomial distributions",
+          "videoId": "3dxZD_RnGGg"
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "An introduction to the Beta distribution",
+      "parts": [
+        {
+          "id": "L26.1",
+          "title": "An introduction to the Beta distribution",
+          "videoId": "KIXFlK1dajE"
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "An introduction to the Poisson distribution - 1",
+      "parts": [
+        {
+          "id": "L27.1",
+          "title": "An introduction to the Poisson distribution - 1",
+          "videoId": "H20k1O1zvik"
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "An introduction to the Poisson distribution - 2",
+      "parts": [
+        {
+          "id": "L28.1",
+          "title": "An introduction to the Poisson distribution - 2",
+          "videoId": "CirxjBHAZ7g"
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "An introduction to the gamma distribution",
+      "parts": [
+        {
+          "id": "L29.1",
+          "title": "An introduction to the gamma distribution",
+          "videoId": "jWh4HY_Geaw"
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "What is a conjugate prior?",
+      "parts": [
+        {
+          "id": "L30.1",
+          "title": "What is a conjugate prior?",
+          "videoId": "aPNrhR0dFi8"
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "What is a posterior predictive check and why is it useful?",
+      "parts": [
+        {
+          "id": "L31.1",
+          "title": "What is a posterior predictive check and why is it useful?",
+          "videoId": "yDPJnV9vcHs"
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "What is meant by overfitting? - 1",
+      "parts": [
+        {
+          "id": "L32.1",
+          "title": "What is meant by overfitting? - 1",
+          "videoId": "P99HL58LHRI"
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "What is meant by overfitting? - 2",
+      "parts": [
+        {
+          "id": "L33.1",
+          "title": "What is meant by overfitting? - 2",
+          "videoId": "EF4dee1a0Dk"
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "Explaining the Kullback-Leibler divergence through secret codes",
+      "parts": [
+        {
+          "id": "L34.1",
+          "title": "Explaining the Kullback-Leibler divergence through secret codes",
+          "videoId": "LJwtEaP2xKA"
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "The ideal measure of a model's predictive fit",
+      "parts": [
+        {
+          "id": "L35.1",
+          "title": "The ideal measure of a model's predictive fit",
+          "videoId": "MEqrDu-ytM8"
+        }
+      ]
+    },
+    {
+      "id": "L36",
+      "title": "Evaluating model fit through AIC, DIC, WAIC and LOO-CV",
+      "parts": [
+        {
+          "id": "L36.1",
+          "title": "Evaluating model fit through AIC, DIC, WAIC and LOO-CV",
+          "videoId": "xS4jDHQfP2o"
+        }
+      ]
+    },
+    {
+      "id": "L37",
+      "title": "Introducing Bayes factors and marginal likelihoods",
+      "parts": [
+        {
+          "id": "L37.1",
+          "title": "Introducing Bayes factors and marginal likelihoods",
+          "videoId": "T-kMpA4z-7k"
+        }
+      ]
+    },
+    {
+      "id": "L38",
+      "title": "On the sensitivity of the marginal likelihood to prior choice",
+      "parts": [
+        {
+          "id": "L38.1",
+          "title": "On the sensitivity of the marginal likelihood to prior choice",
+          "videoId": "kisFIbkfDUs"
+        }
+      ]
+    },
+    {
+      "id": "L39",
+      "title": "The problems with using simple Monte Carlo to determine the marginal likelihood",
+      "parts": [
+        {
+          "id": "L39.1",
+          "title": "The problems with using simple Monte Carlo to determine the marginal likelihood",
+          "videoId": "1HXAnoalc8Q"
+        }
+      ]
+    },
+    {
+      "id": "L40",
+      "title": "The illusion of uninformative priors",
+      "parts": [
+        {
+          "id": "L40.1",
+          "title": "The illusion of uninformative priors",
+          "videoId": "5xNRroKo7u8"
+        }
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "An introduction to Jeffreys priors - 1",
+      "parts": [
+        {
+          "id": "L41.1",
+          "title": "An introduction to Jeffreys priors - 1",
+          "videoId": "S42N_6pQ5TA"
+        }
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "An introduction to Jeffreys priors - 2",
+      "parts": [
+        {
+          "id": "L42.1",
+          "title": "An introduction to Jeffreys priors - 2",
+          "videoId": "Kr0dz_z6e-0"
+        }
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "An introduction to Jeffreys priors - 3",
+      "parts": [
+        {
+          "id": "L43.1",
+          "title": "An introduction to Jeffreys priors - 3",
+          "videoId": "GVeyxTyGpb4"
+        }
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "An introduction to reference priors",
+      "parts": [
+        {
+          "id": "L44.1",
+          "title": "An introduction to reference priors",
+          "videoId": "pNkeDdFs0QQ"
+        }
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "An introduction to the concept of a sufficient statistic",
+      "parts": [
+        {
+          "id": "L45.1",
+          "title": "An introduction to the concept of a sufficient statistic",
+          "videoId": "5j4E2FRR384"
+        }
+      ]
+    },
+    {
+      "id": "L46",
+      "title": "What is meant by entropy in statistics?",
+      "parts": [
+        {
+          "id": "L46.1",
+          "title": "What is meant by entropy in statistics?",
+          "videoId": "5NPXHwulYaw"
+        }
+      ]
+    },
+    {
+      "id": "L47",
+      "title": "An introduction to mutual information",
+      "parts": [
+        {
+          "id": "L47.1",
+          "title": "An introduction to mutual information",
+          "videoId": "U9h1xkNELvY"
+        }
+      ]
+    },
+    {
+      "id": "L48",
+      "title": "The difficulty with real life Bayesian inference: high multidimensional integrals (and sums)",
+      "parts": [
+        {
+          "id": "L48.1",
+          "title": "The difficulty with real life Bayesian inference: high multidimensional integrals (and sums)",
+          "videoId": "0zf8IHMcs0A"
+        }
+      ]
+    },
+    {
+      "id": "L49",
+      "title": "The problem with discrete approximation to integrals or probability densities",
+      "parts": [
+        {
+          "id": "L49.1",
+          "title": "The problem with discrete approximation to integrals or probability densities",
+          "videoId": "9URkCaLf664"
+        }
+      ]
+    },
+    {
+      "id": "L50",
+      "title": "An introduction to numerical integration through Gaussian quadrature",
+      "parts": [
+        {
+          "id": "L50.1",
+          "title": "An introduction to numerical integration through Gaussian quadrature",
+          "videoId": "Hu6yqs0R7GA"
+        }
+      ]
+    },
+    {
+      "id": "L51",
+      "title": "What is meant by independent sampling and how can it be used to understand a distribution?",
+      "parts": [
+        {
+          "id": "L51.1",
+          "title": "What is meant by independent sampling and how can it be used to understand a distribution?",
+          "videoId": "4UE3rUwibgg"
+        }
+      ]
+    },
+    {
+      "id": "L52",
+      "title": "How to do integration by sampling",
+      "parts": [
+        {
+          "id": "L52.1",
+          "title": "How to do integration by sampling",
+          "videoId": "7THzVD7jxiU"
+        }
+      ]
+    },
+    {
+      "id": "L53",
+      "title": "An introduction to rejection sampling",
+      "parts": [
+        {
+          "id": "L53.1",
+          "title": "An introduction to rejection sampling",
+          "videoId": "kYWHfgkRc9s"
+        }
+      ]
+    },
+    {
+      "id": "L54",
+      "title": "How to use rejection sampling to uniformly sample within a cow's boundaries",
+      "parts": [
+        {
+          "id": "L54.1",
+          "title": "How to use rejection sampling to uniformly sample within a cow's boundaries",
+          "videoId": "IUL0TOLYNLE"
+        }
+      ]
+    },
+    {
+      "id": "L55",
+      "title": "An introduction to inverse transform sampling",
+      "parts": [
+        {
+          "id": "L55.1",
+          "title": "An introduction to inverse transform sampling",
+          "videoId": "rnBbYsysPaU"
+        }
+      ]
+    },
+    {
+      "id": "L56",
+      "title": "An introduction to importance sampling",
+      "parts": [
+        {
+          "id": "L56.1",
+          "title": "An introduction to importance sampling",
+          "videoId": "V8f8ueBc9sY"
+        }
+      ]
+    },
+    {
+      "id": "L57",
+      "title": "An introduction to importance sampling - optimal importance distributions",
+      "parts": [
+        {
+          "id": "L57.1",
+          "title": "An introduction to importance sampling - optimal importance distributions",
+          "videoId": "F5PdIQxMA28"
+        }
+      ]
+    },
+    {
+      "id": "L58",
+      "title": "Why we typically use dependent sampling to sample from the posterior",
+      "parts": [
+        {
+          "id": "L58.1",
+          "title": "Why we typically use dependent sampling to sample from the posterior",
+          "videoId": "CfpRdmddVPM"
+        }
+      ]
+    },
+    {
+      "id": "L59",
+      "title": "What is the difference between independent and dependent sampling algorithms?",
+      "parts": [
+        {
+          "id": "L59.1",
+          "title": "What is the difference between independent and dependent sampling algorithms?",
+          "videoId": "wvTCiI1Hn5M"
+        }
+      ]
+    },
+    {
+      "id": "L60",
+      "title": "Effective sample size: representing the cost of dependent sampling",
+      "parts": [
+        {
+          "id": "L60.1",
+          "title": "Effective sample size: representing the cost of dependent sampling",
+          "videoId": "HYGix4NoJbU"
+        }
+      ]
+    },
+    {
+      "id": "L61",
+      "title": "An introduction to the Random Walk Metropolis algorithm",
+      "parts": [
+        {
+          "id": "L61.1",
+          "title": "An introduction to the Random Walk Metropolis algorithm",
+          "videoId": "U561HGMWjcw"
+        }
+      ]
+    },
+    {
+      "id": "L62",
+      "title": "Using the Random Walk Metropolis algorithm to sample from a cow surface distribution",
+      "parts": [
+        {
+          "id": "L62.1",
+          "title": "Using the Random Walk Metropolis algorithm to sample from a cow surface distribution",
+          "videoId": "0MzH69hFdkE"
+        }
+      ]
+    },
+    {
+      "id": "L63",
+      "title": "Constrained parameters? Use Metropolis-Hastings",
+      "parts": [
+        {
+          "id": "L63.1",
+          "title": "Constrained parameters? Use Metropolis-Hastings",
+          "videoId": "rxImfvwpWLA"
+        }
+      ]
+    },
+    {
+      "id": "L64",
+      "title": "The importance of step size for Random Walk Metropolis",
+      "parts": [
+        {
+          "id": "L64.1",
+          "title": "The importance of step size for Random Walk Metropolis",
+          "videoId": "3E33AScbU4s"
+        }
+      ]
+    },
+    {
+      "id": "L65",
+      "title": "Bob's bees: the importance of using multiple bees (chains) to judge MCMC convergence",
+      "parts": [
+        {
+          "id": "L65.1",
+          "title": "Bob's bees: the importance of using multiple bees (chains) to judge MCMC convergence",
+          "videoId": "I4xoX7lJbL8"
+        }
+      ]
+    },
+    {
+      "id": "L66",
+      "title": "Using bees to demonstrate the importance of overdispersed Markov chains in MCMC",
+      "parts": [
+        {
+          "id": "L66.1",
+          "title": "Using bees to demonstrate the importance of overdispersed Markov chains in MCMC",
+          "videoId": "9AnzR23rpf8"
+        }
+      ]
+    },
+    {
+      "id": "L67",
+      "title": "An introduction to Gibbs sampling",
+      "parts": [
+        {
+          "id": "L67.1",
+          "title": "An introduction to Gibbs sampling",
+          "videoId": "ER3DDBFzH2g"
+        }
+      ]
+    },
+    {
+      "id": "L68",
+      "title": "How to derive a Gibbs sampling routine in general",
+      "parts": [
+        {
+          "id": "L68.1",
+          "title": "How to derive a Gibbs sampling routine in general",
+          "videoId": "9e4uqODjooo"
+        }
+      ]
+    },
+    {
+      "id": "L69",
+      "title": "The intuition behind the Hamiltonian Monte Carlo algorithm",
+      "parts": [
+        {
+          "id": "L69.1",
+          "title": "The intuition behind the Hamiltonian Monte Carlo algorithm",
+          "videoId": "a-wydhEuAm0"
+        }
+      ]
+    },
+    {
+      "id": "L70",
+      "title": "What are divergent iterations and what to do about them?",
+      "parts": [
+        {
+          "id": "L70.1",
+          "title": "What are divergent iterations and what to do about them?",
+          "videoId": "6JDhM2MIYh0"
+        }
+      ]
+    },
+    {
+      "id": "L71",
+      "title": "How to code up a bespoke probability density in Stan",
+      "parts": [
+        {
+          "id": "L71.1",
+          "title": "How to code up a bespoke probability density in Stan",
+          "videoId": "CMSMtcMYHdM"
+        }
+      ]
+    },
+    {
+      "id": "L72",
+      "title": "How to write your first Stan program",
+      "parts": [
+        {
+          "id": "L72.1",
+          "title": "How to write your first Stan program",
+          "videoId": "YZZSYIx1-mw"
+        }
+      ]
+    },
+    {
+      "id": "L73",
+      "title": "How to code up a model with discrete parameters in Stan",
+      "parts": [
+        {
+          "id": "L73.1",
+          "title": "How to code up a model with discrete parameters in Stan",
+          "videoId": "KOIudAB6vJ0"
+        }
+      ]
+    },
+    {
+      "id": "L74",
+      "title": "The distribution zoo app to help to understand and use probability distributions",
+      "parts": [
+        {
+          "id": "L74.1",
+          "title": "The distribution zoo app to help to understand and use probability distributions",
+          "videoId": "mGaZHhGwF4Y"
+        }
+      ]
+    },
+    {
+      "id": "L75",
+      "title": "Centered versus non-centered hierarchical models",
+      "parts": [
+        {
+          "id": "L75.1",
+          "title": "Centered versus non-centered hierarchical models",
+          "videoId": "gSd1msFFZTw"
+        }
+      ]
+    }
+  ]
+}

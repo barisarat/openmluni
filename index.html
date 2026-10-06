@@ -1,0 +1,1040 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>openmluni</title>
+<!-- Mortarboard glyph vendored verbatim from Bootstrap Icons 1.11.3 (mortarboard-fill, MIT);
+     only the rounded square and the placement transform are ours. Centred on the glyph's INK
+     (bbox x 0.27-16, y 2.0-16; the tassel pulls it right and down), not its 16-grid. -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%221.5%22%20y%3D%221.5%22%20width%3D%2229%22%20height%3D%2229%22%20rx%3D%227.5%22%20fill%3D%22%231b1b1b%22%2F%3E%3Cg%20fill%3D%22%23ffffff%22%20transform%3D%22translate(6.85%205.86)%20scale(1.125)%22%3E%3Cpath%20d%3D%22M8.211%202.047a.5.5%200%200%200-.422%200l-7.5%203.5a.5.5%200%200%200%20.025.917l7.5%203a.5.5%200%200%200%20.372%200L14%207.14V13a1%201%200%200%200-1%201v2h3v-2a1%201%200%200%200-1-1V6.739l.686-.275a.5.5%200%200%200%20.025-.917z%22%2F%3E%3Cpath%20d%3D%22M4.176%209.032a.5.5%200%200%200-.656.327l-.5%201.7a.5.5%200%200%200%20.294.605l4.5%201.8a.5.5%200%200%200%20.372%200l4.5-1.8a.5.5%200%200%200%20.294-.605l-.5-1.7a.5.5%200%200%200-.656-.327L8%2010.466z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<style>
+  /* Neutral palette: --accent is a strong neutral rather than a hue, so nothing
+     competes with the one thing on the page that should draw the eye. Dark follows
+     the system (prefers-color-scheme). */
+  :root {
+    --bg: #ffffff; --fg: #1b1b1b; --muted: #6d6d6d; --rule: #e2e2e2;
+    --accent: #1b1b1b; --panel: #f4f4f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131313; --fg: #e9e9e9; --muted: #9b9b9b; --rule: #2f2f2f;
+      --accent: #e9e9e9; --panel: #1c1c1c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font: 14px/1.6 Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    display: flex;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  :focus-visible { outline: none; box-shadow: 0 0 0 2px var(--rule); }
+
+  /* One button shape everywhere: square, quiet until hovered, tinted when it holds a
+     state on. */
+  .ib {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; padding: 0; flex-shrink: 0;
+    border: 1px solid transparent; border-radius: 8px; background: none;
+    color: var(--muted); cursor: pointer;
+    transition: background-color 0.12s, color 0.12s;
+  }
+  .ib:hover { background: var(--panel); color: var(--fg); }
+  .ib.on { color: var(--fg); }
+  .ib[hidden] { display: none; }
+
+  /* sidebar: course list */
+  #sidebar {
+    width: 260px; flex-shrink: 0;
+    background: var(--panel);
+    border-right: 1px solid var(--rule);
+    overflow-y: auto;
+    padding-bottom: 32px;
+  }
+  body.nav-closed #sidebar { display: none; }
+  #side-resize {
+    width: 4px; flex-shrink: 0; cursor: col-resize; background: transparent;
+  }
+  #side-resize:hover, #side-resize.dragging { background: var(--rule); }
+  body.nav-closed #side-resize { display: none; }
+  @media (max-width: 700px) { #side-resize { display: none; } }
+  #side-head {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--panel);
+    padding: 14px 16px 10px;
+    font-size: 15px; font-weight: 500;
+  }
+  .field {
+    display: flex; align-items: center; gap: 7px; margin-top: 10px;
+    background: var(--bg); border: 1px solid var(--rule); border-radius: 7px; padding: 0 9px;
+  }
+  .field:focus-within { border-color: var(--accent); }
+  .field { position: relative; }
+  /* Narrowing filters sit behind the funnel; it fills while any of them is on. */
+  #filter-btn {
+    display: flex; align-items: center; flex: none; margin-right: -4px; padding: 3px;
+    border: 0; border-radius: 5px; background: none; color: var(--muted); cursor: pointer;
+  }
+  #filter-btn:hover, #filter-btn.on { color: var(--fg); }
+  #filter-menu {
+    position: absolute; top: calc(100% + 4px); right: 0; z-index: 10; min-width: 150px;
+    background: var(--bg); border: 1px solid var(--rule); border-radius: 7px;
+    padding: 4px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    font-size: 13px; font-weight: 400;
+  }
+  #filter-menu[hidden] { display: none; }
+  #filter-menu label {
+    display: flex; align-items: center; gap: 8px; padding: 6px 8px;
+    border-radius: 5px; color: var(--fg); cursor: pointer;
+  }
+  #filter-menu label:hover { background: var(--panel); }
+  #filter-menu input { margin: 0; accent-color: var(--accent); }
+  /* Category row: one-click shortcut to a single category, exactly one pill on. */
+  .frow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .ftog {
+    font: 11px/1.6 inherit; letter-spacing: 0.02em;
+    color: var(--muted); background: none; border: 1px solid var(--rule);
+    border-radius: 6px; padding: 2px 9px; cursor: pointer;
+  }
+  .ftog:hover { color: var(--fg); }
+  .ftog.on { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .ftog .n { opacity: 0.7; font-variant-numeric: tabular-nums; }
+  #search-icon { display: flex; align-items: center; color: var(--muted); flex: none; }
+  #q {
+    flex: 1; min-width: 0; border: 0; background: none; color: var(--fg);
+    font: 13px/1.5 inherit; padding: 7px 0;
+  }
+  #q:focus, #q:focus-visible { outline: none; box-shadow: none; }
+  #q::-webkit-search-cancel-button { filter: grayscale(1); }
+  .no-match { color: var(--muted); font-size: 13px; padding: 18px 16px; }
+  .cat {
+    font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--fg); padding: 18px 0 6px; margin: 0 16px 4px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .course-item {
+    display: flex; gap: 8px; align-items: baseline;
+    width: 100%; text-align: left; border: 0; background: none; font: inherit;
+    color: var(--muted); padding: 6px 16px; cursor: pointer;
+    border-left: 2px solid transparent;
+  }
+  .course-item:hover { background: var(--bg); color: var(--fg); }
+  .course-item.active { background: var(--bg); color: var(--fg); border-left-color: var(--accent); }
+  .course-item .nm { flex: 1; }
+  .pct { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .course-item.done .pct { color: var(--fg); }
+
+  /* main */
+  #main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  #topbar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 20px; border-bottom: 1px solid var(--rule);
+    flex-shrink: 0;
+  }
+  #course-name { font-size: 15px; font-weight: 500; }
+  #content { flex: 1; overflow-y: auto; padding: 20px; }
+
+  #player-box { width: 860px; max-width: 100%; }
+  #player-frame { position: relative; width: 100%; }
+  #player-wrap {
+    position: relative; padding-top: 56.25%;
+    background: #000; border-radius: 10px; overflow: hidden;
+  }
+  #player-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  #player-empty {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    color: var(--muted);
+  }
+  /* Sits diagonally outside the video, so it never covers YouTube's own controls. */
+  #grip {
+    position: absolute; left: 100%; top: 100%; margin: 4px 0 0 4px;
+    width: 14px; height: 14px; cursor: nwse-resize;
+    border-right: 2px solid var(--rule);
+    border-bottom: 2px solid var(--rule);
+    border-bottom-right-radius: 3px;
+    opacity: 0; transition: opacity 0.12s;
+  }
+  #player-box:hover #grip, body.resizing #grip { opacity: 1; }
+  #grip:hover { border-color: var(--muted); }
+  /* An iframe swallows the drag; kill its pointer events for the duration. */
+  body.resizing { user-select: none; cursor: nwse-resize; }
+  body.resizing #player-wrap iframe { pointer-events: none; }
+
+  #now-title { max-width: 860px; padding: 14px 2px 4px; font-size: 15px; font-weight: 500; }
+
+  #parts { max-width: 860px; }
+  .lecture-h {
+    font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); padding: 18px 8px 6px;
+  }
+  .part {
+    display: flex; align-items: center; gap: 8px;
+    padding: 3px 8px; border-radius: 8px; cursor: pointer;
+  }
+  .part:hover { background: var(--panel); }
+  .part.active { background: var(--panel); }
+  .part.active .part-title { font-weight: 500; }
+  .tick {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; padding: 0; flex-shrink: 0;
+    border: 0; border-radius: 8px; background: none;
+    color: var(--muted); cursor: pointer; transition: color 0.12s;
+  }
+  .tick:hover { color: var(--fg); }
+  .tick.on { color: var(--fg); }
+  .part-title { flex: 1; color: var(--fg); }
+  .part.watched .part-title { color: var(--muted); }
+  .resume { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; flex-shrink: 0; }
+
+  /* Home: the bookmarked courses, each resuming where it was left. Same act as a
+     sidebar click - pick a course, land in it - with the next part named. */
+  /* A quick-launch grid, YouTube-home style: the frame of the video it resumes, the
+     course name, one overall-progress line. Nothing else; the course page has the detail. */
+  #home { max-width: 1200px; }
+  .hh { font-size: 15px; font-weight: 500; margin: 0 0 14px; }
+  #home-list {
+    display: grid; gap: 24px 16px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .card { position: relative; min-width: 0; }
+  .card-open {
+    display: block; width: 100%; text-align: left; border: 0; background: none;
+    font: inherit; color: var(--fg); padding: 0; cursor: pointer;
+  }
+  .thumb {
+    position: relative; aspect-ratio: 16 / 9; overflow: hidden;
+    border-radius: 10px; background: var(--panel);
+  }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s; }
+  .card-open:hover .thumb img { transform: scale(1.03); }
+  /* Position inside the video it resumes, as on YouTube; neutral, not red. */
+  .thumb .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(255, 255, 255, 0.35); }
+  .thumb .bar i { display: block; height: 100%; background: #fff; }
+  .card .t {
+    margin-top: 10px; font-weight: 500; line-height: 1.35;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card .nx {
+    margin-top: 3px; font-size: 13px; color: var(--muted);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  /* Unbookmark sits on the thumbnail, shown on hover only. */
+  .card .unmark {
+    position: absolute; top: 6px; right: 6px; opacity: 0;
+    background: rgba(0, 0, 0, 0.55); color: #fff; transition: opacity 0.12s;
+  }
+  .card:hover .unmark, .card .unmark:focus-visible { opacity: 1; }
+  .card .unmark:hover { background: rgba(0, 0, 0, 0.75); color: #fff; }
+  @media (hover: none) { .card .unmark { opacity: 1; } }
+  .home-empty { color: var(--muted); padding: 12px 0; }
+
+  /* Phone. The sidebar becomes a drawer over the content: at
+     360px wide a 260px column leaves nothing for the video. */
+  #scrim { display: none; }
+  @media (max-width: 700px) {
+    #sidebar { position: fixed; top: 0; bottom: 0; left: 0; z-index: 30;
+               box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18); }
+    /* The dimmed content behind the open drawer is an element, not a shadow,
+       so a tap on it closes the drawer. The drawer covers the top
+       bar and its own toggle, so without this the only way out was picking a
+       course. Escape does the same. */
+    #scrim { position: fixed; inset: 0; z-index: 29; background: rgba(0, 0, 0, 0.3); }
+    body:not(.nav-closed) #scrim { display: block; }
+    #topbar { padding: 8px 12px; }
+    #content { padding: 12px; }
+    #now-title { font-size: 14px; padding-top: 12px; }
+    #grip { display: none; }            /* the video is already the full width */
+  }
+</style>
+</head>
+<body>
+  <nav id="sidebar">
+    <div id="side-head">
+      Courses
+      <div class="field">
+        <span id="search-icon"></span>
+        <input type="search" id="q" placeholder="Search" autocomplete="off" spellcheck="false">
+        <button id="filter-btn" title="Filters" aria-haspopup="true" aria-expanded="false"></button>
+        <div id="filter-menu" hidden>
+          <label><input type="checkbox" id="prog-filter"> In progress</label>
+          <label><input type="checkbox" id="mark-filter"> Bookmarked</label>
+        </div>
+      </div>
+      <div class="frow" id="cat-row"></div>
+    </div>
+    <div id="course-list"></div>
+  </nav>
+  <div id="scrim"></div>
+  <div id="side-resize" title="Drag to resize"></div>
+  <main id="main">
+    <header id="topbar">
+      <button id="nav-toggle" class="ib" title="Toggle course list"></button>
+      <button id="home-btn" class="ib" title="Home"></button>
+      <span id="course-name"></span>
+      <button id="mark-btn" class="ib" hidden></button>
+    </header>
+    <div id="content"></div>
+  </main>
+
+<script>
+let courses = [];
+let progress = {};
+let course = null;      // full course JSON currently open
+let slug = null;
+let player = null;      // live YT.Player, or null
+let playing = null;     // { slug, partId } the video currently mounted
+let posTimer = null;    // while playing: samples getCurrentTime()
+let saveTimer = null;   // debounce for position writes
+let pending = {};       // per slug: changes made here and not yet posted (see saveCourse)
+let marks = [];         // bookmarked slugs, in the order they were added (bookmarks.json)
+
+const DEFAULT_W = 860;
+const ASPECT = 16 / 9;
+const NARROW = 700;     // below this the sidebar is a drawer, not a column
+// Player width and nav state are per-machine viewport preferences, not course state, so
+// they stay out of progress.json (which is committed).
+let boxW = Number(localStorage.getItem("courses.playerWidth")) || DEFAULT_W;
+let query = "";         // sidebar filter, deliberately not persisted
+// Both are per-machine viewport preferences, like nav state: localStorage, not progress.json.
+let onlyProgress = localStorage.getItem("courses.onlyProgress") === "1";
+let onlyMarked = localStorage.getItem("courses.onlyMarked") === "1";
+let sideW = Number(localStorage.getItem("courses.sideWidth")) || 260;
+
+const $ = (id) => document.getElementById(id);
+
+// One stroke-drawn icon set, inline, sized by the button. Inline because the app has no
+// asset pipeline, stroke-drawn because currentColor is what lets one icon serve both
+// themes without a second copy.
+function svg(body, size) {
+  const n = size || 18;
+  return '<svg viewBox="0 0 24 24" width="' + n + '" height="' + n + '" fill="none" ' +
+    'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" ' +
+    'stroke-linejoin="round" aria-hidden="true">' + body + "</svg>";
+}
+const ICON = {
+  panel: svg('<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/>'),
+  circle: svg('<circle cx="12" cy="12" r="8"/>'),
+  check: svg('<circle cx="12" cy="12" r="8"/><path d="M8.4 12.4l2.4 2.4 4.8-5.2"/>'),
+  search: svg('<circle cx="11" cy="11" r="6"/><path d="M20 20l-5-5"/>', 16),
+  // Lucide 1.48.0 (ISC) `funnel`, path verbatim; filled while a filter is on.
+  funnel: svg('<path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/>', 15),
+  funnelOn: svg('<path fill="currentColor" d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/>', 15),
+  // Lucide 1.48.0 (ISC) `house` and `bookmark`, paths verbatim; the filled bookmark is
+  // the same path with fill, the one state the stroke set needs a second drawing for.
+  home: svg('<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
+  mark: svg('<path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/>'),
+  markOn: svg('<path fill="currentColor" d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/>'),
+};
+
+// YouTube IFrame Player API - the only external script. A plain <iframe> is
+// opaque to the page; this is what makes getCurrentTime()/start= possible.
+const ytReady = new Promise((resolve) => { window.onYouTubeIframeAPIReady = resolve; });
+(() => {
+  const s = document.createElement("script");
+  s.src = "https://www.youtube.com/iframe_api";
+  document.head.appendChild(s);
+})();
+
+async function api(path, opts) {
+  const res = await fetch(path, opts);
+  if (!res.ok) throw new Error(path + " -> " + res.status);
+  return res.json();
+}
+
+function courseProgress(s) {
+  const p = progress[s] || (progress[s] = { watched: {}, current: null });
+  if (!p.pos) p.pos = {};
+  return p;
+}
+
+// The changes this tab made to course s since its last write: the ticks it set or
+// cleared, the part it selected, the resume points it moved (null = drop).
+function pend(s) {
+  return pending[s] || (pending[s] = { watched: {}, pos: {} });
+}
+
+// One course per write, and only what this tab changed, merged server-side. Posting
+// this tab's copy - loaded once, possibly minutes ago - would overwrite whatever
+// another device did since, on this course too.
+function saveCourse(s) {
+  const patch = pending[s];
+  if (!s || !patch) return;
+  delete pending[s];
+  fetch("/api/progress/" + s, { method: "POST", body: JSON.stringify(patch) })
+    .catch((err) => console.error("progress save failed", err));
+}
+
+function save() {
+  clearTimeout(saveTimer);
+  saveTimer = null;
+  saveCourse(slug);
+}
+
+// Position ticks every 5s would mean a file write every 5s; batch them.
+function saveSoon() {
+  if (saveTimer) return;
+  saveTimer = setTimeout(save, 15000);
+}
+
+function allParts(c) {
+  return c.lectures.flatMap((l) => l.parts);
+}
+
+function pctFor(s, totalParts) {
+  const watched = Object.values(courseProgress(s).watched).filter(Boolean).length;
+  return totalParts ? Math.round((100 * watched) / totalParts) : 0;
+}
+
+function hms(secs) {
+  const n = Math.max(0, Math.floor(secs));
+  const h = Math.floor(n / 3600);
+  const m = Math.floor((n % 3600) / 60);
+  const s = n % 60;
+  const pad = (x) => String(x).padStart(2, "0");
+  return h ? h + ":" + pad(m) + ":" + pad(s) : m + ":" + pad(s);
+}
+
+/* ---------------- playback position ---------------- */
+
+// Read the live player clock into progress[slug].pos[partId] = { t, d }.
+// Within 30s of the end there is nothing worth resuming, so the entry is dropped.
+function recordPos() {
+  if (!player || !playing || !player.getCurrentTime) return;
+  let t, d;
+  try {
+    t = player.getCurrentTime();
+    d = player.getDuration();
+  } catch {
+    return;
+  }
+  if (!d || !isFinite(t)) return;
+  const p = courseProgress(playing.slug);
+  // A watched part has nothing to resume, and the tick must not write one back
+  // after the watched button cleared it.
+  if (p.watched[playing.partId] || t < 5 || t >= d - 30) delete p.pos[playing.partId];
+  else p.pos[playing.partId] = { t: Math.floor(t), d: Math.round(d) };
+  pend(playing.slug).pos[playing.partId] = p.pos[playing.partId] || null;
+}
+
+function startTick() {
+  stopTick();
+  posTimer = setInterval(() => {
+    recordPos();
+    if (playing) updateResumeLabel(playing.slug, playing.partId);
+    saveSoon();
+  }, 5000);
+}
+
+function stopTick() {
+  clearInterval(posTimer);
+  posTimer = null;
+}
+
+function destroyPlayer() {
+  if (player && player.destroy) {
+    try { player.destroy(); } catch {}
+  }
+  player = null;
+}
+
+// Capture where we were before the current video goes away (part switch,
+// course switch, page close).
+function leaveVideo() {
+  recordPos();
+  stopTick();
+  if (playing) {
+    updateResumeLabel(playing.slug, playing.partId);
+    // On a course switch the caller saves the NEW course, so the one being left
+    // has to write its own last position here or it is lost.
+    if (playing.slug !== slug) saveCourse(playing.slug);
+  }
+  destroyPlayer();
+  playing = null;
+}
+
+function updateResumeLabel(s, partId) {
+  if (s !== slug) return;
+  const row = document.querySelector(`.part[data-part="${partId}"]`);
+  if (!row) return;
+  const saved = courseProgress(s).pos[partId];
+  let span = row.querySelector(".resume");
+  if (!saved) {
+    if (span) span.remove();
+    return;
+  }
+  if (!span) {
+    span = document.createElement("span");
+    span.className = "resume";
+    row.appendChild(span);
+  }
+  span.textContent = hms(saved.t) + " / " + hms(saved.d);
+}
+
+function onPlayerState(e) {
+  const S = window.YT.PlayerState;
+  if (e.data === S.PLAYING) {
+    startTick();
+    return;
+  }
+  stopTick();
+  recordPos();
+  if (playing) updateResumeLabel(playing.slug, playing.partId);
+  if (e.data === S.PAUSED || e.data === S.ENDED) save();
+  else saveSoon();
+}
+
+async function mountVideo(part) {
+  const saved = courseProgress(slug).pos[part.id];
+  const start = saved ? Math.max(0, saved.t - 3) : 0;   // rewind a little for context
+  playing = { slug, partId: part.id };
+  $("player-wrap").innerHTML = '<div id="yt-player"></div>';
+  await ytReady;
+  // The API script may land after the user has clicked on to something else.
+  if (!playing || playing.partId !== part.id || playing.slug !== slug) return;
+  player = new window.YT.Player("yt-player", {
+    host: "https://www.youtube-nocookie.com",
+    videoId: part.videoId,
+    playerVars: { rel: 0, start },
+    events: { onStateChange: onPlayerState },
+  });
+}
+
+/* ---------------- player size ---------------- */
+
+// Height follows from 16:9, so the corner drag only ever decides a width.
+function applyPlayerWidth() {
+  const box = $("player-box");
+  if (!box) return;
+  const max = Math.max(320, $("content").clientWidth - 40);   // #content padding
+  boxW = Math.round(Math.min(Math.max(320, boxW), max));
+  box.style.width = boxW + "px";
+}
+
+function initGrip() {
+  const grip = $("grip");
+  if (!grip) return;
+  grip.onpointerdown = (e) => {
+    e.preventDefault();
+    grip.setPointerCapture(e.pointerId);   // keeps events coming over the iframe
+    document.body.classList.add("resizing");
+    const x0 = e.clientX, y0 = e.clientY, w0 = boxW;
+    const move = (ev) => {
+      boxW = w0 + Math.max(ev.clientX - x0, (ev.clientY - y0) * ASPECT);
+      applyPlayerWidth();
+    };
+    const up = () => {
+      grip.removeEventListener("pointermove", move);
+      grip.removeEventListener("pointerup", up);
+      grip.removeEventListener("pointercancel", up);
+      document.body.classList.remove("resizing");
+      localStorage.setItem("courses.playerWidth", String(boxW));
+    };
+    grip.addEventListener("pointermove", move);
+    grip.addEventListener("pointerup", up);
+    grip.addEventListener("pointercancel", up);
+  };
+  grip.ondblclick = () => {
+    boxW = DEFAULT_W;
+    applyPlayerWidth();
+    localStorage.setItem("courses.playerWidth", String(boxW));
+  };
+}
+
+/* ---------------- sidebar ---------------- */
+
+function setNav(open) {
+  document.body.classList.toggle("nav-closed", !open);
+  localStorage.setItem("courses.nav", open ? "open" : "closed");
+  applyPlayerWidth();   // the main pane just changed width
+}
+
+// Filter menu behind the funnel. "In progress" hides courses with 0 percent watched;
+// "Bookmarked" keeps only what is on the Home shelf. Both on means both must hold.
+function drawFilterBtn() {
+  const on = onlyProgress || onlyMarked;
+  $("filter-btn").classList.toggle("on", on);
+  $("filter-btn").innerHTML = on ? ICON.funnelOn : ICON.funnel;
+}
+function setFilterMenu(open) {
+  $("filter-menu").hidden = !open;
+  $("filter-btn").setAttribute("aria-expanded", open ? "true" : "false");
+}
+$("prog-filter").checked = onlyProgress;
+drawFilterBtn();
+$("prog-filter").onchange = () => {
+  onlyProgress = $("prog-filter").checked;
+  localStorage.setItem("courses.onlyProgress", onlyProgress ? "1" : "0");
+  drawFilterBtn();
+  renderSidebar();
+};
+$("mark-filter").checked = onlyMarked;
+$("mark-filter").onchange = () => {
+  onlyMarked = $("mark-filter").checked;
+  localStorage.setItem("courses.onlyMarked", onlyMarked ? "1" : "0");
+  drawFilterBtn();
+  renderSidebar();
+};
+$("filter-btn").onclick = (e) => {
+  e.stopPropagation();
+  setFilterMenu($("filter-menu").hidden);
+};
+document.addEventListener("click", (e) => {
+  if (!$("filter-menu").hidden && !$("filter-menu").contains(e.target)) setFilterMenu(false);
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !$("filter-menu").hidden) setFilterMenu(false);
+});
+
+// Draggable sidebar width, clamped 180..480, persisted per machine.
+$("sidebar").style.width = sideW + "px";
+$("side-resize").addEventListener("mousedown", (e) => {
+  e.preventDefault();
+  $("side-resize").classList.add("dragging");
+  const move = (ev) => {
+    sideW = Math.min(480, Math.max(180, ev.clientX));
+    $("sidebar").style.width = sideW + "px";
+    applyPlayerWidth();
+  };
+  const up = () => {
+    document.removeEventListener("mousemove", move);
+    document.removeEventListener("mouseup", up);
+    $("side-resize").classList.remove("dragging");
+    localStorage.setItem("courses.sideWidth", String(sideW));
+  };
+  document.addEventListener("mousemove", move);
+  document.addEventListener("mouseup", up);
+});
+
+// YouTube-style keyboard control at the page level (inside the iframe the
+// player already handles its own keys): space/k pause-play, arrows 10s,
+// j/l 15s back/forward. Ignored while typing in the filter or any input.
+document.addEventListener("keydown", (e) => {
+  if (!player || !playing) return;
+  const t = e.target;
+  if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable)) return;
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const seek = (d) => { try { player.seekTo(Math.max(0, player.getCurrentTime() + d), true); } catch {} };
+  switch (e.key) {
+    case " ": case "k":
+      try { player.getPlayerState() === 1 ? player.pauseVideo() : player.playVideo(); } catch {}
+      break;
+    case "ArrowRight": seek(10); break;
+    case "ArrowLeft": seek(-10); break;
+    case "l": seek(15); break;
+    case "j": seek(-15); break;
+    default: return;
+  }
+  e.preventDefault();
+});
+
+// Substring over name and category together, so typing a category name narrows to it
+// without a second control.
+function matchesQuery(c, q) {
+  return !q || (c.name + " " + c.category).toLowerCase().includes(q);
+}
+
+// Courses are grouped by category, in CAT_ORDER; a category not listed there
+// sorts after them alphabetically.
+const CAT_ORDER = ["CS", "Math", "Fin", "Writing"];
+function catsInOrder() {
+  const present = [...new Set(courses.map((c) => c.category))];
+  const rank = (c) => (CAT_ORDER.includes(c) ? CAT_ORDER.indexOf(c) : CAT_ORDER.length);
+  return present.sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+}
+
+// Category row: exactly one of all / CS / Math / ... is on, each with its count.
+let catShown = localStorage.getItem("courses.cat") || "all";
+function drawCats() {
+  const cats = catsInOrder();
+  if (catShown !== "all" && !cats.includes(catShown)) catShown = "all";
+  const row = $("cat-row");
+  row.innerHTML = "";
+  for (const k of ["all", ...cats]) {
+    const b = document.createElement("button");
+    b.className = "ftog" + (k === catShown ? " on" : "");
+    b.innerHTML = `${k === "all" ? "All" : k} <span class="n">${k === "all" ? courses.length : courses.filter((c) => c.category === k).length}</span>`;
+    b.onclick = () => {
+      catShown = k;
+      localStorage.setItem("courses.cat", k);
+      drawCats();
+      renderSidebar();
+    };
+    row.appendChild(b);
+  }
+}
+
+function renderSidebar() {
+  const q = query.trim().toLowerCase();
+  const byCat = new Map(catsInOrder().map((c) => [c, []]));
+  for (const c of courses) {
+    if (!matchesQuery(c, q)) continue;
+    if (catShown !== "all" && c.category !== catShown) continue;
+    if (onlyProgress && pctFor(c.slug, c.parts) === 0) continue;
+    if (onlyMarked && !marks.includes(c.slug)) continue;
+    byCat.get(c.category).push(c);
+  }
+  for (const [cat, items] of byCat) if (!items.length) byCat.delete(cat);
+  const el = $("course-list");
+  el.innerHTML = "";
+  if (!byCat.size) {
+    const note = document.createElement("div");
+    note.className = "no-match";
+    note.textContent = q ? "No course matches " + query.trim() : "No courses.";
+    el.appendChild(note);
+    return;
+  }
+  for (const [cat, items] of byCat) {
+    const h = document.createElement("div");
+    h.className = "cat";
+    h.textContent = cat;
+    el.appendChild(h);
+    for (const c of items) {
+      const pct = pctFor(c.slug, c.parts);
+      const btn = document.createElement("button");
+      btn.className = "course-item" + (c.slug === slug ? " active" : "") + (pct === 100 ? " done" : "");
+
+      const nm = document.createElement("span");
+      nm.className = "nm";
+      nm.textContent = c.name;
+
+      const badge = document.createElement("span");
+      badge.className = "pct";
+      badge.textContent = pct === 100 ? "done" : pct + "%";
+
+      btn.appendChild(nm);
+      btn.appendChild(badge);
+      btn.onclick = () => {
+        openCourse(c.slug);
+        if (window.innerWidth <= NARROW) setNav(false);
+      };
+      el.appendChild(btn);
+    }
+  }
+}
+
+/* ---------------- course view ---------------- */
+
+async function openCourse(s) {
+  leaveVideo();
+  course = await api("/api/courses/" + s);
+  slug = s;
+  setAddress(s);
+  progress._last = s;
+  save();
+  renderSidebar();
+
+  const p = courseProgress(s);
+  const parts = allParts(course);
+  const current = parts.find((x) => x.id === p.current) || parts[0] || null;
+
+  $("course-name").textContent = course.name;
+  drawMarkBtn();
+  $("content").innerHTML = `
+    <div id="player-box">
+      <div id="player-frame">
+        <div id="player-wrap"><div id="player-empty">No lecture selected</div></div>
+        <div id="grip" title="Drag to resize, double-click to reset"></div>
+      </div>
+    </div>
+    <div id="now-title"></div>
+    <div id="parts"></div>`;
+  applyPlayerWidth();
+  initGrip();
+
+  renderParts();
+  if (current) selectPart(current.id, { keepWatched: true });
+}
+
+function toggleWatched(partId, tick, row) {
+  const p = courseProgress(slug);
+  const on = !p.watched[partId];
+  pend(slug).watched[partId] = on;
+  if (on) {
+    p.watched[partId] = true;
+    delete p.pos[partId];                  // nothing to resume once it is done
+    pend(slug).pos[partId] = null;
+    const span = row.querySelector(".resume");
+    if (span) span.remove();
+  } else {
+    delete p.watched[partId];
+  }
+  tick.classList.toggle("on", on);
+  tick.innerHTML = on ? ICON.check : ICON.circle;
+  tick.title = on ? "Mark unwatched" : "Mark watched";
+  row.classList.toggle("watched", on);
+  save();
+  renderSidebar();
+}
+
+function renderParts() {
+  const p = courseProgress(slug);
+  const el = $("parts");
+  el.innerHTML = "";
+  const flat = course.lectures.every((l) => l.parts.length === 1);
+
+  for (const lecture of course.lectures) {
+    if (!flat) {
+      const h = document.createElement("div");
+      h.className = "lecture-h";
+      h.textContent = lecture.id + " - " + lecture.title;
+      el.appendChild(h);
+    }
+    for (const part of lecture.parts) {
+      const done = !!p.watched[part.id];
+      const row = document.createElement("div");
+      row.className = "part" + (done ? " watched" : "") + (p.current === part.id ? " active" : "");
+      row.dataset.part = part.id;
+
+      const tick = document.createElement("button");
+      tick.className = "tick" + (done ? " on" : "");
+      tick.innerHTML = done ? ICON.check : ICON.circle;
+      tick.title = done ? "Mark unwatched" : "Mark watched";
+      tick.onclick = (e) => {
+        e.stopPropagation();
+        toggleWatched(part.id, tick, row);
+      };
+
+      const title = document.createElement("span");
+      title.className = "part-title";
+      title.textContent = flat ? lecture.title : part.title;
+
+      row.appendChild(tick);
+      row.appendChild(title);
+      row.onclick = () => selectPart(part.id);
+      el.appendChild(row);
+
+      const saved = p.pos[part.id];
+      if (saved) {
+        const span = document.createElement("span");
+        span.className = "resume";
+        span.textContent = hms(saved.t) + " / " + hms(saved.d);
+        row.appendChild(span);
+      }
+    }
+  }
+}
+
+function findPart(id) {
+  for (const l of course.lectures) for (const part of l.parts) if (part.id === id) return part;
+  return null;
+}
+
+function selectPart(id, opts) {
+  const part = findPart(id);
+  if (!part) return;
+  leaveVideo();
+  const p = courseProgress(slug);
+  p.current = id;
+  pend(slug).current = id;
+  save();
+
+  document.querySelectorAll(".part.active").forEach((r) => r.classList.remove("active"));
+  const row = document.querySelector(`.part[data-part="${id}"]`);
+  if (row) {
+    row.classList.add("active");
+    if (!opts || !opts.keepWatched) row.scrollIntoView({ block: "nearest" });
+  }
+
+  $("now-title").textContent = part.title;
+  if (part.videoId) {
+    mountVideo(part);
+  } else {
+    $("player-wrap").innerHTML = `<div id="player-empty">No video for this part</div>`;
+  }
+}
+
+/* ---------------- address ---------------- */
+
+// The open view lives in the address: "#/<slug>" is a course, no hash is Home. So a
+// reload reopens the same course (its saved progress picks the part), back/forward
+// step between views, and a course link can be bookmarked. A hash, not a path, so
+// the server keeps serving "/" only.
+function setAddress(s) {
+  const want = s ? "#/" + s : "";
+  if (location.hash === want) return;
+  history.pushState(null, "", want || location.pathname);
+}
+function route() {
+  const s = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  if (s && courses.some((c) => c.slug === s)) return openCourse(s);
+  if (s) history.replaceState(null, "", location.pathname);   // unknown slug: Home
+  openHome();
+}
+window.addEventListener("popstate", route);
+
+/* ---------------- bookmarks and home ---------------- */
+
+// One slug per write, merged server-side, like progress. Drawn at once, then
+// replaced by the list the server returns, which includes the other device's marks.
+async function toggleMark(s) {
+  const on = !marks.includes(s);
+  marks = on ? [...marks, s] : marks.filter((x) => x !== s);
+  drawMarkBtn();
+  if (!slug) drawHome();
+  if (onlyMarked) renderSidebar();
+  try {
+    marks = await api("/api/bookmark/" + s, { method: "POST", body: JSON.stringify({ on }) });
+  } catch (err) {
+    console.error("bookmark save failed", err);
+  }
+  drawMarkBtn();
+  if (!slug) drawHome();
+  if (onlyMarked) renderSidebar();
+}
+
+function drawMarkBtn() {
+  const b = $("mark-btn");
+  b.hidden = !slug;
+  if (!slug) return;
+  const on = marks.includes(slug);
+  b.classList.toggle("on", on);
+  b.innerHTML = on ? ICON.markOn : ICON.mark;
+  b.title = on ? "Remove bookmark" : "Bookmark";
+}
+
+function openHome() {
+  leaveVideo();
+  course = null;
+  slug = null;
+  setAddress(null);
+  $("course-name").textContent = "Home";
+  drawMarkBtn();
+  $("content").innerHTML = '<div id="home"><h1 class="hh">Bookmarked</h1><div id="home-list"></div></div>';
+  renderSidebar();
+  drawHome();
+}
+
+// Each card names the part the course reopens at, which needs the full course file;
+// a handful of local reads, cached for the life of the page.
+const courseCache = new Map();
+async function drawHome() {
+  const el = $("home-list");
+  if (!el) return;
+  const shelf = marks.map((s) => courses.find((c) => c.slug === s)).filter(Boolean);
+  if (!shelf.length) {
+    el.innerHTML = '<div class="home-empty">Nothing bookmarked yet. Open a course and press the bookmark next to its name.</div>';
+    return;
+  }
+  const full = await Promise.all(shelf.map(async (c) => {
+    if (!courseCache.has(c.slug)) courseCache.set(c.slug, await api("/api/courses/" + c.slug).catch(() => null));
+    return courseCache.get(c.slug);
+  }));
+  if (!$("home-list")) return;   // left Home while the files loaded
+  el.innerHTML = "";
+  shelf.forEach((c, i) => {
+    const p = courseProgress(c.slug);
+    let next = "", vid = "", frac = 0;
+    if (full[i]) {
+      const lec = full[i].lectures;
+      const hit = lec.flatMap((l) => l.parts.map((x) => ({ l, x }))).find((r) => r.x.id === p.current)
+        || (lec[0] && lec[0].parts[0] ? { l: lec[0], x: lec[0].parts[0] } : null);
+      if (hit) {
+        const saved = p.pos[hit.x.id];
+        vid = hit.x.videoId || "";
+        if (saved && saved.d) frac = Math.min(1, saved.t / saved.d);
+      }
+    }
+    // The card's line is the course's overall progress.
+    next = `${pctFor(c.slug, c.parts)}% Completed`;
+    const card = document.createElement("div");
+    card.className = "card";
+    const open = document.createElement("button");
+    open.className = "card-open";
+    open.innerHTML = '<div class="thumb"></div><div class="t"></div><div class="nx"></div>';
+    // YouTube's own still for the video; loaded by the browser, the server fetches nothing.
+    if (vid) {
+      const img = document.createElement("img");
+      img.src = "https://i.ytimg.com/vi/" + encodeURIComponent(vid) + "/mqdefault.jpg";
+      img.alt = "";
+      img.loading = "lazy";
+      open.querySelector(".thumb").appendChild(img);
+    }
+    if (frac > 0) {
+      const bar = document.createElement("div");
+      bar.className = "bar";
+      bar.innerHTML = "<i></i>";
+      bar.firstChild.style.width = (frac * 100).toFixed(1) + "%";
+      open.querySelector(".thumb").appendChild(bar);
+    }
+    open.querySelector(".t").textContent = c.name;
+    open.querySelector(".nx").textContent = next;
+    open.title = next;
+    open.onclick = () => openCourse(c.slug);
+    const un = document.createElement("button");
+    un.className = "ib unmark";
+    un.title = "Remove bookmark";
+    un.innerHTML = ICON.markOn;
+    un.onclick = () => toggleMark(c.slug);
+    card.appendChild(open);
+    card.appendChild(un);
+    el.appendChild(card);
+  });
+}
+
+/* ---------------- init ---------------- */
+
+window.addEventListener("resize", applyPlayerWidth);
+
+// Another device may have watched something while this tab sat in the background.
+// Skipped while a video is playing here, because then THIS copy is the newer one.
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || posTimer) return;
+  try {
+    [progress, marks] = await Promise.all([api("/api/progress"), api("/api/bookmarks")]);
+  } catch {
+    return;
+  }
+  renderSidebar();
+  drawMarkBtn();
+  if (course) renderParts();
+  else drawHome();
+});
+
+// A closing tab would otherwise lose up to one tick; fetch may not survive it.
+window.addEventListener("pagehide", () => {
+  recordPos();
+  if (slug && pending[slug] && navigator.sendBeacon) {
+    navigator.sendBeacon("/api/progress/" + slug, new Blob([JSON.stringify(pending[slug])]));
+    delete pending[slug];
+  }
+});
+
+(async () => {
+  $("search-icon").innerHTML = ICON.search;
+  $("q").oninput = (e) => {
+    query = e.target.value;
+    renderSidebar();
+  };
+  $("q").onkeydown = (e) => {
+    if (e.key !== "Escape") return;
+    e.target.value = "";
+    query = "";
+    renderSidebar();
+  };
+
+  $("nav-toggle").innerHTML = ICON.panel;
+  $("nav-toggle").onclick = () => setNav(document.body.classList.contains("nav-closed"));
+  $("home-btn").innerHTML = ICON.home;
+  $("home-btn").onclick = openHome;
+  $("mark-btn").onclick = () => slug && toggleMark(slug);
+  // Phone only: the scrim exists only below NARROW (see the CSS), and Escape
+  // closes the drawer there and nowhere else, so a wide screen keeps its pane.
+  $("scrim").onclick = () => setNav(false);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && window.innerWidth <= NARROW) setNav(false);
+  });
+  const navPref = localStorage.getItem("courses.nav");
+  setNav(navPref ? navPref !== "closed" : window.innerWidth > NARROW);
+
+  [courses, progress, marks] = await Promise.all([api("/api/courses"), api("/api/progress"), api("/api/bookmarks")]);
+  drawCats();
+  // The address picks the view; a bare address lands on Home.
+  route();
+})();
+</script>
+</body>
+</html>

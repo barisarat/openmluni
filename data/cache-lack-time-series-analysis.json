@@ -1,0 +1,283 @@
+{
+  "name": "Cache Lack Time Series Analysis",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Advanced undergraduate time series lecture series from Cache Lack Math & Stats Lectures covering noise processes, autocovariance and autocorrelation, smoothing, AR, MA, ARMA and ARIMA models, stationarity, ACF and PACF, estimation and forecasting, Durbin-Levinson and innovations algorithms, seasonal ARIMA, spectral density estimation, exponential smoothing, and GARCH processes, with applications in R.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Time Series Analysis, Lecture 1: Noise Processes",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Time Series Analysis, Lecture 1: Noise Processes",
+          "videoId": "2vahSDNCbCQ"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Time Series Analysis, Lecture 2: Autocovariance",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Time Series Analysis, Lecture 2: Autocovariance",
+          "videoId": "usItfOTBXOc"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Time Series Analysis, Lecture 3: Estimation and Linear Models",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Time Series Analysis, Lecture 3: Estimation and Linear Models",
+          "videoId": "yDWyvuiMlg0"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Time Series Analysis, Lecture 4: Smoothing Time Series",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Time Series Analysis, Lecture 4: Smoothing Time Series",
+          "videoId": "2EwlKw_5vvs"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Time Series Analysis, Lecture 5: AR and MA Theory",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Time Series Analysis, Lecture 5: AR and MA Theory",
+          "videoId": "tiRVmkqyo44"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Time Series Analysis, Lecture 6: ARMA and ARIMA",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Time Series Analysis, Lecture 6: ARMA and ARIMA",
+          "videoId": "hdJMfZqKM_8"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Time Series Analysis, Lecture 7: Autocorrelation and Stationarity",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Time Series Analysis, Lecture 7: Autocorrelation and Stationarity",
+          "videoId": "4J_oolC2AqY"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Time Series Analysis, Lecture 8: Stationarity and ACF in R",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Time Series Analysis, Lecture 8: Stationarity and ACF in R",
+          "videoId": "n084VxhbRvI"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Time Series Analysis, Lecture 9: ACF and PACF Part I",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Time Series Analysis, Lecture 9: ACF and PACF Part I",
+          "videoId": "mrWnW2pQpoA"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Time Series Analysis, Lecture 10: ACF and PACF Part II",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Time Series Analysis, Lecture 10: ACF and PACF Part II",
+          "videoId": "wKDPJEjOcj8"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Time Series Analysis, Lecture 11: Estimation for AR(p)",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Time Series Analysis, Lecture 11: Estimation for AR(p)",
+          "videoId": "vEdowY6H5Yg"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Time Series Analysis, Lecture 12: Forecasting for AR(p)",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Time Series Analysis, Lecture 12: Forecasting for AR(p)",
+          "videoId": "P-F4y9YqVJ8"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Time Series Analysis, Lecture 13: Durbin-Levinson and Innovations Algorithms",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Time Series Analysis, Lecture 13: Durbin-Levinson and Innovations Algorithms",
+          "videoId": "Cn6nvC42feY"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Time Series Analysis, Lecture 14: Estimation for ARMA",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Time Series Analysis, Lecture 14: Estimation for ARMA",
+          "videoId": "1Yq0bmrPRWY"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Time Series Analysis, Lecture 15: Forecasting for ARMA",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "Time Series Analysis, Lecture 15: Forecasting for ARMA",
+          "videoId": "w1191j6e9x4"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Time Series Analysis, Lecture 16: Seasonal ARIMA Models",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "Time Series Analysis, Lecture 16: Seasonal ARIMA Models",
+          "videoId": "94PfDUtUQW0"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Time Series Analysis, Lecture 17: Seasonal ARIMA in R Studio",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Time Series Analysis, Lecture 17: Seasonal ARIMA in R Studio",
+          "videoId": "IriK58hSRyg"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Time Series Analysis, Lecture 18: Periodic Processes and the DFT",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Time Series Analysis, Lecture 18: Periodic Processes and the DFT",
+          "videoId": "ktDBV3aspqQ"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Time Series Analysis, Lecture 19: Spectral Density and Distribution",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "Time Series Analysis, Lecture 19: Spectral Density and Distribution",
+          "videoId": "yL3dsQXOjVY"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Time Series Analysis, Lecture 20: Estimating the Spectral Density",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Time Series Analysis, Lecture 20: Estimating the Spectral Density",
+          "videoId": "MzZvG74qils"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Time Series Analysis, Lecture 21: Estimating the Spectral Density Part II",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Time Series Analysis, Lecture 21: Estimating the Spectral Density Part II",
+          "videoId": "AB0zyracZ2Q"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Time Series Analysis, Lecture 22: Estimating the Spectral Density Part III",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Time Series Analysis, Lecture 22: Estimating the Spectral Density Part III",
+          "videoId": "xUC14EdHe48"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Time Series Analysis, Lecture 23: Exponential Smoothing",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Time Series Analysis, Lecture 23: Exponential Smoothing",
+          "videoId": "nqzY5HR1_ak"
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "title": "Time Series Analysis, Lecture 24: The GARCH Process",
+      "parts": [
+        {
+          "id": "L24.1",
+          "title": "Time Series Analysis, Lecture 24: The GARCH Process",
+          "videoId": "Nmy6IOHF4ho"
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "title": "Time Series Analysis: Review Lecture",
+      "parts": [
+        {
+          "id": "L25.1",
+          "title": "Time Series Analysis: Review Lecture",
+          "videoId": "HDewe8Eq990"
+        }
+      ]
+    }
+  ]
+}

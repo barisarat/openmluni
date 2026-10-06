@@ -1,0 +1,250 @@
+{
+  "name": "MIT 18.650 Statistics for Applications",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Full lecture series from MIT OpenCourseWare covering parametric inference, maximum likelihood, method of moments, hypothesis testing, goodness of fit, regression, Bayesian statistics, principal component analysis, and generalized linear models. Fall 2016, taught by Philippe Rigollet. Lectures 10, 16 and 25 were not published by MIT.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "1. Introduction to Statistics",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "1. Introduction to Statistics",
+          "videoId": "VPZD_aij8H0"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "2. Introduction to Statistics (cont.)",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "2. Introduction to Statistics (cont.)",
+          "videoId": "C_W1adH-NVE"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "3. Parametric Inference",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "3. Parametric Inference",
+          "videoId": "TSkDZbGS94k"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "4. Parametric Inference (cont.) and Maximum Likelihood Estimation",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "4. Parametric Inference (cont.) and Maximum Likelihood Estimation",
+          "videoId": "rLlZpnT02ZU"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "5. Maximum Likelihood Estimation (cont.)",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "5. Maximum Likelihood Estimation (cont.)",
+          "videoId": "0Va2dOLqUfM"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "6. Maximum Likelihood Estimation (cont.) and the Method of Moments",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "6. Maximum Likelihood Estimation (cont.) and the Method of Moments",
+          "videoId": "JTbZP0yt9qc"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "7. Parametric Hypothesis Testing",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "7. Parametric Hypothesis Testing",
+          "videoId": "phbw9r1iUDI"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "8. Parametric Hypothesis Testing (cont.)",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "8. Parametric Hypothesis Testing (cont.)",
+          "videoId": "4HRhg4eUiMo"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "9. Parametric Hypothesis Testing (cont.)",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "9. Parametric Hypothesis Testing (cont.)",
+          "videoId": "QXkOaifVfW4"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "11. Parametric Hypothesis Testing (cont.) and Testing Goodness of Fit",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "11. Parametric Hypothesis Testing (cont.) and Testing Goodness of Fit",
+          "videoId": "a66tfLdr6oY"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "12. Testing Goodness of Fit (cont.)",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "12. Testing Goodness of Fit (cont.)",
+          "videoId": "vMaKx9fmJHE"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "13. Regression",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "13. Regression",
+          "videoId": "yP1S37BiEsQ"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "14. Regression (cont.)",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "14. Regression (cont.)",
+          "videoId": "JBIz7UadY5M"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "15. Regression (cont.)",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "15. Regression (cont.)",
+          "videoId": "V4xOdtqic3o"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "17. Bayesian Statistics",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "17. Bayesian Statistics",
+          "videoId": "bFZ-0FH5hfs"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "18. Bayesian Statistics (cont.)",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "18. Bayesian Statistics (cont.)",
+          "videoId": "k2inA31Gups"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "19. Principal Component Analysis",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "19. Principal Component Analysis",
+          "videoId": "WW3ZJHPwvyg"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "20. Principal Component Analysis (cont.)",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "20. Principal Component Analysis (cont.)",
+          "videoId": "a1ZCeFpeW0o"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "21. Generalized Linear Models",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "21. Generalized Linear Models",
+          "videoId": "X-ix97pw0xY"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "22. Generalized Linear Models (cont.)",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "22. Generalized Linear Models (cont.)",
+          "videoId": "mc1y8m9-hOM"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "23. Generalized Linear Models (cont.)",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "23. Generalized Linear Models (cont.)",
+          "videoId": "OYcdw5vOgIc"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "24. Generalized Linear Models (cont.)",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "24. Generalized Linear Models (cont.)",
+          "videoId": "lWW54ts9Ubo"
+        }
+      ]
+    }
+  ]
+}

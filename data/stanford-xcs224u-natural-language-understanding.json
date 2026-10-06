@@ -1,0 +1,142 @@
+{
+  "name": "Stanford XCS224U Natural Language Understanding",
+  "category": "CS",
+  "kind": "course",
+  "desc": "Christopher Potts, Spring 2023, the Stanford Online version of CS224U. Contextual word representations, information retrieval (classical IR, IR metrics, neural IR), in-context learning, behavioral evaluation, analysis methods, NLP methods and metrics, and presenting research, with the homework overviews.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Course Overview",
+      "parts": [
+        {"id": "L01.1", "title": "Part 1: Intro & Evolution of Natural Language Understanding", "videoId": "K_Dh0Sxujuc"},
+        {"id": "L01.2", "title": "Part 2: Course Overview", "videoId": "J52Dtu40esQ"}
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Homework 1 Overview: Bake-off",
+      "parts": [
+        {"id": "L02.1", "title": "Homework 1 Overview: Bake-off", "videoId": "PzvvtyK0QOk"}
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Contextual Word Representations",
+      "parts": [
+        {"id": "L03.1", "title": "Part 1: Guiding Ideas", "videoId": "FEFeeRONEdw"},
+        {"id": "L03.2", "title": "Part 2: Transformer", "videoId": "yqV_YfBBtK0"},
+        {"id": "L03.3", "title": "Part 3: Positional Encoding", "videoId": "JERXX2Byr90"},
+        {"id": "L03.4", "title": "Part 4: GPT", "videoId": "sNw40lEhaIQ"},
+        {"id": "L03.5", "title": "Part 5: BERT", "videoId": "H0Zw0_22JRg"},
+        {"id": "L03.6", "title": "Part 6: RoBERTa", "videoId": "ZIRQM-W02Cs"},
+        {"id": "L03.7", "title": "Part 7: ELECTRA", "videoId": "QFMBRk26AjU"},
+        {"id": "L03.8", "title": "Part 8: Seq2seq Architectures", "videoId": "ymKWRZgHwPc"},
+        {"id": "L03.9", "title": "Part 9: Distillation", "videoId": "f9cfLq9T6MI"},
+        {"id": "L03.10", "title": "Part 10: Wrap-up", "videoId": "ni3T4vStzBI"}
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Homework 2",
+      "parts": [
+        {"id": "L04.1", "title": "Homework 2", "videoId": "NQUxBVOJM14"}
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Information Retrieval",
+      "parts": [
+        {"id": "L05.1", "title": "Part 1: Guiding Ideas", "videoId": "enRb6fp5_hw"},
+        {"id": "L05.2", "title": "Part 2: Classical IR", "videoId": "D3yL63aYNMQ"},
+        {"id": "L05.3", "title": "Part 3: IR metrics", "videoId": "9YCb-IxtbFQ"},
+        {"id": "L05.4", "title": "Part 4: Neural IR", "videoId": "EDVqG86AT0Q"},
+        {"id": "L05.5", "title": "Part 5: Datasets and Conclusion", "videoId": "Bqps-t-U9jw"}
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "In-context Learning",
+      "parts": [
+        {"id": "L06.1", "title": "Part 1: Origins", "videoId": "eyNLkiQ89KI"},
+        {"id": "L06.2", "title": "Part 2: Core Concepts", "videoId": "7OOCV8XfMbo"},
+        {"id": "L06.3", "title": "Part 3: Current Moment", "videoId": "a9KQkvcuV3I"},
+        {"id": "L06.4", "title": "Part 4: Techniques and Suggested Methods", "videoId": "0mXbM2j3Dzs"}
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Homework 3",
+      "parts": [
+        {"id": "L07.1", "title": "Homework 3", "videoId": "e73Ch08XhX0"}
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Behavioral Evaluation of NLU Models",
+      "parts": [
+        {"id": "L08.1", "title": "Part 1: Overview", "videoId": "l_w05N0QGLk"},
+        {"id": "L08.2", "title": "Part 2: Analytical Considerations", "videoId": "sZPxZm8HfaE"},
+        {"id": "L08.3", "title": "Part 3: Compositionality", "videoId": "g5zwxUqBzN8"},
+        {"id": "L08.4", "title": "Part 4: COGS and ReCOGS", "videoId": "tOh-1GYaDl8"},
+        {"id": "L08.5", "title": "Part 5: Adversarial Testing", "videoId": "486mTOQnhgU"},
+        {"id": "L08.6", "title": "Part 6: Adversarial NLI", "videoId": "_ZkewUyBb-w"},
+        {"id": "L08.7", "title": "Part 7: DynaSent and Conclusion", "videoId": "2K0BH52EtIw"}
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lit Review Overview",
+      "parts": [
+        {"id": "L09.1", "title": "Lit Review Overview", "videoId": "Bc-2yPz8cGA"}
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Analysis Methods for NLU",
+      "parts": [
+        {"id": "L10.1", "title": "Part 1: Overview", "videoId": "5RZDKW1_HS4"},
+        {"id": "L10.2", "title": "Part 2: Probing", "videoId": "lZqsLuAjZ4c"},
+        {"id": "L10.3", "title": "Part 3: Feature Attribution", "videoId": "p0dzR6iaFmc"},
+        {"id": "L10.4", "title": "Part 4: Causal Abstraction & Interchange Intervention Training (IIT)", "videoId": "6pwpOOj33aw"},
+        {"id": "L10.5", "title": "Part 5: Distributed Alignment Search (DAS) & Conclusion", "videoId": "fSx1Vj0BZj0"}
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Experiment Protocol Overview",
+      "parts": [
+        {"id": "L11.1", "title": "Experiment Protocol Overview", "videoId": "myAuZuXXPcI"}
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "NLP Methods and Metrics",
+      "parts": [
+        {"id": "L12.1", "title": "Part 1: Overview", "videoId": "ORg6bZ3d1Rc"},
+        {"id": "L12.2", "title": "Part 2: Classifier Metrics", "videoId": "mbL4uUNtZwY"},
+        {"id": "L12.3", "title": "Part 3: Generation Metrics", "videoId": "DXz4IeOENiM"},
+        {"id": "L12.4", "title": "Part 4: Datasets", "videoId": "zFtA0fjaXPE"},
+        {"id": "L12.5", "title": "Part 5: Data Organization", "videoId": "JJ5TE2_-_uM"},
+        {"id": "L12.6", "title": "Part 6: Model Evaluation & Conclusion", "videoId": "7zZRaoHr-8g"}
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Presenting Your Research",
+      "parts": [
+        {"id": "L13.1", "title": "Part 1: Your Papers", "videoId": "L0ISjkoUoZY"},
+        {"id": "L13.2", "title": "Part 2: Writing NLP Papers", "videoId": "teEA1DACM40"},
+        {"id": "L13.3", "title": "Part 3: NLP Conference Submission", "videoId": "9tDtzLlfdxM"},
+        {"id": "L13.4", "title": "Part 4: Giving Talks", "videoId": "K-AqbhLJMgU"}
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Fantastic Language Models and How to Build Them",
+      "parts": [
+        {"id": "L14.1", "title": "Part 1", "videoId": "4-kuJpVrr7M"},
+        {"id": "L14.2", "title": "Part 2", "videoId": "JVKtPZsiv4k"}
+      ]
+    }
+  ]
+}

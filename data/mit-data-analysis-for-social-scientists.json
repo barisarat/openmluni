@@ -1,0 +1,261 @@
+{
+  "name": "MIT 14.310x Data Analysis for Social Scientists",
+  "category": "Math",
+  "kind": "course",
+  "desc": "Full lecture series from MIT OpenCourseWare covering probability foundations, data collection and description, estimation, hypothesis testing, causality, randomized experiments, the linear and multivariate models, omitted variable bias, instrumental variables, experimental design, and data visualization. Spring 2023, taught by Esther Duflo and Sara Fisher Ellison.",
+  "lectures": [
+    {
+      "id": "L01",
+      "title": "Lecture 01: Introduction to 14.310x Data Analysis for Social Scientists",
+      "parts": [
+        {
+          "id": "L01.1",
+          "title": "Lecture 01: Introduction to 14.310x Data Analysis for Social Scientists",
+          "videoId": "YzdxbWqtiYg"
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Lecture 02: Fundamentals of Probability",
+      "parts": [
+        {
+          "id": "L02.1",
+          "title": "Lecture 02: Fundamentals of Probability",
+          "videoId": "ZyDktXm6v-s"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions",
+      "parts": [
+        {
+          "id": "L03.1",
+          "title": "Lecture 03: Random Variables, Distributions, and Joint Distributions",
+          "videoId": "QuWEUrIzZNs"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Lecture 04: Gathering and Collecting Data",
+      "parts": [
+        {
+          "id": "L04.1",
+          "title": "Lecture 04: Gathering and Collecting Data",
+          "videoId": "msAXs6o-9Ko"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "title": "Lecture 05: Summarizing and Describing Data",
+      "parts": [
+        {
+          "id": "L05.1",
+          "title": "Lecture 05: Summarizing and Describing Data",
+          "videoId": "yiQTHtvszJ8"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+      "parts": [
+        {
+          "id": "L06.1",
+          "title": "Lecture 06: Joint, Marginal, and Conditional Distributions",
+          "videoId": "EqqUfIQ8948"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "title": "Lecture 07: Functions of Random Variables",
+      "parts": [
+        {
+          "id": "L07.1",
+          "title": "Lecture 07: Functions of Random Variables",
+          "videoId": "VBasf8IiCh4"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "title": "Lecture 08: Moments of Distribution",
+      "parts": [
+        {
+          "id": "L08.1",
+          "title": "Lecture 08: Moments of Distribution",
+          "videoId": "4A9bGL-_ilA"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "title": "Lecture 09: Expectation, Variance, and Introduction to Regression",
+      "parts": [
+        {
+          "id": "L09.1",
+          "title": "Lecture 09: Expectation, Variance, and Introduction to Regression",
+          "videoId": "jZdTVL5Ty-U"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "title": "Lecture 10: Special Distributions",
+      "parts": [
+        {
+          "id": "L10.1",
+          "title": "Lecture 10: Special Distributions",
+          "videoId": "PwBO6pn5mkM"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+      "parts": [
+        {
+          "id": "L11.1",
+          "title": "Lecture 11: Special Distributions, continued. The Sample Mean, Central Limit Theorem, and Estimation",
+          "videoId": "m2gRXPmtU0Q"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "title": "Lecture 12: Assessing and Deriving Estimators",
+      "parts": [
+        {
+          "id": "L12.1",
+          "title": "Lecture 12: Assessing and Deriving Estimators",
+          "videoId": "1eXWDepLpNU"
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations",
+      "parts": [
+        {
+          "id": "L13.1",
+          "title": "Lecture 13. Confidence Intervals, Hypothesis Testing, and Power Calculations",
+          "videoId": "uHUOwZmfUzY"
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "title": "Lecture 14: Causality",
+      "parts": [
+        {
+          "id": "L14.1",
+          "title": "Lecture 14: Causality",
+          "videoId": "lWPNhP7ih-M"
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "title": "Lecture 15: Analyzing Randomized Experiments",
+      "parts": [
+        {
+          "id": "L15.1",
+          "title": "Lecture 15: Analyzing Randomized Experiments",
+          "videoId": "vSKy9aPdd8I"
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+      "parts": [
+        {
+          "id": "L16.1",
+          "title": "Lecture 16: (More) Explanatory Data Analysis: Nonparametric Comparisons and Regressions",
+          "videoId": "ebKtv-S2S38"
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "title": "Lecture 17: The Linear Model",
+      "parts": [
+        {
+          "id": "L17.1",
+          "title": "Lecture 17: The Linear Model",
+          "videoId": "r3YSpzhq72A"
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "title": "Lecture 18: The Multivariate Model",
+      "parts": [
+        {
+          "id": "L18.1",
+          "title": "Lecture 18: The Multivariate Model",
+          "videoId": "Y9Awwqqc288"
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "title": "Lecture 19: Practical Issues in Running Regressions",
+      "parts": [
+        {
+          "id": "L19.1",
+          "title": "Lecture 19: Practical Issues in Running Regressions",
+          "videoId": "Hsxq7L0HTZw"
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "title": "Lecture 20: Omitted Variable Bias",
+      "parts": [
+        {
+          "id": "L20.1",
+          "title": "Lecture 20: Omitted Variable Bias",
+          "videoId": "B1Qc8pDxkoo"
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "title": "Lecture 21: Endogeneity and Instrument Variables",
+      "parts": [
+        {
+          "id": "L21.1",
+          "title": "Lecture 21: Endogeneity and Instrument Variables",
+          "videoId": "OrK_pnmh_pQ"
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Lecture 22: Experimental Design",
+      "parts": [
+        {
+          "id": "L22.1",
+          "title": "Lecture 22: Experimental Design",
+          "videoId": "Y7GyEUj88PI"
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "title": "Lecture 23: Visualizing Data",
+      "parts": [
+        {
+          "id": "L23.1",
+          "title": "Lecture 23: Visualizing Data",
+          "videoId": "C5JjMP8m-4E"
+        }
+      ]
+    }
+  ]
+}

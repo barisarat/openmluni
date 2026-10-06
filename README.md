@@ -1,4 +1,4 @@
-# openmluni
+# OpenMLuni
 
 A local player for full university lecture series on YouTube selected from MIT, Stanford, CMU, Berkeley, ETH and more. The local app is designed to keep a focused workplace for these public courses, so you get:
 
